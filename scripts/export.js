@@ -8,6 +8,7 @@ const appendBrowseData = (data, container) => {
     a1.innerText = el.head;
     h3.append(a1);
     let ul = document.createElement("ul");
+    ul.className = "ulTag";
     for (let i = 0; i < el.list.length; i++) {
       let li = document.createElement("li");
       let a2 = document.createElement("a");

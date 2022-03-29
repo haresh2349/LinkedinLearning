@@ -7,11 +7,12 @@
     <title>
       All Online Training Subjects | LinkedIn Learning, Formerly Lynda.com
     </title>
+    <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/browse.css" />
   </head>
   <body>
+    <div id="hcon"></div>
     <div id="browseContainer">
-      <div id="header"></div>
       <div id="left">
         <div id="tabsContainer">
           <div class="bussiness tab">
@@ -131,6 +132,11 @@
 <script src="scripts/data.js"></script>
 <script type="module">
   import appendBrowseData from "./scripts/export.js";
+  import { header, footer } from "./scripts/main.js";
+  header();
+  // let navbar = document.getElementById("navbar");
+  // navbar.innerText = header();
+
   let bussinessArr = JSON.parse(localStorage.getItem("bussinessData")) || [];
   let creativeArr = JSON.parse(localStorage.getItem("creativeData")) || [];
   let techArr = JSON.parse(localStorage.getItem("techData")) || [];
@@ -146,6 +152,7 @@
   let text2 = document.querySelector(".creative > h3");
   let icon3 = document.querySelector(".technology > div > svg");
   let text3 = document.querySelector(".technology > h3");
+
   appendBrowseData(bussinessArr, gridContainer);
 
   bussinessTab.addEventListener("click", () => {

@@ -12,6 +12,7 @@
   margin: auto;
   display: flex;
   padding: 24px 0;
+  margin-top: 92px;
   /* align-items: center; */
 }
 
@@ -86,17 +87,22 @@
   font-weight: 600;
   text-decoration: none;
 }
-#gridContainer > div > ul > li {
+#gridContainer > div > ul.ulTag {
+  list-style: none;
+  display: block;
+  padding: 0;
+}
+#gridContainer > div > ul.ulTag > li {
   list-style: none;
   margin: 0 0 8px;
 }
 
-#gridContainer > div > ul > li > a {
+.ulTag > li > a {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
-#gridContainer > div > ul > li > a:hover,
+.ulTag > li > a:hover,
 #gridContainer > div > a:hover {
   text-decoration: underline;
 }
