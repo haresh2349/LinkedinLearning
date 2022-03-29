@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: myriad-pro, sans-serif;
+  
 }
 #pagecon{
     margin: auto;
@@ -24,6 +25,9 @@ body{
     display: flex;
     align-items: center;
 }
+#nav>div:nth-child(2){
+    margin-right: 60px;
+}
 ul{
     display: flex;
     align-items: center;
@@ -32,27 +36,41 @@ ul{
 }
 #searchbox{
     margin: 0 12px;
-    width: 320px;
+    width: 95%;
     height: 34px;
     display: flex;
     align-items: center;
     background-color: #E9E9E9;
     border-radius: 5px;
 }
+
 #searchbox>svg{
     
     padding-left: 4px;
-    color: rgba(0,0,0,.6);
+    /* color: rgba(0,0,0,.6); */
+    fill: rgba(0,0,0,.6);
 
 }
 #searchd{
     width: 300px;
     border: none;
     outline: none;
-    background-color: #E9E9E9;
+    background: none;
    
 }
+#searchd,
+#searchd::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 3;
+    letter-spacing: 0.5px;
+    padding-left: 4px;
+}
+/* .search{
+    
+    border: 1px solid red;
+} */
 .hoverli{
+    /* border: 1px solid red; */
     list-style: none;
     text-align: center;
     margin: 0 12px;
@@ -61,6 +79,22 @@ ul{
     text-decoration: none;
     color: rgba(0,0,0,.6);
     font-size: 12px;
+}
+.subps{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(0,0,0,.6);
+}
+.subps>div{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0 5px;
+}
+.subps>div:hover{
+    
+    background-color: #F3F3F3;
+    /* color: black; */
 }
 .hovera:hover{
     color: black;
