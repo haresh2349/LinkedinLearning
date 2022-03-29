@@ -17,6 +17,7 @@
           <div class="bussiness tab">
             <div>
               <svg
+                class="active"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 data-supported-dps="24x24"
@@ -30,7 +31,7 @@
                 ></path>
               </svg>
             </div>
-            <h3>Bussiness</h3>
+            <h3 class="active">Bussiness</h3>
           </div>
           <div class="creative tab">
             <div>
@@ -50,7 +51,7 @@
             </div>
             <h3>Creative</h3>
           </div>
-          <div class="creative tab">
+          <div class="technology tab">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +69,7 @@
             </div>
             <h3>Technology</h3>
           </div>
-          <div class="creative tab">
+          <div class="certifications tab">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -89,13 +90,94 @@
         </div>
       </div>
       <div id="right">
-        <div id="topics">
-          <h2>Business Topics</h2>
+        <div id="topics" class="header">
+          <h2 class="topicH2">Business Topics</h2>
           <div><a href="">Show All</a></div>
         </div>
         <div id="gridContainer"></div>
+        <div id="software">
+          <h2>Software</h2>
+          <div id="langs">
+            <div>Python</div>
+            <div>Java</div>
+            <div>React.js</div>
+            <div>JavaScript</div>
+            <div>Azure</div>
+            <div>Amazon Web Services</div>
+            <div>WordPress</div>
+            <div>ASP.NET</div>
+            <div>SQL</div>
+            <div>Raspberry Pi</div>
+            <div>Linux</div>
+            <div>Power BI</div>
+            <div>Tableau</div>
+            <div>C++</div>
+            <div>Windows Server</div>
+            <div>Cisco</div>
+            <div>Kubernetes</div>
+            <div>Microsoft 365</div>
+          </div>
+        </div>
+        <div id="learningPath">
+          <div class="header">
+            <h2>Learning Paths</h2>
+            <div><a href="">Show All</a></div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
 </html>
 <script src="scripts/data.js"></script>
+<script type="module">
+  import appendBrowseData from "./scripts/export.js";
+  let bussinessArr = JSON.parse(localStorage.getItem("bussinessData")) || [];
+  let creativeArr = JSON.parse(localStorage.getItem("creativeData")) || [];
+  let techArr = JSON.parse(localStorage.getItem("techData")) || [];
+  let bussinessTab = document.querySelector(".bussiness");
+  let creativeTab = document.querySelector(".creative");
+  let techTab = document.querySelector(".technology");
+  let gridContainer = document.getElementById("gridContainer");
+  let topicH2 = document.querySelector(".topicH2");
+  let tabs = document.querySelectorAll(".tab");
+  let icon1 = document.querySelector(".bussiness > div > svg");
+  let text1 = document.querySelector(".bussiness > h3");
+  let icon2 = document.querySelector(".creative > div > svg");
+  let text2 = document.querySelector(".creative > h3");
+  let icon3 = document.querySelector(".technology > div > svg");
+  let text3 = document.querySelector(".technology > h3");
+  appendBrowseData(bussinessArr, gridContainer);
+
+  bussinessTab.addEventListener("click", () => {
+    topicH2.innerText = "Bussiness Topics";
+    icon1.classList.add("active");
+    text1.classList.add("active");
+    icon2.classList.remove("active");
+    text2.classList.remove("active");
+    icon3.classList.remove("active");
+    text3.classList.remove("active");
+    appendBrowseData(bussinessArr, gridContainer);
+  });
+
+  creativeTab.addEventListener("click", () => {
+    icon1.classList.remove("active");
+    text1.classList.remove("active");
+    icon2.classList.add("active");
+    text2.classList.add("active");
+    icon3.classList.remove("active");
+    text3.classList.remove("active");
+    topicH2.innerText = "Creative Topics";
+
+    appendBrowseData(creativeArr, gridContainer);
+  });
+  techTab.addEventListener("click", () => {
+    topicH2.innerText = "Technology Topics";
+    icon1.classList.remove("active");
+    text1.classList.remove("active");
+    icon2.classList.remove("active");
+    text2.classList.remove("active");
+    icon3.classList.add("active");
+    text3.classList.add("active");
+    appendBrowseData(techArr, gridContainer);
+  });
+</script>
