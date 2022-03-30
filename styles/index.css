@@ -20,7 +20,7 @@ body{
     left: 0;
     background-color: white;
     width : 100vw;
-    border-bottom: 1px solid #D8D9DA;
+    /* border-bottom: 1px solid #D8D9DA; */
 
 }
 #nav{
@@ -178,6 +178,7 @@ body{
 }
 #foot1>div>div>a:hover{
     text-decoration: underline;
+    color: #2066C2;
 }
 #footerdiv2{
     padding: 20px 0;
@@ -203,6 +204,10 @@ body{
     font-weight: 600;
     color: rgba(0,0,0,.6);
     text-decoration: none;
+}
+#footerdiv3>div>div>a:hover{
+    text-decoration: underline;
+    color: #2066C2;
 }
 #footerdiv3>div>div{
     color: rgba(0,0,0,.6);
