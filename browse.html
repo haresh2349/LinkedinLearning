@@ -127,6 +127,7 @@
         </div>
       </div>
     </div>
+    <div id="footerdiv"></div>
   </body>
 </html>
 <script src="scripts/data.js"></script>
@@ -134,7 +135,7 @@
   import appendBrowseData from "./scripts/export.js";
   import { header, footer } from "./scripts/main.js";
   header();
-
+  footer();
   let bussinessArr = JSON.parse(localStorage.getItem("bussinessData")) || [];
   let creativeArr = JSON.parse(localStorage.getItem("creativeData")) || [];
   let techArr = JSON.parse(localStorage.getItem("techData")) || [];

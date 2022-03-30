@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#mainContainer {
+  overflow: hidden;
+}
+#flexBox {
+  position: relative;
+  display: flex;
+  width: 1128px;
+  margin: auto;
+}
+#leftBox {
+  width: 50%;
+}
+
+.content > h1 {
+  font-size: 56px;
+  font-weight: 100;
+  color: #8f5849;
+}
+.content > h2 {
+  font-size: 20px;
+  padding: 12px 0 24px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 400;
+}
+.link {
+  font-size: 20px;
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 600;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.btns {
+  margin-top: 15px;
+}
+.firstBtn,
+.secondBtn {
+  font-size: 20px;
+  background: #0a66c2;
+  color: #ffffff;
+  margin: 0 6px 12px 0;
+  padding: 15px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.secondBtn {
+  background: #ffffff;
+  color: #666666;
+  border: 1px solid black;
+}
+.firstBtn:hover {
+  background: #004182;
+}
+.secondBtn:hover {
+  background-color: rgb(224, 221, 221);
+}
+#rightBox {
+  width: 50%;
+}
+
+/* course container style  */
+
+#courseContainer {
+  width: 100%;
+  background: #f3f2f0;
+}
+#courseContainer > div {
+  max-width: 1128px;
+  margin: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+#courseContainer > div > h1 {
+  font-size: 48px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 0 24px;
+  padding-top: 50px;
+}
+.courseTabs {
+  display: flex;
+  grid-gap: 15px;
+}
+.tab {
+  font-size: 16px;
+  padding: 8px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.tab:hover {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+}
+.active {
+  border-bottom: 3px solid #057642;
+  color: #057642;
+}
+.active:hover {
+  border-bottom: 3px solid #057642;
+  color: #057642;
+}
+.topicContainer {
+  display: flex;
+  width: 1128px;
+  margin: auto;
+  padding: 60px 0;
+}
+.leftSide {
+  width: 35%;
+  margin-right: 72px;
+}
+.leftSide > h2 {
+  font-size: 48px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.9);
+}
+.leftSide > p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 12px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.leftSide > p > a {
+  color: black;
+  font-weight: bold;
+}
+.rightSide {
+  width: 65%;
+}
+.rightSide > h2 {
+  font-size: 16px;
+  margin: 0 0 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+}
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 5px;
+}
+.topics > a {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 6px 12px 0;
+  padding: 15px 20px;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #ebebeb;
+  box-shadow: none;
+  border-radius: 28px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.topics > a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.show {
+  display: flex;
+  width: 15%;
+  align-items: center;
+  grid-gap: 5px;
+  padding: 10px 0;
+}
+.show:hover {
+  background-color: #ebebeb;
+}
+.cont {
+  display: none;
+}
+
+#moduleCont {
+  display: flex;
+  max-width: 1128px;
+  margin: auto;
+}
+.leftModule {
+  width: 50%;
+}
+.leftModule > div > img {
+  width: 312px;
+  height: 312px;
+}
+.lower > h2 {
+  font-size: 48px;
+  font-weight: 200;
+}
+.lower > p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 12px 0 50px 0;
+}
+.rightModule {
+  width: 50%;
+}
+.rightModule > div > img {
+  width: 312px;
+  height: 312px;
+}
+
+.dbFlexBox {
+  display: flex;
+  width: 1128px;
+  margin: auto;
+}
+.dbFlexBox > .dbLeftBox {
+  min-width: 50%;
+}
+.dbLeftBox > div {
+  width: 90%;
+  margin: 202px 0;
+  padding: 0 50px 0 0;
+}
+.dbLeftBox > div > h2 {
+  font-size: 40px;
+  color: #b24020;
+  font-weight: 400;
+  margin: 0 0 8px;
+}
+
+.dbLeftBox > div > h3 {
+  font-size: 40px;
+  margin: 0 0 40px;
+  font-weight: 100;
+}
+
+.dbLeftBox > div > h3 > a {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 40px;
+  font-weight: 400;
+}
+.dbRightBox {
+  width: 50%;
+}
+
+.lastContainer {
+  width: 100%;
+  /* background-image: url("https://static-exp1.licdn.com/sc/h/4ezbw852t2wrgf27zl1o1qtu7"); */
+}
+.lastContainer > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.subContainer {
+  max-width: 1128px;
+  margin: auto;
+  position: relative;
+  top: 0;
+}
+.textContent > h2 {
+  font-size: 56px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 48px 0 16px 0;
+}
+.textContent > p {
+  font-size: 20px;
+  padding: 10px 0 40px;
+  color: rgba(0, 0, 0, 0.9);
+}
