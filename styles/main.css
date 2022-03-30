@@ -125,7 +125,7 @@ ul {
   font-weight: 600;
   margin: auto;
   max-width: 1128px;
-  width: 100%;
+  width: 100vw;
   height: 40px;
   /* border: 1px solid ; */
   display: flex;
