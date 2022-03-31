@@ -8,9 +8,11 @@
       LinkedIn Learning with Lynda: Online Training Courses for Creative,
       Technology, Business Skills
     </title>
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/hp1.css" />
   </head>
   <body>
+    <div id="hcon"></div>
     <div id="mainContainer">
       <div id="flexBox">
         <div id="leftBox">
@@ -181,6 +183,12 @@
         </div>
       </di>
     </div>
+    <div id="fullfooter"></div>
   </body>
 </html>
 <script src="scripts/hp1.js"></script>
+<script type="module">
+  import { header, footer } from "./scripts/index.js";
+  header();
+  footer();
+</script>
