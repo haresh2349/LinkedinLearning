@@ -1,0 +1,36 @@
+*{
+    padding: opx;
+    margin: 0px;
+}
+#fixed{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    height: 325px;
+}
+
+.round_img img{
+    width: 39vw;
+    height: 325px;
+    object-fit: cover;
+}
+#subscription_box{
+    max-width: 59vw;
+    min-width: 40vw;
+    margin: 100px 0px 0px 110px;
+   
+}
+#subscription_box > div{
+    background-color: #0073B1;
+    width: 300px;
+    color: white;
+    text-align: center;
+    
+}
+#subscription_box > h3{
+    color: #0073B1;
+}
+#subscription_box > h1{
+    color: #414141;
+}
