@@ -4,9 +4,9 @@ body {
   box-sizing: border-box;
   font-family: myriad-pro, sans-serif;
 }
-#pagecon {
-  margin: auto;
-  max-width: 1128px;
+#pagecon{
+    margin: auto;
+    
 }
 #hcon {
   position: fixed;
@@ -164,11 +164,11 @@ ul {
   text-decoration: underline;
 }
 
-#footerdiv {
-  /* padding-top: 500px; */
-  /* border: 1px solid red; */
-  border-top: 1px solid #d8d9da;
-  width: 100%;
+#footerdiv{
+   padding-top: 50px;
+   /* border: 1px solid red; */
+    border-top: 1px solid #D8D9DA;
+    width : 100vw;
 }
 #footer {
   /* display: flex;
