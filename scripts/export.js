@@ -27,25 +27,44 @@ const appendBrowseData = (data, container) => {
   });
 };
 
-// const sliderFunc = (data, container) => {
+// const appendSlidData = (data, container) => {
+//   let i = 0;
 //   data.forEach((el) => {
 //     let div = document.createElement("div");
+//     div.id = i + 1 + "d";
 //     let imgDiv = document.createElement("div");
 //     imgDiv.className = "slidImg";
 //     let img = document.createElement("img");
 //     img.src = el.url;
 //     imgDiv.append(img);
 //     let p = document.createElement("p");
+//     p.className = "type";
 //     p.innerText = el.type;
 //     let h3 = document.createElement("h3");
 //     h3.innerText = el.domain;
+//     h3.className = "domain";
 //     let d = document.createElement("p");
 //     d.innerText = el.date;
+//     d.className = "date";
 //     let desc = document.createElement("p");
 //     desc.innerText = el.descreption;
-//     div.append(imgDiv);
+//     desc.className = "desc";
+//     let durr = document.createElement("p");
+//     durr.className = "durr";
+//     durr.innerText = el.duration;
+//     div.append(imgDiv, p, h3, d, desc, durr);
 //     container.append(div);
 //   });
 // };
+
+// const showSlid = (left, right) => {
+//   for (let i = left; i <= right; i++) {
+//     document.getElementById(i + "d").style.display = "inline-block";
+//   }
+// };
+
+// const moveLeft = () => {
+//   document.getElementById(left + "d").style.display = "none";
+// }
 
 export default appendBrowseData;

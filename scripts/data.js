@@ -632,5 +632,6 @@ let creativeCarousel = [
   },
 ];
 
+localStorage.setItem("bussCarousel", JSON.stringify(bussCarousel));
 localStorage.setItem("techCarousel", JSON.stringify(techCarousel));
 localStorage.setItem("creativeCarousel", JSON.stringify(creativeCarousel));
