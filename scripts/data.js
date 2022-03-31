@@ -337,6 +337,81 @@ localStorage.setItem("techData", JSON.stringify(techData));
 
 let bussCarousel = [
   {
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQHUINJj0slRwA/learning-public-crop_675_1200/0/1590183709981?e=1648792800&v=beta&t=V_AZ5phqZzeYbNf6-EDUQeAb1XNcKHYVB1-ky8BWkNg",
+    type: "LEARNING PATH",
+    domain: "Become a Digital Marketing Specialist",
+    date: "May 1, 2019",
+    descreption:
+      "Use your analytical and tactical skills to help grow and develop new opportunities for businesses as a digital marketing specialist. From marketing plans and content strategy to SEO and analytics, this path guides you through the best practices and principles of digital marketing.",
+    duration: " 19h 59m left",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGjOIhc_dSnTQ/learning-public-crop_675_1200/0/1591384433527?e=1648792800&v=beta&t=k8yXE9kzdHfzetUVQkiLKm-mPZTObeoJ3JaFRbc-4Fo",
+    type: "LEARNING PATH",
+    domain: "Become a Project Manager",
+    date: "July 15, 2019",
+    descreption:
+      "Project managers are catalysts for change. Learn how to manage projects from beginning to end using proven project management techniques. After completing this learning path, you'll have the skills and knowledge to manage simple projects as well as complex, enterprise-wide initiatives.",
+    duration: " 11h 55m 33s left",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEMDv9pIwiN9Q/learning-public-crop_288_512/0/1582672207421?e=1648792800&v=beta&t=_Aca3j6NACgkwywo41o01RaZKTtv3uU_XbQgRD4jE8Q",
+    type: "LEARNING PATH",
+    domain: "Master Microsoft Excel",
+    date: "Apr 4, 2019",
+    descreption:
+      "Employers around the world cite Microsoft Excel as one of the most sought-after skills for any new hire. This learning path helps you become an Excel power user—covering everything from functions and formatting to PivotTables and dashboards.",
+    duration: " 25h 7m 11s left",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE6f0kX4soSCA/learning-public-crop_675_1200/0/1583859288006?e=1648792800&v=beta&t=1-y3b56CeHFoGsIniQ8U9cZM2tGUq4WKQMoLm-LxXnU",
+    type: "LEARNING PATH",
+    domain: "Remote Working: Setting Yourself and Your Teams Up for Success",
+    date: "May 10, 2020",
+    descreption:
+      "Optimize working remotely in this set of online courses—whether you’re new to remote work or not, and whether you’re leading a team or part of a team involving distributed team members. Discover how to be productive and stay connected when working from home or other remote environments.",
+    duration: " 14h 34m 17s left",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQHtKNYfD5dUUQ/learning-public-crop_675_1200/0/1588781054645?e=1648792800&v=beta&t=rlly7379WnXWOmLeUEQp2rqqBZgkXpZJDFxCttaDDFw",
+    type: "LEARNING PATH",
+    domain: "Become a Financial Analyst",
+    date: "May 10, 2020",
+    descreption:
+      "A financial analyst evaluates current and historical economic and business data to identify trends that influence business decisions. Gain the skills that make a successful financial analyst, including understanding financial statements, working with economic data, and analytical analysis skills.",
+    duration: " 17h 10m 25s left",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFRTOWwmB183g/learning-public-crop_675_1200/0/1582685402706?e=1648792800&v=beta&t=rTvNkkwioNtwHL2zEZLOFoXC0TFPW2mfPalUBQF4n2o",
+    type: "LEARNING PATH",
+    domain: "Master In-Demand Professional Soft Skills",
+    date: "July 8, 2019",
+    descreption:
+      "What does every hiring manager look for in an employee? Set yourself apart from the pack by getting the essential soft skills--abilities that help people interact effectively with others--that employers value most, from communication fundamentals and being a team player to advancing your critical thinking skills.",
+    duration: " 9h 13m 49s left",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C510DAQE1OBUMka5FaA/learning-public-crop_675_1200/0/1585255734294?e=1648792800&v=beta&t=06Nexjas7rbYKbzqOy1ugwyO6jYkXaQmHntsRqY0cos",
+    type: "LEARNING PATH",
+    domain: "Finding a Job during Challenging Economic Times",
+    date: "March 30, 2018",
+    descreption:
+      "Whether you've been laid off or had your hours reduced, learn strategies for finding a job during challenging economic times. Discover how to create a recovery plan, cultivate resilience, explore career options, update your resume, network virtually, and improve your job search and interview skills.",
+    duration: " 11h 23m 44s left",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGI36lLhOqDCQ/learning-public-crop_675_1200/0/1582672201655?e=1648792800&v=beta&t=A21Xh2d93aGnAoyNzr9kVOmgkIGOzglwKnH9eViuQSI",
+    type: "LEARNING PATH",
+    domain: "Become a Manager",
+    date: "July 8, 2019",
+    descreption:
+      "As a manager, success is predicated on your ability to achieve goals working with your team. The good news is that management is a skill that can be learned. This path is designed to provide you with the key considerations, skills and competencies to help you become and succeed as a manager.",
+    duration: "9h 13m 49s left",
+  },
+];
+
+let techCarousel = [
+  {
     url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH9lfnAkEjynw/learning-public-crop_675_1200/0/1591384349423?e=1648803600&v=beta&t=hyV4Kfid2dlIUxG6JtANnLJNqSuVd5iTsWI_Qc30VFg",
     type: "LEARNING PATH",
     domain: "Become a Data Analyst",
@@ -557,5 +632,5 @@ let creativeCarousel = [
   },
 ];
 
-localStorage.setItem("bussCarousel", JSON.stringify(bussCarousel));
+localStorage.setItem("techCarousel", JSON.stringify(techCarousel));
 localStorage.setItem("creativeCarousel", JSON.stringify(creativeCarousel));
