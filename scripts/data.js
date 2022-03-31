@@ -337,7 +337,7 @@ localStorage.setItem("techData", JSON.stringify(techData));
 
 let bussCarousel = [
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH9lfnAkEjynw/learning-public-crop_675_1200/0/1591384349423?e=1648641600&v=beta&t=GmxoSCtNxCilxn_zuwZZlGgvZghKsYQ606Qtto3zFwg",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH9lfnAkEjynw/learning-public-crop_675_1200/0/1591384349423?e=1648803600&v=beta&t=hyV4Kfid2dlIUxG6JtANnLJNqSuVd5iTsWI_Qc30VFg",
     type: "LEARNING PATH",
     domain: "Become a Data Analyst",
     date: "May 20, 2020",
@@ -346,7 +346,7 @@ let bussCarousel = [
     duration: " 38h 24m 28s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEIMip0GxCS_A/learning-public-crop_675_1200/0/1602706004811?e=1648641600&v=beta&t=7tRPjKPFI8e2b7OvmtJoOYMQJphZWnuV97gqVJo4MTw",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEIMip0GxCS_A/learning-public-crop_675_1200/0/1602706004811?e=1648803600&v=beta&t=6EYUWVTg7b2SOMRT9F9gAhCZ3JLC7fqGqU3pemLmOEs",
     type: "LEARNING PATH",
     domain: "Advance Your Skills in Python",
     date: "Apr 4, 2019",
@@ -355,7 +355,7 @@ let bussCarousel = [
     duration: " 14h 34m 42s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEmpu7qTqI_TA/learning-public-crop_675_1200/0/1591384497665?e=1648641600&v=beta&t=GzyjB04oyZ4G6WK_dNtHLwM8meuYmzpAZQVOaGDbzEE",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEmpu7qTqI_TA/learning-public-crop_675_1200/0/1591384497665?e=1648803600&v=beta&t=YVKa-uk4c-Iy0q_PJzIho9hXuxxMRv0kJAXxoPRHD5g",
     type: "LEARNING PATH",
     domain: "Become a Software Developer",
     date: "May 12, 2022",
@@ -364,7 +364,7 @@ let bussCarousel = [
     duration: " 30h 26m 11s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFaMtqNK7v5tg/learning-public-crop_675_1200/0/1582672205551?e=1648641600&v=beta&t=Dw8UI4qTxuuJJGWK83L7Iaazom7NFCSijDQW4KFT3MI",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFaMtqNK7v5tg/learning-public-crop_675_1200/0/1582672205551?e=1648803600&v=beta&t=1h_ZI4mN4K3LIRzrSLvqT_4wVlBWH3L0I4jsWwO2AJE",
     type: "LEARNING PATH",
     domain: "Become a Data Scientist",
     date: "Apr 4, 2019",
@@ -373,7 +373,7 @@ let bussCarousel = [
     duration: " 20h 6m 9s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEXTlzXiLSoQg/learning-public-crop_675_1200/0/1582672203087?e=1648641600&v=beta&t=2hD6QsWN2jb4JBEoArzndiiL2E6CjARp4lWWnGUyRDM",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEXTlzXiLSoQg/learning-public-crop_675_1200/0/1582672203087?e=1648803600&v=beta&t=jm61NsXJjmTAhS-mbOEdlxlgtZl1lswUjqb8sO-08Zk",
     type: "LEARNING PATH",
     domain: "Become a Java Programmer",
     date: "June 24, 2019",
@@ -382,7 +382,7 @@ let bussCarousel = [
     duration: " 21h 23m 39s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE-d1y1iFScrw/learning-public-crop_288_512/0/1582672211940?e=1648641600&v=beta&t=UqK-6XcFufjov_P-9KD3ohX3WStT6uMgN08Ni-avUBE",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE-d1y1iFScrw/learning-public-crop_288_512/0/1582672211940?e=1648803600&v=beta&t=LPTW3bSzrNHW3jDPEqf45CrCwMHoSq4pOuExaoRWHtk",
     type: "LEARNING PATH",
     domain: "Advance Your Python Skills for Data Science",
     date: "June 14, 2019",
@@ -391,7 +391,7 @@ let bussCarousel = [
     duration: " 16h 39m 24s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFLAheIrgZu5g/learning-public-crop_675_1200/0/1582672203259?e=1648641600&v=beta&t=QzzgwKQ0Ow2R4CsbaXdqPxCvjDI3FAEuFQAyAebAU0Y",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFLAheIrgZu5g/learning-public-crop_675_1200/0/1582672203259?e=1648803600&v=beta&t=d4GryUBpS1k76jJGKRTdPkgpdTSsn0xRRRNB1vxVBuM",
     type: "LEARNING PATH",
     domain: "Become a Front-End Web Developer",
     date: "June 28, 2019",
@@ -400,7 +400,7 @@ let bussCarousel = [
     duration: " 24h 36m 8s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH-P8v3VpIk2Q/learning-public-crop_675_1200/0/1582685398420?e=1648641600&v=beta&t=YGAIShj-G3L4v_mw2gc39p0cCfyd4zZ5nA1JpC_u2uY",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH-P8v3VpIk2Q/learning-public-crop_675_1200/0/1582685398420?e=2147483647&v=beta&t=gGIDWv-OyjfQry6nOC4jKtVO1jJDwv2c-79uHotZLao",
     type: "LEARNING PATH",
     domain: "Become a Full-Stack Web Developer",
     date: "Apr 4, 2019",
@@ -409,7 +409,7 @@ let bussCarousel = [
     duration: " 29h 13m 48s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFmCnWl2OvovA/learning-public-crop_675_1200/0/1582672203928?e=1648641600&v=beta&t=yqDZiKSlLmLxiUEaUJWFzkm3TWayiYdwIcpCiJcv0Tw",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFmCnWl2OvovA/learning-public-crop_675_1200/0/1582672203928?e=1648803600&v=beta&t=A_tPB5tHupggPOhwQllGPXnqpmDLm6QV8Kg7YV8ZZpM",
     type: "LEARNING PATH",
     domain: "Become a User Experience Designer",
     date: "June 14, 2019",
@@ -418,7 +418,7 @@ let bussCarousel = [
     duration: " 8h 30m 44s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQG8ZuM1yBxsYg/learning-public-crop_675_1200/0/1582672211209?e=1648641600&v=beta&t=tc_V1VtHHMxYnta6lDvOzLoGTaG82RB73mla6w_K7ls",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQG8ZuM1yBxsYg/learning-public-crop_675_1200/0/1582672211209?e=1648803600&v=beta&t=zB9L04fbuf0YufpCanF6Brw7adP7__zF1_5TS_OVzWo",
     type: "LEARNING PATH",
     domain: "Become a Programmer: Foundations",
     date: "May 1, 2019",
@@ -427,7 +427,7 @@ let bussCarousel = [
     duration: " 25h 47m 48s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGIXpDPOSAuXA/learning-public-crop_288_512/0/1582672212060?e=1648641600&v=beta&t=Y5LZ1Ytchz_UEGR3oKBCMXqO5AHw8an-srW93qng_jU",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGIXpDPOSAuXA/learning-public-crop_288_512/0/1582672212060?e=1648803600&v=beta&t=FZMv9h7Bv4xJFLzMJV3x8evBrbG1STjmt4rNecfdWNI",
     type: "LEARNING PATH",
     domain: "Prepare for the Microsoft Azure Fundamentals (AZ-900) Exam",
     date: "sept 25, 2019",
@@ -436,7 +436,7 @@ let bussCarousel = [
     duration: " 5h 59m 40s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHINJHXLa-Gnw/learning-public-crop_675_1200/0/1582672209994?e=1648641600&v=beta&t=GqkQB_5XlxfKhEWTnmNzITkjdoPAXSfbczWYl-uJIIQ",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHINJHXLa-Gnw/learning-public-crop_675_1200/0/1582672209994?e=1648803600&v=beta&t=5GzQhXNUeIqjRiSgCbKFOtV2f3dIVXV8-x5evIUx8I8",
     type: "LEARNING PATH",
     domain: "Become an Ethical Hacker",
     date: "Apr 19, 2019",
@@ -557,5 +557,5 @@ let creativeCarousel = [
   },
 ];
 
-localStorage.setItem("bussCarousel", JSON.stringify("bussCarousel"));
-localStorage.setItem("creativeCarousel", JSON.stringify("creativeCarousel"));
+localStorage.setItem("bussCarousel", JSON.stringify(bussCarousel));
+localStorage.setItem("creativeCarousel", JSON.stringify(creativeCarousel));

@@ -64,7 +64,9 @@
       }
 
       #containr {
-        max-width: 1366px;
+        display: flex;
+        width: 100vw;
+        /* max-width: 1366px; */
         position: relative;
         top: 100px;
       }
@@ -118,7 +120,7 @@
       </div>
     </div>
     <div id="containr">
-      <div id="imgDiv">
+      <!-- <div id="imgDiv">
         <div id="textContainer">
           <div class="text">
             <h1>Certification Prep and Continuing Education</h1>
@@ -129,7 +131,16 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
+<script src="scripts/data.js"></script>
+<script type="module">
+  import { appendBrowseData, sliderFunc } from "./scripts/export.js";
+
+  let data = JSON.parse(localStorage.getItem("bussCarousel")) || [];
+  console.log(data);
+  let cont = document.getElementById("containr");
+  sliderFunc(data, cont);
+</script>
