@@ -153,3 +153,20 @@
 #langs > div:hover {
   box-shadow: inset 0 0 0 1px #5c6f7c;
 }
+
+
+/* responsiveness  */
+@media ( max-width:980px) {
+  #searchd {
+    display: none;
+  }
+  #nav > :last-child > ul > :nth-child(1),:nth-child(4),:nth-child(5) {
+    display: none;
+  }
+  #gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+}

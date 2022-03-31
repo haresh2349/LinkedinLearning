@@ -28,3 +28,24 @@ const appendBrowseData = (data, container) => {
 };
 
 export default appendBrowseData;
+
+const sliderFunc = (data, container) => {
+  data.forEach((el) => {
+    let div = document.createElement("div");
+    let imgDiv = document.createElement("div");
+    imgDiv.className = "slidImg";
+    let img = document.createElement("img");
+    img.src = el.url;
+    imgDiv.append(img);
+    let p = document.createElement("p");
+    p.innerText = el.type;
+    let h3 = document.createElement("h3");
+    h3.innerText = el.domain;
+    let d = document.createElement("p");
+    d.innerText = el.date;
+    let desc = document.createElement("p");
+    desc.innerText = el.descreption;
+    div.append(imgDiv, p, h3, d, desc);
+    container.append(div);
+  });
+};

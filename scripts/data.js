@@ -556,3 +556,6 @@ let creativeCarousel = [
     duration: " 23h 59m 5s left",
   },
 ];
+
+localStorage.setItem("bussCarousel", JSON.stringify("bussCarousel"));
+localStorage.setItem("creativeCarousel", JSON.stringify("creativeCarousel"));
