@@ -130,6 +130,8 @@
             <div><a href="">Show All</a></div>
           </div>
         </div>
+        <div class="arrowDiv"></div>
+        <div id="slidCont"></div>
       </div>
     </div>
     <div id="footerdiv"></div>
@@ -137,13 +139,22 @@
 </html>
 <script src="scripts/data.js"></script>
 <script type="module">
-  import appendBrowseData from "./scripts/export.js";
+  import {
+    appendBrowseData,
+    lrArrows,
+    appendSlidData,
+    scrolling,
+  } from "./scripts/export.js";
   import { header, footer } from "./scripts/main.js";
   header();
   footer();
   let bussinessArr = JSON.parse(localStorage.getItem("bussinessData")) || [];
   let creativeArr = JSON.parse(localStorage.getItem("creativeData")) || [];
   let techArr = JSON.parse(localStorage.getItem("techData")) || [];
+  let bussCarouselArr = JSON.parse(localStorage.getItem("bussCarousel")) || [];
+  let creativeCarouselArr =
+    JSON.parse(localStorage.getItem("creativeCarousel")) || [];
+  let techCarouselArr = JSON.parse(localStorage.getItem("techCarousel")) || [];
   let bussinessTab = document.querySelector(".bussiness");
   let creativeTab = document.querySelector(".creative");
   let techTab = document.querySelector(".technology");
@@ -156,8 +167,14 @@
   let text2 = document.querySelector(".creative > h3");
   let icon3 = document.querySelector(".technology > div > svg");
   let text3 = document.querySelector(".technology > h3");
+  // let slidCont = document.getElementById("slidCont");
+
+  let arrowDiv = document.querySelector(".arrowDiv");
+  arrowDiv.innerHTML = lrArrows();
 
   appendBrowseData(bussinessArr, gridContainer);
+  appendSlidData(bussCarouselArr, slidCont);
+  scrolling("slidCont", "leftArrow", "rightArrow");
 
   bussinessTab.addEventListener("click", () => {
     topicH2.innerText = "Bussiness Topics";
@@ -168,6 +185,7 @@
     icon3.classList.remove("active");
     text3.classList.remove("active");
     appendBrowseData(bussinessArr, gridContainer);
+    appendSlidData(bussCarouselArr, slidCont);
   });
 
   creativeTab.addEventListener("click", () => {
@@ -180,6 +198,7 @@
     topicH2.innerText = "Creative Topics";
 
     appendBrowseData(creativeArr, gridContainer);
+    appendSlidData(creativeCarouselArr, slidCont);
   });
   techTab.addEventListener("click", () => {
     topicH2.innerText = "Technology Topics";
@@ -190,5 +209,7 @@
     icon3.classList.add("active");
     text3.classList.add("active");
     appendBrowseData(techArr, gridContainer);
+    appendSlidData(techCarouselArr, slidCont);
   });
 </script>
+<script src="./scripts/browse.js"></script>

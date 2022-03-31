@@ -523,7 +523,7 @@ let techCarousel = [
 
 let creativeCarousel = [
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGsh7O8h13hxw/learning-public-crop_675_1200/0/1582672213498?e=1648638000&v=beta&t=nBnH0o1z8VdkCZy488BrvVuVrSNn3vlGcBbphADTNjI",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGsh7O8h13hxw/learning-public-crop_675_1200/0/1582672213498?e=1648810800&v=beta&t=JSy6ETkd29q7SDIv6ePNO1JG-3LUIW2z_Qw2k48iST8",
     type: "LEARNING PATH",
     domain: "Become a Graphic Designer",
     date: "Apr 4, 2019",
@@ -532,7 +532,7 @@ let creativeCarousel = [
     duration: " 26h 53m 25s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGeE6jEv8b15w/learning-public-crop_675_1200/0/1582672199097?e=1648659600&v=beta&t=JaJJcspK8Nf-21szXVxGfqxYfKu4psozwIaHb6NMhm0",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGeE6jEv8b15w/learning-public-crop_675_1200/0/1582672199097?e=1648810800&v=beta&t=tKtL8zjJAryzDLZQTYOv1m-vBJz3sHy-glvCsj2qvRk",
     type: "LEARNING PATH",
     domain: "Become a Photographer",
     date: "Apr 4, 2019",
@@ -541,7 +541,7 @@ let creativeCarousel = [
     duration: " 18h 30m 1s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFZ0pkx0OijlQ/learning-public-crop_675_1200/0/1582672198250?e=1648659600&v=beta&t=HmOQRj875TVqDO4RSdT0P2T6BYxF2VtFz-4ly5gY4SQ",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFZ0pkx0OijlQ/learning-public-crop_675_1200/0/1582672198250?e=1648810800&v=beta&t=qg8l3Ub0KPJBZd9siwaYRazTw9YOg3XMVRslGQDmERo",
     type: "LEARNING PATH",
     domain: "Become a Web Designer",
     date: "July 13, 2019",
@@ -550,7 +550,7 @@ let creativeCarousel = [
     duration: " 28h 47m 10s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGOLqud1AXI7A/learning-public-crop_675_1200/0/1582671698804?e=1648659600&v=beta&t=XAK99qEMwExUhVMD15bHozFfMek19VNHeA_8XKrq2NU",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGOLqud1AXI7A/learning-public-crop_675_1200/0/1582671698804?e=1648810800&v=beta&t=iL3Njj6-z91BWPZJgmt2Uv3cweVoZGZBoHOarO9WUsc",
     type: "LEARNING PATH",
     domain: "Become a Bookkeeper",
     date: "July 8, 2019",
@@ -559,7 +559,7 @@ let creativeCarousel = [
     duration: " 14h 26m left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEbC5o4lNfwng/learning-public-crop_675_1200/0/1582672211735?e=1648659600&v=beta&t=KoV_0Ctz26SboNf7ud5NHZXZmLygeuXaXPZjBbO9yR8",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEbC5o4lNfwng/learning-public-crop_675_1200/0/1582672211735?e=1648810800&v=beta&t=gxDE_tf3RY8CgthlWseqR-b1Q0GppjKVdoz50rw8uDc",
     type: "LEARNING PATH",
     domain: "Become a Video Editor",
     date: "July 9, 2019",
@@ -568,7 +568,7 @@ let creativeCarousel = [
     duration: " 22h 34m 26s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQF3KmP-J_mE2w/learning-public-crop_675_1200/0/1582672209688?e=1648659600&v=beta&t=3fyRETRZSOvXDDLEeLwmDTpOyJVo-xoRzo5mXCq-HfU",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQF3KmP-J_mE2w/learning-public-crop_675_1200/0/1582672209688?e=1648810800&v=beta&t=7tcX1mFz9MfL9aqpt5k1HkHoJtoBcgq9VzPRiT5m_p4",
     type: "LEARNING PATH",
     domain: "Become a Digital Illustrator",
     date: "Apr 4, 2019",
@@ -577,7 +577,7 @@ let creativeCarousel = [
     duration: " 35h 22m 4s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFLPkesLSTkGw/learning-public-crop_675_1200/0/1582672203636?e=1648659600&v=beta&t=B9zXJ2z3KSe6JMgoEuwk_W56svV9y2IOH7ldLIxvg_w",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFLPkesLSTkGw/learning-public-crop_675_1200/0/1582672203636?e=1648810800&v=beta&t=s_by3q_ByrcmpPJb0K0OrPzqybeiUyl1AcMb_IXXjmw",
     type: "LEARNING PATH",
     domain: "Stay Competitive Using Design Thinking",
     date: "Apr 4, 2019",
@@ -586,7 +586,7 @@ let creativeCarousel = [
     duration: " 11h 38m 5s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE-Rq-C6WMcnA/learning-public-crop_675_1200/0/1582672198505?e=1648659600&v=beta&t=6frv5_IxQCF4CCskQcRXi4tSi4Mm_3po92UvcYq95wM",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE-Rq-C6WMcnA/learning-public-crop_675_1200/0/1582672198505?e=1648810800&v=beta&t=jsct_CwAnSkdiaO8RinpOPza5nuRqdbaD_gVJR_5QHU",
     type: "LEARNING PATH",
     domain: "Improve Your Drawing Skills",
     date: "Apr 4, 2019",
@@ -595,7 +595,7 @@ let creativeCarousel = [
     duration: " 28h 53m 52s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFttkvHQHBDwQ/learning-public-crop_675_1200/0/1582672212575?e=1648659600&v=beta&t=BEYpOx7Hx6cufsRokmM4vQgH8WjfdGNXTQMsNzsxp9U",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFttkvHQHBDwQ/learning-public-crop_675_1200/0/1582672212575?e=1648810800&v=beta&t=HvdH574FeY__NDuHCJZpREEu6mSjG1g8cCko1R4tyfU",
     type: "LEARNING PATH",
     domain: "Become a Certified CAD Designer with SOLIDWORKS",
     date: "July 9, 2019",
@@ -604,7 +604,7 @@ let creativeCarousel = [
     duration: " 15h 38m 51s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQELrhVzn2lhFQ/learning-public-crop_675_1200/0/1582672205390?e=1648659600&v=beta&t=rMm9RIF-UoLIVXXNszhlkiza453RoRq9Ui4kr56JCCk",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQELrhVzn2lhFQ/learning-public-crop_675_1200/0/1582672205390?e=1648810800&v=beta&t=8DYlX-oBB6LlQGdcUbVxr8WXWet9vAvzhrDOJyJXZZE",
     type: "LEARNING PATH",
     domain: "Become a Motion Graphics Artist",
     date: "Apr 4, 2019",
@@ -613,7 +613,7 @@ let creativeCarousel = [
     duration: " 20h 15m 58s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHQLIBu004KBg/learning-public-crop_675_1200/0/1582672202281?e=1648659600&v=beta&t=5xnM1hhrZcr9YQZ4LlCOszbEPJjsHNdgAqPcfX2T-ds",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHQLIBu004KBg/learning-public-crop_675_1200/0/1582672202281?e=1648810800&v=beta&t=LUPTHmyBYMLsltnQqumcq6B5PNBfiB_HO7t2Q7tSZPo",
     type: "LEARNING PATH",
     domain: "Play Piano and Keyboards",
     date: "July 9, 2019",
@@ -622,7 +622,7 @@ let creativeCarousel = [
     duration: " 15h 47m 52s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQG_c8YxuZFsbQ/learning-public-crop_675_1200/0/1582672206259?e=1648659600&v=beta&t=_ZT215bLhTZRfx9V6ONuZKwXjsB1wa6MmiQ0cmCsahg",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQG_c8YxuZFsbQ/learning-public-crop_675_1200/0/1582672206259?e=1648810800&v=beta&t=O7jBzZjcPw_w62a9eWlQWDpwP5C361_OJizBTjd5RSU",
     type: "LEARNING PATH",
     domain: "Play the Guitar",
     date: "July 9, 2019",
@@ -635,3 +635,66 @@ let creativeCarousel = [
 localStorage.setItem("bussCarousel", JSON.stringify(bussCarousel));
 localStorage.setItem("techCarousel", JSON.stringify(techCarousel));
 localStorage.setItem("creativeCarousel", JSON.stringify(creativeCarousel));
+
+let coursesData = [
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHTleAijeDMHg/learning-public-crop_675_1200/0/1579118916955?e=1648846800&v=beta&t=10tU88j7YGiDPz34VO7LnUBqqJppvlL-aZxIO_8Uw5k",
+    type: "COURSE",
+    title: "The Six Morning Habits of High Performers",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQEUTuB4edN85g/learning-public-crop_675_1200/0/1599688438696?e=1648846800&v=beta&t=h2OSP-5vG5y4iP_9Kk8jEA41G2igkKdccAieKsjo8OE",
+    type: "COURSE",
+    title: "Excel: Lookup Functions in Depth",
+    viewers: "1,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFrdsfDMqzeDg/learning-public-crop_675_1200/0/1572553558501?e=2147483647&v=beta&t=eUuH1QzlBpc0PSI8mN4ho90hsSVCi2NOA0rKxZpAOK8",
+    type: "COURSE",
+    title: "After Effects 2020 New Features",
+    viewers: "4,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFCn7Wo7bm_ow/learning-public-crop_675_1200/0/1578683905557?e=1648846800&v=beta&t=Lsc-Ef9JNszz2-nLlD1IkiAnLEx_tLM2MFej1z-SXjw",
+    type: "COURSE",
+    title: "Delivering an Authentic Elevator Pitch",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C510DAQG8FfAwdtdSSg/learning-public-crop_144_256/0/1573756534792?e=1648814400&v=beta&t=q2uRWI6h_zGHy98AarN-M1Uq0xxJIZBKJ4R5Ig4_KMA",
+    type: "COURSE",
+    title: "Apple Watch Tips and Tricks",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHbCh-IbN-ngA/learning-public-crop_675_1200/0/1567116230922?e=1648846800&v=beta&t=Z3h0G4iIHSV2BfFv4OdXnE9NF4xxZkMwECQdZKSRpIo",
+    type: "COURSE",
+    title: "Electronics Foundations: Basic Circuits",
+    viewers: "6,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGGAcW7mCmqAA/learning-public-crop_675_1200/0/1597172745910?e=1648846800&v=beta&t=_W7JKCv9WvW92pW2x0d__yoJgv-0RbkfE0ZMpRnAQ7A",
+    type: "COURSE",
+    title: "Understanding the Impact of Deepfake Videos",
+    viewers: "4,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFU4LTXLPJaIA/learning-public-crop_675_1200/0/1592866069779?e=1648846800&v=beta&t=rp6xOmmMXlHwFWxbYTpX6m3K-F0VjPtSGA-uYk7ezpc",
+    type: "COURSE",
+    title: "Python Essential Training",
+    viewers: "5,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHQIQJYDybHYA/learning-public-crop_144_256/0/1568067883418?e=1648846800&v=beta&t=TCsCjdRqBkjE145hgWqCxGQ4D3E5KPmvrsDQ_DvoISY",
+    type: "COURSE",
+    title: "Construction Management: Managing Risk",
+    viewers: "5,102,985 viewers",
+  },
+  {
+    url: "",
+    type: "COURSE",
+    title: "",
+    viewers: "",
+  },
+];
