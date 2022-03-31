@@ -5,14 +5,13 @@ body{
     font-family: myriad-pro, sans-serif;
   
 }
-#hcon{
-    position: fixed;
-}
 #pagecon{
     margin: auto;
-  
+    max-width: 1128px;
 }
-
+#hcon{
+      position: fixed;
+}
 #header{
   
     width : 100vw;
@@ -169,7 +168,7 @@ ul{
 }
 
 #footerdiv{
-   padding-top: 50px;
+   padding-top: 500px;
    /* border: 1px solid red; */
     border-top: 1px solid #D8D9DA;
     width : 100vw;
