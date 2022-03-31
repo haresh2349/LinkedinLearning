@@ -128,4 +128,22 @@ data.map(({name,heading,author_photo,article,working_in})=>{
 })
 
 }
-export {slider,scrolling,get,append_data_top,append_community_data};
+
+
+let fixed_bar = ()=>{
+
+    return `
+    <div id="fixed">
+    <div id="subscription_box">
+      <h1>grow your skills and advance your carrrier with linkdin learning</h1>
+      <div><h1>Start my free month</h1></div>
+      <h3>Need to train your team? learn more</h3>
+      
+    </div>
+    <div class="round_img">
+       <img src="https://static-exp1.licdn.com/sc/h/cch95u9n3wpbme2zzh5n4uwg0" alt="">
+    </div>
+ </div>
+    `
+}
+export {slider,scrolling,get,append_data_top,append_community_data,fixed_bar};

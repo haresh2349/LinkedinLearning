@@ -6,8 +6,8 @@
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    
-    height: 325px;
+   
+    height: 300px;
 }
 
 .round_img img{

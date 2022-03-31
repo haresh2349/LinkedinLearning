@@ -8,6 +8,12 @@
     <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://use.typekit.net/xsg5fgy.css">
     <link rel="stylesheet" href="./styles/main.css">
+
+
+
+    <link rel="stylesheet" href="./my_styles/slidebar.css">
+    <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./my_styles/fixed_bar.css">
     <title>Document</title>
 </head>
 
@@ -146,6 +152,13 @@
 
     </div>
     <div id="pagecon">
+
+
+        <div id="subscribe_box"></div>
+        <div id="top"></div>
+        <div id="community"></div>
+        <div id="new_releases"></div>
+
         
     </div>
     <div id="footerdiv">
@@ -198,4 +211,52 @@
     import {header,footer} from "./scripts/main.js";
     header();
     footer();
+
+
+    let top = document.getElementById("top");
+
+    //imported slider html 
+    import {slider,scrolling,get,append_data_top,append_community_data,fixed_bar} from "./my_components/slider.js";
+     
+   let subscribe_box = document.getElementById("subscribe_box");
+   subscribe_box.innerHTML = fixed_bar();
+
+    
+   
+    
+
+   let data = JSON.parse(localStorage.getItem("courses_data"));
+   
+   top.innerHTML = slider("box","l1","r1");
+   scrolling("top","l1","r1");
+   append_data_top(data,"box");
+
+   console.log(data);
+  
+   
+
+/////
+///
+///
+//
+
+   let  community_data = JSON.parse(localStorage.getItem("community_data"));
+   
+   let community = document.getElementById("community");
+   
+     
+    community.innerHTML = slider("community_box","l2","r2");
+    scrolling("community","l2","r2")
+   append_community_data(community_data);
+
+   ////new_releases
+
+
+   let new_releases_data  = JSON.parse(localStorage.getItem("new_releases"));
+   console.log(new_releases_data)
+   let new_releases = document.getElementById("new_releases");
+   new_releases.innerHTML = slider("new_releases_box","l3","r3"); 
+   scrolling("new_releases","l3","r3");
+   append_data_top(new_releases_data,"new_releases_box")
 </script>
+<script src="./components/data.js"></script>
