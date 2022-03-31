@@ -7,7 +7,7 @@ body{
 }
 #pagecon{
     margin: auto;
-    max-width: 1128px;
+    
 }
 #hcon{
       position: fixed;
@@ -168,7 +168,7 @@ ul{
 }
 
 #footerdiv{
-   padding-top: 500px;
+   padding-top: 50px;
    /* border: 1px solid red; */
     border-top: 1px solid #D8D9DA;
     width : 100vw;
