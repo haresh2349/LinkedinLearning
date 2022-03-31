@@ -1,0 +1,10 @@
+#fixed_bar{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#fixed_bar>div:nth-of-type(2) img{
+    object-fit: cover;
+}
