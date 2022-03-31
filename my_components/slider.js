@@ -146,4 +146,45 @@ let fixed_bar = ()=>{
  </div>
     `
 }
-export {slider,scrolling,get,append_data_top,append_community_data,fixed_bar};
+
+let skills_div = ()=>{
+
+    return `
+    <div id="skills">
+   <div>
+      <h1>Identfy the skills you need to advance your carrier</h1>
+      <div id="search_skills_box">
+         <p>Search for the most popular skills for a</p>
+         <div><p>The manager</p></div>
+      </div>
+   </div>
+   <div id="skills_box">
+   <div>
+      <h4>1 Product Management</h4>
+      <h5>explore--</h5>
+   </div>
+   <div>
+      <h4>1 Product Management</h4>
+      <h5>explore--</h5>
+   </div>
+   <div>
+      <h4>1 Product Management</h4>
+      <h5>explore--</h5>
+   </div>
+   <div>
+      <h4>1 Product Management</h4>
+      <h5>explore--</h5>
+   </div>
+   <div>
+      <h4>1 Product Management</h4>
+      <h5>explore--</h5>
+   </div>
+   <div>
+      <h4>1 Product Management</h4>
+      <h5>explore--</h5>
+   </div>
+   </div>
+</div>
+    `
+}
+export {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div};

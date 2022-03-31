@@ -154,6 +154,7 @@
     <div id="pagecon">
         <div id="subscribe_box"></div>
         <div id="top"></div>
+        <div id="skill_div"></div>
         <div id="community"></div>
         <div id="new_releases"></div>
     </div>
@@ -212,20 +213,20 @@
     let top = document.getElementById("top");
 
 //imported slider html 
-import {slider,scrolling,get,append_data_top,append_community_data,fixed_bar} from "./my_components/slider.js";
+   import {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div} from "./my_components/slider.js";
  
-let subscribe_box = document.getElementById("subscribe_box");
-subscribe_box.innerHTML = fixed_bar();
+    let subscribe_box = document.getElementById("subscribe_box");
+    subscribe_box.innerHTML = fixed_bar();
 
 
 
 
 
-let data = JSON.parse(localStorage.getItem("courses_data"));
+    let data = JSON.parse(localStorage.getItem("courses_data"));
 
-top.innerHTML = slider("box","l1","r1");
-scrolling("top","l1","r1");
-append_data_top(data,"box");
+     top.innerHTML = slider("box","l1","r1");
+    scrolling("top","l1","r1");
+     append_data_top(data,"box");
 
 console.log(data);
 
@@ -254,5 +255,11 @@ let new_releases = document.getElementById("new_releases");
 new_releases.innerHTML = slider("new_releases_box","l3","r3"); 
 scrolling("new_releases","l3","r3");
 append_data_top(new_releases_data,"new_releases_box")
+
+
+
+let skill_box = document.getElementById("skill_div");
+skill_box.innerHTML = skills_div()
+
 </script>
 <script src="./my_components/data.js"></script>
