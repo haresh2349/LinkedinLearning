@@ -1,10 +1,10 @@
-const slider =(box,l,r)=>{
+const slider =(box,l,r,h1)=>{
 
     return `
     
     <div class="main">
     <div id="cont">
-        <h1 id="heading"> Top Pics For You</h1>
+        <h1 id=${h1}> Top Pics For You</h1>
         <div id="scrolling_btns">
         
             <div id=${l}>

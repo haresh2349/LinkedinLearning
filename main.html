@@ -156,6 +156,8 @@
         <div id="top"></div>
         <div id="skill_div"></div>
         <div id="community"></div>
+
+        <div id="weekly_top" ></div>  
         <div id="new_releases"></div>
     </div>
     <div id="footerdiv">
@@ -224,11 +226,14 @@
 
     let data = JSON.parse(localStorage.getItem("courses_data"));
 
-     top.innerHTML = slider("box","l1","r1");
+     top.innerHTML = slider("box","l1","r1","h1");
+     let h1 = document.getElementById("h1");
+//console.log("h4",h4)
+    h1.innerHTML = "Top picks for you"
     scrolling("top","l1","r1");
      append_data_top(data,"box");
 
-console.log(data);
+    console.log(data);
 
 
 
@@ -242,7 +247,10 @@ let  community_data = JSON.parse(localStorage.getItem("community_data"));
 let community = document.getElementById("community");
 
  
-community.innerHTML = slider("community_box","l2","r2");
+community.innerHTML = slider("community_box","l2","r2","h2");
+let h2 = document.getElementById("h2");
+//console.log("h4",h4)
+    h2.innerHTML = "Learn with the LinkedIn community"
 scrolling("community","l2","r2")
 append_community_data(community_data);
 
@@ -257,9 +265,21 @@ scrolling("new_releases","l3","r3");
 append_data_top(new_releases_data,"new_releases_box")
 
 
-
+////this code is for the top div blow thw header;
 let skill_box = document.getElementById("skill_div");
 skill_box.innerHTML = skills_div()
+
+let weekly_data = JSON.parse(localStorage.getItem("weekly_top_courses"))
+console.log("weekly data",weekly_data)
+let weekly_top = document.getElementById("weekly_top");
+;
+weekly_top.innerHTML = slider("week_top","l4","r4","h4");
+let h4 = document.getElementById("h4");
+//console.log("h4",h4)
+h4.innerHTML = "This week’s top courses"
+
+scrolling("weekly_top","l4","r4")
+append_data_top(weekly_data,"week_top")
 
 </script>
 <script src="./my_components/data.js"></script>
