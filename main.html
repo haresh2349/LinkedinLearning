@@ -8,9 +8,15 @@
     <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://use.typekit.net/xsg5fgy.css">
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./my_styles/slidebar.css">
+
+
+
+
+    <link rel="stylesheet" href="./styles/slidebar.css">
+
+    
     <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="./my_styles/fixed_bar.css">
+    <link rel="stylesheet" href="./styles/fixed_bar.css">
     <title>Document</title>
 </head>
 
@@ -212,7 +218,7 @@
     let top = document.getElementById("top");
 
 //imported slider html 
-   import {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div} from "./my_components/slider.js";
+   import {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div} from "./scripts/slider.js";
  
     let subscribe_box = document.getElementById("subscribe_box");
     subscribe_box.innerHTML = fixed_bar();
@@ -279,4 +285,4 @@ scrolling("weekly_top","l4","r4")
 append_data_top(weekly_data,"week_top")
 
 </script>
-<script src="./my_components/data.js"></script>
+<script src="./scripts/data.js"></script>
