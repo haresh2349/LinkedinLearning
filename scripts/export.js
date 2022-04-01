@@ -96,39 +96,4 @@ const appendHPSlidData = (data, container) => {
   });
 };
 
-const scrolling = (l, r) => {
-  var slides = document.querySelectorAll(".slidesCont>div");
-  var i = 0;
-  var mleft = 0;
-  l.addEventListener("click", () => {
-    prevItem();
-  });
-  r.addEventListener("click", () => {
-    nextItem();
-  });
-};
-const prevItem = () => {
-  if (i > 0 && i <= 2) {
-    mleft = 0;
-    slides[i - 1].style.marginLeft = mleft + "px";
-    i--;
-  }
-};
-const nextItem = () => {
-  if (i <= 1) {
-    mleft = -942;
-    i += 1;
-    slides[i - 1].style.marginLeft = mleft + "px";
-  }
-  if (i == 2) {
-    mleft = -60;
-    slides[i - 1].style.marginLeft = mleft + "px";
-  }
-};
-export {
-  sliderHead,
-  appendBRSlidData,
-  appendBrowseData,
-  appendHPSlidData,
-  scrolling,
-};
+export { sliderHead, appendBRSlidData, appendBrowseData, appendHPSlidData };
