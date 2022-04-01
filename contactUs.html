@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | LinkedIn Learning</title>
+    <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://use.typekit.net/xsg5fgy.css">
+    <style>
+        body{
+            font-family: myriad-pro, sans-serif;
+            max-width:100%;
+            margin:auto;
+            line-height: 28px;
+            background-color: rgb(252, 248, 248);
+            /* padding-left: 110px; */
+        }
+        #linkedIn{
+            height:90px;
+            width:100%;
+            background-color: #fff;
+            position: fixed;
+        }
+        #top{
+            height:30px;
+            width: 100;
+            background-color:rgb(73, 35, 109);
+            color: #fff;
+            justify-content:right;
+            padding: 0px 30px 0px 1100px;
+        }
+        #line{
+            height: 2px;
+            width: 100%;
+            background-color: blue;
+           /* padding-top: 90px; */
+           margin-top:-10px;
+           
+        }
+    
+#contactBody{
+    
+    height:auto;
+    width: 85%;
+    /* border:1px solid red ; */
+    margin: auto;
+    display:flex;
+    
+    /* padding-left:10px; */
+}
+#contactBodyLeft{
+    width:60%;
+    margin-top: 150px;
+    padding-right: 20px;
+}
+#contactBodyLeft>p{
+    font-size: 30px;
+    line-height: 20px;
+    color: rgb(75, 75, 74);
+}
+ul{
+    font-size: 25px;
+}
+li{
+    font-size:16px ;
+}
+svg{
+    margin-bottom: -5px;
+}
+#image1>a{
+    text-decoration: none;
+    color:blue;
+    font-size: large;
+   /* margin-top: -10px; */
+    
+}
+#image2>a{
+    text-decoration: none;
+    color:blue;
+    font-size: large;
+    /* padding-bottom: 30px; */
+}
+#contactBodyRight{
+    width: 50%;
+    height:750px;
+    background-color: white;
+    /* border: 1px solid red; */
+    margin-top:130px;
+    padding-left: 25px;
+}
+#autoFill{
+    height:30px;
+    width: 200px;
+    background-color: rgb(86, 86, 190);
+    color:white;
+    font-size: larger;
+
+    align-items: center;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(33, 33, 122);
+}
+input{
+    height:25px;
+    width:450px;
+    margin:10px;
+}
+h5{
+    margin:-10px 10px;
+}
+#organizationSize,#india,#stateHeadquarter{
+    height:30px;
+    width:460px;
+    margin:10px;
+}
+#paragraph{
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(80, 80, 78);
+    padding-left:10px;
+}
+#contact{
+        /* border: 1px solid blue; */
+        height:35px;
+        width:130px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(37, 37, 141);
+        color:#fff;
+        font-size: 18px;
+        /* border-radius: 2px; */
+        padding-top: 8px;
+        text-align: center;
+        margin-left: 10px;
+        
+      }
+      #contactflex{
+          display: flex;
+          justify-content: space-between;
+      }
+      #contactflex>p{
+            font-size: 12px;
+            padding-right: 30px;
+      }
+      h2{
+          color:rgb(139, 145, 145);
+          font-size: 30px;
+      }
+
+      #imageblock{
+            display: flex;
+            width:1128px;
+            /* border: 1px solid red; */
+            margin: auto;
+            padding-top: 60px;
+            padding-bottom: 50px;
+      }
+      #imageblock img{
+            height:90px;
+            width: 220px;
+      }
+
+      #bottomBox{
+          display: flex;
+          height:250px;
+          width:1128px;
+          /* border:1px solid rebeccapurple; */
+          margin: auto;
+      }
+
+      #linkedInExpectations{
+          width:65%;
+          height:200px;
+          background-color: #fff;
+          padding: 30px 0px 30px 50px;
+          color: rgb(126, 128, 128);
+          font-size: x-large;
+      }
+      #thorFlosason{
+          background-color: rgb(252, 233, 233);
+          width:35%;
+          height:220px;
+          padding: 20px 40px ;
+          /* margin-bottom: 90px; */
+      }
+      h4{
+          display:flex;
+          padding-left: 150px;
+      }
+      h4:hover{
+          text-decoration:underline;
+      }
+      #linked{
+          color:blue;
+          font-size: 20px;
+      }
+      #in{
+          color: white;
+          background-color: blue;
+          height: 25px;
+          width:25px;
+          font-size: 20px;
+          text-align: center;
+          border-radius: 5px;
+      }
+      #learning{
+          padding-left: 10px;
+          color: rgb(139, 145, 145);
+      }
+      #footer{
+          height:100px;
+          width: 100%;
+          /* border: 1px solid red; */
+          background-color: rgb(232, 235, 233);
+          display: flex;
+          margin-top: 70px;
+          gap:30px;
+          text-align: center;
+          justify-content: center;
+          padding-top: 20px;
+          font-size: 12px;
+          color: rgb(113, 114, 116);
+          
+      }
+      #footerLinkedIn{
+          display: flex;
+          gap:10px;
+      }
+      #linked2{
+        color: blue;
+        font-size:15px ;
+      }
+      #in2{
+          background-color: blue;
+          color: #fff;
+          height:20px;
+          width: 20px;
+          border-radius: 3px;
+          /* margin-top: 5px; */
+          align-items: center;
+          text-align: center;
+          margin-left: -10px;
+          
+      }
+      
+      #about:hover{
+          text-decoration: underline;
+      }
+      #cookie:hover{
+          text-decoration: underline;
+      }
+      #privacy:hover{
+          text-decoration: underline;
+      }
+      #agreement:hover{
+          text-decoration: underline;
+      }
+      #accessibility:hover{
+          text-decoration: underline;
+      }
+
+      
+      #footer a{
+          color: rgb(113, 114, 116);
+      }
+    </style>
+</head>
+<body>
+    <div id="linkedIn">
+        <div id="top">Chat now</div>
+        <a href="#">  <h4><div id="linked">Linked</div><div id="in">in</div><div id="learning">Learning</div> </h4></a>
+        <div id="line"></div>
+    </div>
+    
+    <div id="contactBody">
+        <div id="contactBodyLeft">
+            <p>A modern learning experience <br><br>your employees will use, love,<br> <br>and apply</p>
+            <ul>Over 13,000 organizations around the world choose
+                 LinkedIn Learning because it teaches skills people can  use right away.<br>
+                <br><li><b>World-class content, expertly produced </b>with +16,700 courses in 7 languages</li>
+                <br><li><b>Engaging learner experience </b>with personalized, data-driven recommendations your employees will actually want to use</li>
+                <br><li><b>Real-time strategic skills insights</b> leveraging data from over 772 million <br>LinkedIn members</li>
+    
+            </ul>
+            <h3>Connect with a Learning Consultant and get a free demo today.</h3><br>
+            <div id="image1">
+                <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+                    <path d="M21,8H8A1,1,0,0,0,7,9V19a1,1,0,0,0,1,1H18l4,3V9A1,1,0,0,0,21,8ZM20,19.11L18.52,18H9V10H20v9.11ZM12,15h5v1H12V15ZM4,13H5v2H3a1,1,0,0,1-1-1V4A1,1,0,0,1,3,3H16a1,1,0,0,1,1,1V6H15V5H4v8Zm14,0H11V12h7v1Z"></path>
+                  </g></svg>
+                <a href="#">Live chat with a sales specialist</a>
+            </div>
+            <div id="image2"><br>
+                <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+                    <path d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,1.75a8.25,8.25,0,0,1,1,.07V6.16a1,1,0,0,1-.3.72L10.8,8.72a1,1,0,0,1-.7.28H9v1.7L5.25,7.27A8.24,8.24,0,0,1,12,3.75Zm0.45,13.36-1.89-.95A1,1,0,0,1,10,15.26V13h3.61a1,1,0,0,1,.71.29l1.39,1.39a1,1,0,0,1,.2,1.13l-2.47,4.3L13,20.18v-2.8ZM3.75,12a8.2,8.2,0,0,1,1-3.87L9,12.06v3.21a2,2,0,0,0,1.11,1.79L12,18v2.25A8.26,8.26,0,0,1,3.75,12Zm11.06,7.75,2-3.46A2,2,0,0,0,16.42,14L15,12.59A2,2,0,0,0,13.61,12H10V10h0.1a2,2,0,0,0,1.39-.57l1.9-1.84A2,2,0,0,0,14,6.16V4A8.24,8.24,0,0,1,14.81,19.75Z"></path>
+                  </g></svg>
+                  <a href="#">Open a support ticket</a>
+            </div>
+           
+        </div>
+        <div id="contactBodyRight">
+            <h2>Let's Chat</h2>
+            <a href="#"><div id="autoFill">AutoFill with LInkedIn</div></a>
+            <div id="form">
+                <input type="text"id="fname"placeholder="First name*">
+                <input type="text"id="lname"placeholder="Last name*">
+                <input type="number"id="number"placeholder="Phone number*">
+                <input type="email"id="email"placeholder="Work email*">
+                <input type="text"id="organizationName"placeholder="Organization name*">
+                <select id="organizationSize" placeholder="">
+                        <option value="">Organization size*</option>
+                        <option value="">10,000+</option>
+                        <option value="">5001-10,000</option>
+                        <option value="">1001-5000</option>
+                        <option value="">1-1000</option>
+                </select>
+                <h5>Country/Region*</h5>
+                <select id="india">
+                    <option value="">India</option>
+                    <option value="">USA</option>
+                    <option value="">Japan</option>
+                    <option value="">Australia</option>
+                    <option value="">Singapore</option>
+                    
+                </select>
+                <select id="stateHeadquarter">
+                    <option value="">State headquarter*</option>
+                    <option value="">New Delhi</option>
+                    <option value="">Dhaka</option>
+                    <option value="">Tokyo</option>
+                    <option value="">Washington DC</option>
+                    
+                </select>
+                
+
+            </div>
+                <div id="paragraph">
+                     <p>By submitting this form, you agree that we may use the data you provide to contact<br>
+                 you with information related to your request/submission and LinkedIn's products<br> and services. 
+                 If you are a LinkedIn member, you can control the messages you<br> receive from LinkedIn <a href="#">your settings</a> 
+                  . If you are a guest, you can unsubscribe from <br>LinkedIn marketing emails at any time 
+                  by clicking the unsubscribe link in
+                 the email.<br> Your data will be used subject to LinkedIn's <a href="#">Privacy Policy</a>.</p>
+        
+                </div>
+            <div id="contactflex">
+                <a href="#">   <div id="contact">Contact us</div></a> 
+                <p>Required fields*</p>
+            </div>
+        </div>
+    </div>
+        <!-- logo -->
+    <div id="imageblock">
+        <div id="">
+            <img src="https://content.linkedin.com/content/dam/me/learning/en-us/images/icons/nbc.png.original.png"/>
+        </div>
+        <div id="">
+            <img src="https://content.linkedin.com/content/dam/me/learning/en-us/images/icons/tomtom.png.original.png"/>
+        </div>
+        <div id="">
+            <img src="https://content.linkedin.com/content/dam/me/learning/en-us/images/icons/esteelauder.png.original.png"/>
+        </div>
+        <div id="">
+            <img src="https://content.linkedin.com/content/dam/me/learning/en-us/images/icons/deltek.png.original.png"/>
+        </div>
+        <div id="">
+            <img src="https://content.linkedin.com/content/dam/me/learning/en-us/images/icons/elliemae6.png.original.png"/>
+        </div>
+    </div>
+
+    <div id="bottomBox">
+        <div id="linkedInExpectations">
+            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/lls-paid-media-shapeshifter/fg/Shapeshifter-quote-quotation-mark-dsk-v01.png.original.png"/>
+            <p><b>LinkedIn Learning has exceeded our expectations</b> <br>and created a lot of buzz. 
+                Overall, I’ve been thrilled <br>with the excitement it has created.”</p>
+        </div>
+        <div id="thorFlosason">
+            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/lls-paid-media-shapeshifter/fg/Shapeshifter-quote-profile-image-dsk-v01.png.original.png"/>
+            <p><b>Thor Flosason</b><br>
+
+                Senior Director, Global Learning &<br> Development, Kellogg Company</p>
+        </div>
+
+        
+    </div>
+    <div id="footer">
+        <div id="footerLinkedIn">
+           <div id="linked2"><b>Linked</b></div>
+           <div id="in2"><b>in</b></div>
+        <span class="footer-legal-name"> © LinkedIn Corporation 2022 </span>
+        </div>  
+        <div id="about"><a href="#">About</a></div>
+        <div id="cookie"><a href="#">Cookie Policy</a></div>
+        <div id="privacy"><a href="#">Privacy Policy</a></div>
+        <div id="agreement"><a href="#">User Agreement</a></div>
+        <div id="accessibility"><a href="#">Accessibility</a></div>
+    </div>
+</body>
+</html>

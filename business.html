@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning for Companies | Linked Learning</title>
+    <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://use.typekit.net/xsg5fgy.css">
+    <style>
+        body{
+            font-family: myriad-pro, sans-serif;
+            max-width:auto;
+            margin:auto;
+        }
+        
+        
+        #chat{
+            height:25px;
+            width:auto;
+            background-color: #314736b3;
+            color:white;
+            text-align: right;
+            align-items: center;
+            padding-right: 120px;
+            padding-top: 10px;
+            position:fixed;
+        }
+        
+        #header1,#rightside{
+            height:64px;
+            background-color: #fff;
+            border: 2px solid rgb(36, 36, 58);
+            line-height:28px;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            gap:20px;
+            justify-content: space-around;
+            
+            
+            
+
+        }
+        #header1{
+            position: fixed;
+            width: 100%;
+            
+        }
+        
+        a{
+            text-decoration: none;
+            color: rgb(55, 55, 230);
+            
+        }
+        #rightside{
+            border:none;
+            color:rgb(28, 28, 172);
+
+        }
+        #product:hover{
+            text-decoration: underline;
+        }
+        #courses:hover{
+            text-decoration: underline;
+        }
+        #resources:hover{
+            text-decoration: underline;
+        }
+        #support:hover{
+            text-decoration: underline;
+        }
+        #contactSales:hover{
+           border: 3px solid blue;
+           background-color: aliceblue;
+        }
+        #contactSales{
+            border: 1px solid blue;
+            width:130px;
+            padding-left:18px;
+        }
+        h4{
+           display: flex;
+           
+       }
+      #linked{
+          color:blue;
+          font-size: xl-large;
+          /* font-family: "Arial, Helvetica, sans-serif"; */
+
+      }
+      #in{
+          color:#fff;
+          background-color: blue;
+          border-radius: 3px;
+          width:20px;
+          height: 20px;
+          align-items: center;
+          margin-left: 5px;
+          padding-left: 5px;
+          padding-bottom: 2px;
+      }
+      #learning{
+          color:rgb(141,138,135);
+          margin-left: 10px;
+          font-size:medium;
+          /* font-family:"myriad-pro, sans-serif" ; */
+      }
+      #leftside:hover{
+        text-decoration: underline;
+      }
+      #line{
+        color:rgb(141, 138, 135);
+        
+      }
+      #futureSkill{
+          height:64px;
+          background-color:rgba(235, 177, 112, 0.938);
+          align-items: center;
+          padding-top: 80px;
+          text-align: center;
+          font-size: large;
+
+      }
+      
+      #modernOnline img{
+         /* position: relative; */
+         height:450px;
+         width: 100%;
+         /* display:block; */
+      }
+      #modernOnlineContent{
+         height:370px;
+        max-width:500px;
+        position: absolute;
+        left:120px;
+        top:130px;
+        /* border:1px solid red; */
+        /* box-sizing: border-box; */
+        margin-top:-10px;
+        /* font-family:"myriad-pro, sans-serif"; */
+        color:rgb(99, 97, 94);
+      }
+      #modernOnlineContent p{
+        font-size: 35px;
+        color:rgb(48, 46, 43)
+      }
+      #modernOnlineContent h4{
+          width:400px;
+        font-size: 25px;
+      }
+      #horizontalLine{
+          width:100px;
+          height:2px;
+          background-color: blue;
+          margin:-10px 0px;
+      }
+      #twoBoxes{
+          
+          display: flex;
+          height:40px;
+          width:300px;
+          gap:10px;
+          margin-top: -20px;
+          text-align: center;
+          
+          
+         
+      }
+      #contact,#explore{
+        border: 1px solid blue;
+        height:30px;
+        width:160px;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        color:#fff;
+        font-size: 18px;
+        border-radius: 2px;
+        padding-top: 10px;
+        text-align: center;
+        
+      }
+      #explore{
+          background-color: white;
+          color:blue;
+      }
+      #blueBox{
+          background-color: rgb(24, 24, 136);
+          color:#fff;
+          display: flex;
+          height:180px;
+          margin: auto ;
+          font-size: 22px;
+          gap:10px;
+          align-items: center;
+          padding-left: 100px;
+          padding-right: 100px;
+          justify-content: center;
+          text-align: center;
+          
+      }
+      #line1{
+          height: 100px;
+          width: 2px;
+          background-color: #fff;
+          margin-left:50px;
+         
+      }
+      #employeeEngagement{
+          display: flex;
+          width:80%;
+          margin:auto;
+          font-size: larger;
+          padding-top:60px;
+          line-height: 28px;
+          color:rgb(54, 53, 50)
+      }
+      #employeeEngagementText{
+        line-height: 28px;
+        width:61%;
+        margin-right: 30px;
+       
+      }
+      #employeeLine{
+          width:95%;
+          height:3px;
+          background-color: rgb(39, 71, 39);
+      }
+      #imgemployee{
+          height:150px;
+          width:600px;
+          /* border: 1px solid red;; */
+          display:flex;
+          background-color: rgb(231, 228, 224);
+      }
+      #imgemployee p{
+          padding-left: 30px;
+          padding-top: 25px;
+          font-size: 18px;
+      }
+      #employeeEngagementImg p{
+        font-size: medium;
+        position: relative;
+      }
+     
+       #employeeEngagementContact{
+        background:white ;   
+        display:flex;
+       
+        justify-content: space-around;
+       }
+       
+       #contactemployee{
+           color:blue;
+           background-color: white;
+           border: 1px solid blue;
+           align-items: center;
+           font-size: 18px;
+           text-align: center;
+           height:35px;
+           width:130px;
+           padding-top: 10px;
+           margin-left:140px;
+           margin-top:-60px;
+       }
+      #Meettheneeds{
+          max-width:100%;
+          /* border: 1px solid red; */
+          background-color: rgb(250, 248, 248);
+          margin-top: 10px;
+          display: flex;
+          gap:35px;
+          
+      }
+      #MeettheneedsImg{
+        margin-left: 140px;
+        padding-top: 80px;
+      }
+      #MeettheneedsText{
+          padding-top: 80px;
+          margin-right: 130px;
+          line-height: 28px;
+          font-size: larger;
+      }
+     #MeettheneedsBox{
+        background-color: #fff;
+        height:200px;
+        width:auto;
+        display: flex;
+      }
+      #MeettheneedsBox p{
+          padding-left: 30px;
+          padding-top: 25px;
+          font-size: 15px;
+      }
+      #MeettheneedsBoxContact{
+             color:blue;
+           background-color: white;
+           border: 1px solid blue;
+           align-items: center;
+           font-size: 18px;
+           text-align: center;
+           height:35px;
+           width:130px;
+           margin-top: 25px;
+           padding-top: 10px;
+          
+      }
+    #meetLinkedIn{
+        height: auto;
+        width: 80%;
+        margin-left: 150px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #meetLinkedInLine{
+        height: 2px;
+        width: 100%;
+        background-color: blue;
+    }
+    /* #meetLinkedInImage{
+        height: auto;
+        width: 500px;
+        margin-left: -750px;
+        margin-right: 300px;
+    } */
+    #meetLinkedInImageimg{
+        display: flex;
+        height:auto;
+        width:auto;
+        /* border: 1px solid red; */
+    }
+    /* #meetLinkedInImageimg b{
+            margin-left: 20px;
+           
+    } */
+#meetLinkedInImageimg img{
+          height:30px;
+          width: 30px;
+          border-radius: 50%;
+          margin-top: 15px;
+          margin-right: 20px;
+      }
+    #lastBox{
+        display: flex;
+        width:80%;
+    }
+    #lastbox>img{
+        height:400px;
+        width:100%;
+        position: relative;
+    }
+      
+    #text{
+        position:absolute ;
+        left: 700px;
+        right:40px;
+        margin-top:-300px;
+        
+
+    }
+    #contactLast{
+          background-color: blue;
+          height:30px;
+          width:120px;
+          text-align: center;
+          color: white;
+          font-weight: 400;
+          padding-top:10px;
+      }
+
+      /* footer */
+
+      #footer{
+          height:100px;
+          width: 100%;
+          /* border: 1px solid red; */
+          background-color: rgb(245, 250, 247);
+          display: flex;
+          /* margin-top: 70px; */
+          gap:30px;
+          text-align: center;
+          justify-content: center;
+          padding-top: 30px;
+          font-size: 12px;
+          color: rgb(113, 114, 116);
+          
+      }
+      #footerLinkedIn{
+          display: flex;
+          gap:10px;
+        
+      }
+      #linked2{
+        color: blue;
+        font-size:15px ;
+        margin-top: -3px;
+      }
+      #in2{
+          background-color: blue;
+          color:#fff;
+          height:15px;
+          width: 15px;
+          border-radius: 3px;
+          /* margin-bottom: 15px; */
+          align-items: center;
+          text-align: center;
+          margin-left: -10px;
+          margin-top: -1px;
+          /* padding-bottom: -25px; */
+          
+          
+      }
+      
+      #about:hover{
+          text-decoration: underline;
+      }
+      #cookie:hover{
+          text-decoration: underline;
+      }
+      #privacy:hover{
+          text-decoration: underline;
+      }
+      #agreement:hover{
+          text-decoration: underline;
+      }
+      #accessibility:hover{
+          text-decoration: underline;
+      }
+
+      
+      #footer a{
+          color: rgb(113, 114, 116);
+      }
+    
+    </style>
+</head>
+<body>
+<div id="container1">
+    
+    <!-- <div id="chat">Chat now</div> -->
+        <div id="header1">
+            
+            <div id="leftside">
+                
+                <a href="#">  <h4><div id="linked">Linked</div><div id="in">in</div><div id="learning">Learning</div> </h4></a>
+                
+                
+            </div>
+            <div id="rightside">
+                <div id="product"><a href="#">Product</a></div>
+                <div id="courses"><a href="#">Courses</a></div>
+                <div id="resources"><a href="#">Resourses</a></div>
+                <div id="support"><a href="#">Support</a></div>
+                <div id="line">|</div>
+                <div id="contactSales"><a href="#">Contact Sales</a></div>
+            </div>
+        </div>
+       
+    <div id="futureSkill">
+        <p><b>The future of skill building is here:</b>Meet the new LinkedIn Learning Hub! <a href="#">Explore now</a></p>
+    </div>
+    <div id="modernOnline">
+        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/bg/00_hero_dsk_bg_v1.jpg.original.jpg"/>
+        <div id="modernOnlineContent">
+            <p>A modern online learning platform that teaches in-demand skills all employees can benefit from.</p>
+            <div id="horizontalLine"></div>
+        	
+             <h4>See how LinkedIn Learning for business can help your organization achieve its goals.</h4>
+            <div id="twoBoxes">
+                <a href="#">
+                <div id="contact">Contact sales</div></a>
+                <a href="#">
+                <div id="explore">Explore Products</div></a>
+            </div>
+            </div>
+        
+    </div>  
+    <div id="blueBox">
+       <div>Increase employee engagement</div>
+       <div id="line1"></div>
+       <div>Meet the needs of the modern learner</div>
+       <div id="line1"></div>
+       <div>Help employees develop relevant skills</div>
+       <div id="line1"></div>
+       <div>Scale learning programs</div>
+
+
+    </div>
+    <!-- 1st box -->
+
+
+    <div id="employeeEngagement">
+        <div id="employeeEngagementText">
+            <h2>Increase employee engagement</h2>
+           <div id="employeeLine"></div>
+            <p>Keeping top talent engaged is key to ensuring they don't leave and go to a competitor. The <b>#1 reason</b> employees leave companies is lack of professional development.
+                <br><br>
+                How can <a href="#">LinkedIn Learning</a> help you increase employee satisfaction? With engaging content that's professionally produced, consistently updated, and taught by real-world experts. Plus, we'll help you reach more employees by distributing 
+                relevant online courses on a learning platform millions of professionals already use every day.</p>
+                <div id="imgemployee">
+                    <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec02_dsk_e04_v1.png.original.png"/>
+                    <p>94% of employees say they would stay at a company longer if it invested in their learning and development.</p>
+                    
+                </div>
+        </div>
+        <div id="employeeEngagementImg">
+            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec02_dsk_e01_v1.png.original.png"/>
+            <p>Source:“<a href="#">2019 Workplace Learning Report</a> ” LinkedIn Learning.</p>
+            
+        </div>
+        
+    </div>
+    <a href="#">
+    <div id="contactemployee">Contact sales</div></a>
+      
+    <!-- 2nd box  -->
+
+
+        <div id="Meettheneeds">
+            <div id="MeettheneedsImg">
+                <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec03_dsk_e01_v1.png.original.png"/>
+                
+            
+                 <p>Source:“<a href="#">2019 Workplace Learning Report</a> ” LinkedIn Learning.</p>
+            </div>
+            
+            <div id="MeettheneedsText">
+                <h2>Meet the needs of the modern learner</h2>
+                <div id="employeeLine"></div>
+                    <p>Employees today expect online learning platforms to be collaborative, self-directed, and easy to use. 
+                    This is especially true of Millennial and Gen Z professionals, who will soon make up the majority of the workforce.<br>
+                        <br>
+                    <a href="#">LinkedIn Learning</a> for Business meets the needs of today's
+                     professionals with personalized, data-driven course recommendations and seamless desktop and mobile app experiences.</p>
+                   
+                <div id="MeettheneedsBox">
+                        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec03_dsk_e04_v1.png.original.png"/>
+                        <p>Over half of all learners value more social 
+                            and <br>collaborative environments in the office and while<br> engaged with online learning.</p>
+                   
+                            
+                </div>
+                <a href="#">
+                <div id="MeettheneedsBoxContact">Contact sales</div></a>
+            </div>
+            
+
+        </div>
+
+
+        <!-- 3rd box -->
+
+        <div id="employeeEngagement">
+            <div id="employeeEngagementText">
+                <h2>Help employees develop relevant skills</h2>
+               <div id="employeeLine"></div>
+                <p><a href="#">Skills are quickly changing.</a> On-demand and on-the-job learning is the only way to keep up. New hires
+                     rarely arrive with all the skills needed to perform a job. Even if they do, those skills change over time.
+                        <br><br>
+                        <a href="#">LinkedIn Learning</a> leverages skills data from LinkedIn, the world's largest professional social
+                     media network, to inform the online learning courses we develop for the future that help your employees upskill.</p>
+                    <div id="imgemployee">
+                        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec04_dsk_e04_v1.png.original.png"/>
+                        <p>According to the World Economic Forum, one-third of core job skills will change in the next 5 years.</p>
+                        
+                    </div>
+            </div>
+            <div id="employeeEngagementImg">
+                <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec04_dsk_e01_v1.png.original.png"/>
+                
+                
+            </div>
+            
+        </div>
+        <a href="#">
+        <div id="contactemployee">Contact sales</div></a>
+
+
+        <!-- 4th box -->
+
+        <div id="Meettheneeds">
+            <div id="MeettheneedsImg">
+                <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec05_dsk_e01_v1.png.original.png"/>
+                
+            
+                 <p>Source:“<a href="#">Next Generation E-Learning: Skills and Strategies</a> ”, ATD Research.</p>
+                
+            </div>
+            
+            <div id="MeettheneedsText">
+                <h2>Scale learning programs</h2>
+                <div id="employeeLine"></div>
+                    <p>Digital transformation is sweeping every aspect of how companies operate, including the L&D function. The shift from 
+                        instructor-led training to online learning helps optimize budgets and scale learning to support all employees
+                         in a customized learning environment.<br><br>
+
+                        Companies choose easy-to-implement online learning technologies like <a href="#">LinkedIn Learning</a> because they are easy to 
+                        implement, easy to scale, and span the learning topics your employees crave. </p>
+                <div id="MeettheneedsBox">
+                        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec05_dsk_e04_v1.png.original.png"/>
+                        <p>Percentage of top companies where <br>learning is a predominant offering.<br><br>
+                            The shift to online learning has tripled since 2012.</p>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- 5th box -->
+        
+
+            <div id="meetLinkedIn">
+                
+                <h2>Meet LinkedIn Learning</h2>
+                <div id="meetLinkedInLine"></div>
+                <p>We’ve built a robust <a herf="#">online learning platform</a> that your employees will use, love, and apply.
+                    <br> Only LinkedIn Learning provides the unique combination of these 4 factors:</p>
+                <!-- <div id="meetLinkedInImage">
+                    <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/bg/00_sec07_dsk_bg_v4.jpg.original.jpg"/>
+                </div> -->
+                <div id="meetLinkedInImageimg">
+                    <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
+                    <p><b>World-class Content</b><br><br>
+                        We've built a highly engaging learning experience that exceeds the high expectations of modern learners.</p>
+                         
+                         <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
+                    <p><b>Engaging Learner Experience</b><br><br>
+                        We've built a highly engaging learning experience that exceeds the high expectations of modern learners. </p>
+                
+
+                         <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
+                    <p><b>Strategic Insights</b><br><br>
+                        Our proprietary insights and data help you understand in-demand skills today and in the future. </p>
+                
+
+                        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
+                         <p><b>Robust Learning Platform</b><br><br>
+                            Underpinning all of this is a robust learning platform that allows employee-driven and management-driven learning to build a culture of learning in your organization.</p>
+                
+                              
+                                   
+
+                        </div>
+
+                        <!-- <div id="twoBoxes">
+                            <a href="#">
+                            <div id="contact">Contact sales</div></a>
+                            <a href="#">
+                            <div id="explore">Explore Products</div></a>
+                        </div> -->
+            </div>
+            <!-- 6th box -->
+
+        <div id="lastbox">
+                <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/bg/00_sec09_dsk_bg_v1.jpg.original.jpg"/>
+            
+            <div id="text">
+                <h1>Let Us Show You How LinkedIn Learning Can Help Your<br> Organization</h1>
+                <a href="#"><div id="contactLast">Contact Sales</div></a>
+            </div>
+        </div>
+
+</div>
+<div id="footer">
+    <div id="footerLinkedIn">
+       <div id="linked2"><b>Linked</b></div>
+       <div id="in2"><b>in</b></div>
+    <span class="footer-legal-name"> © LinkedIn Corporation 2022 </span>
+    </div>  
+    <div id="about"><a href="#">About</a></div>
+    <div id="cookie"><a href="#">Cookie Policy</a></div>
+    <div id="privacy"><a href="#">Privacy Policy</a></div>
+    <div id="agreement"><a href="#">User Agreement</a></div>
+    <div id="accessibility"><a href="#">Accessibility</a></div>
+</div>
+</body>
+</html>
