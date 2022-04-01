@@ -1,0 +1,504 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif,  Thai,  Fallback, -apple-system, '.SFNSDisplay-Regular' ;
+    
+}
+
+#pagecon{
+    margin: auto;
+    max-width: 1128px;
+    
+}
+
+#secnav{
+    display: flex;
+    
+    
+    height: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    background-color: #e7eef5;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#secnav>p{
+ 
+
+position: absolute;
+font-size: 14px;
+    
+}
+#secnav>p>a{
+    text-decoration: none;
+    color:  #0073b1;
+}
+#secnav>p>a:hover{
+    text-decoration: underline;
+}
+
+.frontimage{
+
+   background-image: url('https://content.linkedin.com/content/dam/me/author-training/amp-test-images/jan/lls-solutions-pages-edu/bg/01-dsk-b-v02.jpg.original.jpg');
+   
+   height: 370px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
+}
+
+.tagline{
+    font-family: sans-serif;
+    
+    width: 380px;
+    height: 340px;
+    padding: 2% 12%;
+}
+
+.tagline>h1{
+    font-size: 45px;
+    color: #2b2a29;
+    font-weight: 30;
+}
+.tagline>p{
+   
+    font-family: sans-serif;
+}
+.tagline>.contect{
+    background-color: #0073b1;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+.tagline>button{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+    width: 200px;
+    height: 35px;
+
+}
+
+.contect+button:hover{
+  background-color: rgb(212, 232, 252);
+ 
+}
+
+.afterTag{
+    height: 120px;
+    width : 1220px;
+
+    background-color:  #004183;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:-50px;
+   
+   
+
+}
+.afterTag>div>p>a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+}
+.afterTag>div{
+   display: flex;
+   
+  height: 80px;
+
+    width: 200px;
+    font-family: sans-serif;
+  
+    align-items: center;
+    justify-content: center;
+    
+}
+.afterTag>div>p{
+    
+    font-size: 16px;
+    
+    text-align: center;
+   
+}
+.afterTag>div>p>a:hover{
+    text-decoration: underline;
+}
+
+.empower,.empower+div{
+    border-left: 1px solid rgb(235, 238, 235);
+    margin: 18px;
+}
+
+.meet{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 42px;
+    margin-left: 120px;
+    font-weight: 100;
+}
+
+.meet+img{
+    margin-left: 120px;
+    width:80%;
+    padding-top: -40px;
+}
+.meet+img+div{
+    margin-left: 120px;
+    width:80%;
+}
+.socialmedia{
+    display: flex;
+    background-image: url("https://content.linkedin.com/content/dam/me/author-training/amp-test-images/jan/lls-solutions-pages-edu/bg/08-dsk-b-v6.jpg.original.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: content;
+    position: relative;
+    width:80%;
+    margin: auto;
+    gap: 10px;
+    justify-content: flex-end;   
+}
+
+.socialmedia>div{
+    margin-left: -70px;
+    width: 500px;
+}
+
+.sidepara{
+    font-size: 21px;
+}
+.socialmedia>div>.expbutton{
+    background-color: #0073b1;
+    color: white;
+    width: 120px;
+    height: 35px;
+    
+}
+.socialmedia>div>button{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+ 
+    height: 35px;
+    width: 145px;
+}
+.socialmedia>div{
+
+    width: 300px;
+}
+
+.socialmedia>div>.expbutton+button:hover{
+ background-color: rgb(212, 232, 252);
+}
+
+/* partner */
+
+.partner{
+    height:720px;
+    background-color: #fcf9f2;
+    display: flex;
+    margin: auto;
+}
+
+.partner>div{
+   
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+
+.partnerDiv{
+    display: flex;
+    margin: auto;
+    gap: 2%;
+}
+.partnerDiv>div{
+    width: 55%;
+    height: 95%;
+ 
+   
+}
+
+.partnerDiv>div+div{
+    width: 43%;
+    height: 86%;
+}
+.partnerDiv>div+div{
+    border-radius: 4px;
+}
+
+
+.partnerDiv>div+div>img,.partner>div>div>img{
+    width: 100%;
+}
+
+.partnerDiv>div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+}
+.partner>div>div>p+img{
+    margin-top: -20px;
+}
+.partnerDiv>div>p+img+p,.partnerDiv>div>p+img+p+p{
+    font-size:20px;
+}
+
+.expbutton{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+ 
+    height: 35px;
+    width: 145px;
+}
+.expbutton:hover{
+    background-color: rgb(212, 232, 252);
+   }
+
+   .partnerDiv>div>div{
+       display:flex;
+       border-radius: 4px;
+       background-color: white;
+       align-items: center;
+       margin-top: 4%;
+       height: 110px;
+       font-size: 14px;
+       gap: 15px;
+      
+   }
+  
+   /* buddha page */
+   
+   .buddha{
+       display: flex;
+       width: 80%;
+       height: 500px;
+       
+       margin: auto;
+       gap: 15px;
+   }
+   .buddha>div{
+      width: 38%;    
+       height: 100%;
+
+   }
+   .buddha>div+div{
+    width: 60%;
+       height: 100%;
+     
+   }
+   .buddha>div>img{
+       height: 90%;
+       width: 100%;
+   }
+   .buddha>div>img+p{
+       font-size: 13px;
+   }
+   .buddha>div>img+p:first-word{
+     font-size: 18px;
+   }
+   .buddha>div+div>img{
+      height:2px;
+   }
+
+   .buddha>div+div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+   }
+
+   .buddha>div+div>p+img+p,.buddha>div+div>p+img+p+p{
+    font-size:17px;
+   }
+
+   .buddha>div+div>div{
+    
+       display:flex;
+       background-color: #f6fbfe;
+       margin: auto;
+       gap: 10px;
+       align-items: center;
+       margin-top: 4%;
+   }
+
+
+   /* Resource page */
+
+   .fullcolor{
+      
+       width: 1220px;
+       background-color: #fcf9f2;
+       margin-left: -50px;
+   }
+   .resources{
+       font-size: 30px;
+       color: #2b2a29;
+       text-align: center;
+   }
+
+   .resources+div{
+       display: flex;
+       width: 82%;
+       height: 290px;
+      
+       margin: auto;
+       gap: 22px;
+      
+       
+   }
+
+   .resources+div>div{
+       width: 23%;
+       height:100%;
+       
+       box-sizing: border-box;
+   }
+   .resources+div>div>img{
+       width: 100%;
+       height: 45%;
+   }
+   .resources+div>div>h3{
+       font-size: 15px;
+       font-family: sans-serif;
+       color: #2b2a29;
+   }
+   .resources+div>div>p{
+       font-size: 12px;
+       color: #2b2a29;
+   }
+   .resources+div>div>h4>a{
+    color:#64aacf;
+   }
+
+   /* Last input */
+
+    .lastinput{
+      display: flex;
+       width: 100%;
+      
+       height: 890px;
+       background-color: #e7eef5;
+       margin: auto;
+   }
+   .lastinner{
+       display: flex;
+       width: 80%;
+       height: 92%;
+  
+        gap: 20px;
+        margin: auto;
+        
+   }
+   .lastinner>div{
+    align-items: center;
+       width: 49%;
+       height:100%;
+   }
+   .lastinner>div>div{
+       width: 70%;
+       height: 110px;
+       color: #2b2a29;
+       
+   }
+   .lastinner>div>div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+   }
+   .lastinner>div>p{
+    color: #2b2a29;
+    font-size: 17px;
+    line-height: 25px;   
+   } */
+  
+  
+.inputbox>h1{
+    font-family: "Helvetica Neue",Helvetica;
+       text-align: center;
+       font-size: 42px;
+       color: #2b2a29;
+       font-weight: 80;
+}
+  
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputbox>input{
+    width: 370px;
+    height:24px;
+
+}
+.inputbox>button{
+    margin-left: -49%;
+    background-color: #0073b1;
+    border: 2px solid #0073b1;
+    border-radius: 3px;
+    color: white;
+    width: 160px;
+    height: 35px;
+}
+
+.inputbox>input{
+    margin-top: 12px;
+}
+
+.inputbox>button:hover{
+    background-color: #0c5881;
+}
+
+.inputbox>#lastpara{
+    font-size: 13px;
+    margin-left: 30px;
+    line-height: 15px;
+
+}
+
+.inputbox>#lastp{
+    font-size: 34px;
+    font-weight: 100;
+    margin-left: -30px;
+}
+
+ /* footer */
+
+ .foot{
+    display: flex;
+    width: 60%;
+    height: 60px;
+ 
+
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.foot>p>a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.foot>p>a:hover{
+    text-decoration: underline;
+}

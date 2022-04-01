@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Certification and Continuing Education Programs | LinkedIn Learning
+      Solutions
+    </title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Nunito:wght@200&family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+      #navbar {
+        width: 100%;
+        border-bottom: 2px solid #0a66c2;
+        padding: 15px 0;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+      }
+
+      .link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-left: 100px;
+        padding-bottom: 5px;
+        width: 10%;
+        position: relative;
+      }
+      .link::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0.1rem;
+        left: 0;
+        bottom: 0;
+        background: #0a66c2;
+      }
+      .learn::after {
+        transform: scale(0, 1);
+        transition: transform 600ms ease-in-out;
+      }
+
+      .learn:hover::after {
+        transform: scale(1, 1);
+      }
+      .linked {
+        font-size: 20px;
+        color: #0a66c2;
+        font-weight: bold;
+      }
+      .logo {
+        color: #0a66c2;
+        margin: 0 2px;
+        height: 23px;
+        width: 23px;
+      }
+
+      #containr {
+        display: flex;
+        width: 100vw;
+        /* max-width: 1366px; */
+        position: relative;
+        top: 100px;
+      }
+      #imgDiv {
+        max-width: 1128px;
+        margin: auto;
+        height: 400px;
+        background-image: url("https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/certification-and-continuing-education-programs/bg/01-ccep-banner-dsk.png.original.png");
+        background-repeat: no-repeat;
+        background-size: 100% 400px;
+      }
+
+      .text {
+        width: 40%;
+        margin: 20px 100px;
+      }
+      .text > h1 {
+        font-size: 48px;
+        margin-bottom: 8px;
+      }
+      .text > p {
+        font-size: 21px;
+        /* margin: 10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="logo-title">
+        <a class="link learn" href="">
+          <h1 class="linked">LINKED</h1>
+
+          <svg
+            class="logo"
+            height="27"
+            width="27"
+            viewBox="0 0 27 27"
+            focusable="false"
+            class="lazy-loaded"
+          >
+            <g fill="currentColor">
+              <path
+                d="M1.91 0h22.363a1.91 1.91 0 011.909 1.91v22.363a1.91 1.91 0 01-1.91 1.909H1.91A1.91 1.91 0 010 24.272V1.91A1.91 1.91 0 011.91 0zm1.908 22.364h3.818V9.818H3.818zM8.182 5.727a2.455 2.455 0 10-4.91 0 2.455 2.455 0 004.91 0zm2.182 4.091v12.546h3.818v-6.077c0-2.037.75-3.332 2.553-3.332 1.3 0 1.81 1.201 1.81 3.332v6.077h3.819v-6.93c0-3.74-.895-5.78-4.667-5.78-1.967 0-3.277.921-3.788 1.946V9.818z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              ></path>
+            </g>
+          </svg>
+          <div class="lrng">Learning</div>
+        </a>
+      </div>
+    </div>
+    <div id="containr">
+      <!-- <div id="imgDiv">
+        <div id="textContainer">
+          <div class="text">
+            <h1>Certification Prep and Continuing Education</h1>
+            <p>
+              LinkedIn Learning offers on-demand courses to help individuals
+              prepare for professional certification exams and earn continuing
+              education units (CEUs).
+            </p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </body>
+</html>
+<script src="scripts/data.js"></script>
+<script type="module">
+  import { appendBrowseData, sliderFunc } from "./scripts/export.js";
+
+  let data = JSON.parse(localStorage.getItem("bussCarousel")) || [];
+  console.log(data);
+  let cont = document.getElementById("containr");
+  sliderFunc(data, cont);
+</script>
