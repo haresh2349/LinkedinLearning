@@ -266,20 +266,20 @@
     var i = 0;
     var mleft = 0;
     l.addEventListener("click", () => {
-      prevItem();
+      prevItem(i, mleft, slides);
     });
     r.addEventListener("click", () => {
-      nextItem();
+      nextItem(i, mleft, slides);
     });
   };
-  const prevItem = () => {
+  const prevItem = (i, mleft, slides) => {
     if (i > 0 && i <= 2) {
       mleft = 0;
       slides[i - 1].style.marginLeft = mleft + "px";
       i--;
     }
   };
-  const nextItem = () => {
+  const nextItem = (i, mleft, slides) => {
     if (i <= 1) {
       mleft = -942;
       i += 1;
