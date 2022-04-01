@@ -136,7 +136,7 @@ let fixed_bar = ()=>{
     <div id="fixed">
     <div id="subscription_box">
       <h1>grow your skills and advance your carrrier with linkdin learning</h1>
-      <div><h1>Start my free month</h1></div>
+      <div><h3>Start my free month</h3></div>
       <h3>Need to train your team? learn more</h3>
       
     </div>
