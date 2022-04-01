@@ -261,43 +261,35 @@
     "TRENDING SPREADSHEETS COURSES"
   );
 
-  const scrolling = (l, r) => {
-    var slides = document.querySelectorAll(".slidesCont>div");
-    var i = 0;
-    var mleft = 0;
-    l.addEventListener("click", () => {
-      prevItem(i, mleft, slides);
-    });
-    r.addEventListener("click", () => {
-      nextItem(i, mleft, slides);
-    });
-  };
-  const prevItem = (i, mleft, slides) => {
+  var slides = document.querySelectorAll(".slidesCont>div");
+
+  const prevItem = () => {
     if (i > 0 && i <= 2) {
       mleft = 0;
       slides[i - 1].style.marginLeft = mleft + "px";
       i--;
     }
   };
-  const nextItem = (i, mleft, slides) => {
-    if (i <= 1) {
-      mleft = -942;
+  const nextItem = () => {
+    if (i < 1) {
+      mleft = -948;
       i += 1;
+      console.log(slides[0], "slide");
       slides[i - 1].style.marginLeft = mleft + "px";
-    }
-    if (i == 2) {
+    } else if (i == 1) {
       mleft = -60;
+      i += 1;
+      console.log(slides[0], "slide");
       slides[i - 1].style.marginLeft = mleft + "px";
     }
   };
-
-  let lArrow = document.getElementById("leftArrow");
-  let rArrow = document.getElementById("rightArrow");
-  scrolling(lArrow, rArrow);
-  let ssLArrow = document.getElementById("ssLeftArrow");
-  let ssRArrow = document.getElementById("ssRightArrow");
-  scrolling(ssLArrow, ssRArrow);
-  let tmLArrow = document.getElementById("tmLeftArrow");
-  let tmRArrow = document.getElementById("tmRightArrow");
-  scrolling(tmLArrow, tmRArrow);
+  let i = 0;
+  let mleft = 0;
+  function slider(i, mleft, slides, lId, rId) {
+    document.getElementById(lId).addEventListener("click", prevItem);
+    document.getElementById(rId).addEventListener("click", nextItem);
+  }
+  slider(0, 0, slides, "leftArrow", "rightArrow");
+  let items = document.querySelectorAll(".tm_courses");
+  slider(0, 0, items, "tmLeftArrow", "tmRightArrow");
 </script>

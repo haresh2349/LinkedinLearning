@@ -8,8 +8,8 @@
 #mainContainer {
   overflow: hidden;
 }
-#hcon {
-  z-index: 1;
+#header {
+  background-color: #fff;
 }
 #flexBox {
   position: relative;
