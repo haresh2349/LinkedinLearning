@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1cb0bb75dc.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://use.typekit.net/xsg5fgy.css">
+    <link rel="stylesheet" href="styles/signin.css">
+    <title>LinkedIn Learning | Login</title>
+</head>
+
+<body>
+
+    <!-- pagecondiv -->
+    <div id="pagecon">
+
+        <!-- linkedinlogo div -->
+        <div id="signhdr">
+            <div><svg class="blueclr" height="27" width="27" viewBox="0 0 27 27" focusable="false" class="lazy-loaded">
+                    <g fill="currentColor">
+                        <path
+                            d="M1.91 0h22.363a1.91 1.91 0 011.909 1.91v22.363a1.91 1.91 0 01-1.91 1.909H1.91A1.91 1.91 0 010 24.272V1.91A1.91 1.91 0 011.91 0zm1.908 22.364h3.818V9.818H3.818zM8.182 5.727a2.455 2.455 0 10-4.91 0 2.455 2.455 0 004.91 0zm2.182 4.091v12.546h3.818v-6.077c0-2.037.75-3.332 2.553-3.332 1.3 0 1.81 1.201 1.81 3.332v6.077h3.819v-6.93c0-3.74-.895-5.78-4.667-5.78-1.967 0-3.277.921-3.788 1.946V9.818z"
+                            fill="currentColor" fill-rule="evenodd"></path>
+                    </g>
+                </svg></div>
+
+            <div>
+                <p class="lrg">LEARNING</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- SIGNIN hadding div -->
+        <h1 class="signhead">Sign In</h1>
+
+        <p class="signindetail">Sign in using the same email address you use for <br> Linkedin.com or your organization
+            email</p>
+
+        <input type="email" placeholder="Enter your email address" id="email">
+        <br>
+
+        <button class="btn"><a>Continue</a></button>
+
+        <a href="" class="alink">
+            Sign in with your library card</a>
+
+        <p class="pjoin">New to LinkedIn? <a href="signup.html" class="alink1">Join now</a></p>
+
+    </div>
+
+    <hr class="hrmargin">
+
+
+    <div id="footer">
+
+        <div>
+            <p class="marg">Linked<i class="fa-brands fa-linkedin"></i> <a href="">© 2022</a></p>
+        </div>
+        <div> </div>
+
+
+        <!-- <div><a href="#">© 2022
+            </a></div> -->
+        <div><a href="#">About</a></div>
+        <div><a href="#">
+                Help</a></div>
+        <div><a href="#">Accessibility</a></div>
+        <div><a href="#">Visit LinkedIn Learning</a></div>
+
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+
+    document.querySelector(".btn").addEventListener("click", function (e) {
+        var email = document.getElementById("email").value;
+        localStorage.setItem("email", email);
+        window.location.href = "./signin2.html";
+    })
+
+</script>

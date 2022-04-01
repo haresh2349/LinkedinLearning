@@ -71,7 +71,7 @@
             text-decoration: underline;
         }
         #contactSales:hover{
-           border: 3px solid blue;
+           border: 2px solid blue;
            background-color: aliceblue;
         }
         #contactSales{
@@ -123,21 +123,26 @@
 
       }
       
-      #modernOnline img{
+      #modernOnline {
          /* position: relative; */
-         height:450px;
-         width: 100%;
-         /* display:block; */
+         height:470px;
+         width:auto;
+         display:block;
+         margin-left: -700px;
+         /* margin-top: -7px; */
+         background-image: url("https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/bg/00_hero_dsk_bg_v1.jpg.original.jpg");
+        
+       
       }
       #modernOnlineContent{
          height:370px;
         max-width:500px;
-        position: absolute;
-        left:120px;
-        top:130px;
+        /* position: absolute; */
+        margin-left:830px;
+        padding-top:30px;
         /* border:1px solid red; */
         /* box-sizing: border-box; */
-        margin-top:-10px;
+        /* margin-top:-10px; */
         /* font-family:"myriad-pro, sans-serif"; */
         color:rgb(99, 97, 94);
       }
@@ -163,6 +168,7 @@
           gap:10px;
           margin-top: -20px;
           text-align: center;
+          /* padding-top: 10px; */
           
           
          
@@ -193,6 +199,7 @@
           margin: auto ;
           font-size: 22px;
           gap:10px;
+          /* margin-top: 10px; */
           align-items: center;
           padding-left: 100px;
           padding-right: 100px;
@@ -308,43 +315,70 @@
           
       }
     #meetLinkedIn{
-        height: auto;
+        height: 700px;
         width: 80%;
-        margin-left: 150px;
+        margin:auto;
         font-size: 18px;
         line-height: 28px;
+        background-image: url("https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/bg/00_sec07_dsk_bg_v4.jpg.original.jpg");
+        background-position: center;
+        background-repeat: no-repeat ;
+        background-size: content;
+        justify-content:end;
+        /* margin-bottom: 155px; */
+        /* position: relative; */
+    }
+
+    #fifthBoxTop{
+        margin: auto;
+        width: 80%;
+        font-size: 18px;
+        line-height: 28px;
+       
     }
     #meetLinkedInLine{
         height: 2px;
         width: 100%;
         background-color: blue;
+        /* margin: auto; */
+       
     }
-    /* #meetLinkedInImage{
-        height: auto;
-        width: 500px;
-        margin-left: -750px;
-        margin-right: 300px;
-    } */
-    #meetLinkedInImageimg{
-        display: flex;
-        height:auto;
-        width:auto;
-        /* border: 1px solid red; */
-    }
-    /* #meetLinkedInImageimg b{
-            margin-left: 20px;
-           
-    } */
+  #meetLinkedInImageimg{
+      /* justify-content: right; */
+      margin-left: 680px;
+      /* margin-bottom: 40px; */
+      
+  }
+  #meetLinkedInImageimg>#twoBoxes{
+      padding-top: 20px;
+      /* padding-bottom: 30px; */
+  }
+
 #meetLinkedInImageimg img{
           height:30px;
           width: 30px;
           border-radius: 50%;
-          margin-top: 15px;
-          margin-right: 20px;
+          margin-left: -55px;
+          gap:30px;
+          /* margin-bottom: 30px; */
+          /* margin-right: 20px; */
       }
+
+    #WorldClassContent{
+        display: flex;
+        gap:23px;
+        padding-top: 30px;
+    }
+    /* #WorldClassContent b{
+        margin-left: 10px;
+        margin-top: -15px;
+    } */
     #lastBox{
         display: flex;
         width:80%;
+        /* margin-top: 100px; */
+        /* padding-top: 50px; */
+        
     }
     #lastbox>img{
         height:400px;
@@ -367,7 +401,8 @@
           text-align: center;
           color: white;
           font-weight: 400;
-          padding-top:10px;
+          padding-top:14px;
+          
       }
 
       /* footer */
@@ -439,7 +474,7 @@
 <body>
 <div id="container1">
     
-    <div id="chat">Chat now</div>
+    <!-- <div id="chat">Chat now</div> -->
         <div id="header1">
             
             <div id="leftside">
@@ -462,8 +497,7 @@
         <p><b>The future of skill building is here:</b>Meet the new LinkedIn Learning Hub! <a href="#">Explore now</a></p>
     </div>
     <div id="modernOnline">
-        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/bg/00_hero_dsk_bg_v1.jpg.original.jpg"/>
-        <div id="modernOnlineContent">
+         <div id="modernOnlineContent">
             <p>A modern online learning platform that teaches in-demand skills all employees can benefit from.</p>
             <div id="horizontalLine"></div>
         	
@@ -608,47 +642,51 @@
         </div>
 
         <!-- 5th box -->
-        
-
+                <div id="fifthBoxTop">
+                    <h2>Meet LinkedIn Learning</h2>
+                    <div id="meetLinkedInLine"></div>
+                    <p>We’ve built a robust <a herf="#">online learning platform</a> that your employees will use, love, and apply.
+                        <br> Only LinkedIn Learning provides the unique combination of these 4 factors:</p>
+                </div>
             <div id="meetLinkedIn">
                 
-                <h2>Meet LinkedIn Learning</h2>
-                <div id="meetLinkedInLine"></div>
-                <p>We’ve built a robust <a herf="#">online learning platform</a> that your employees will use, love, and apply.
-                    <br> Only LinkedIn Learning provides the unique combination of these 4 factors:</p>
+                
                 <!-- <div id="meetLinkedInImage">
                     <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/bg/00_sec07_dsk_bg_v4.jpg.original.jpg"/>
                 </div> -->
                 <div id="meetLinkedInImageimg">
+                    <div id="WorldClassContent">
                     <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
-                    <p><b>World-class Content</b><br><br>
+                       <b>World-class Content</b></div>
                         We've built a highly engaging learning experience that exceeds the high expectations of modern learners.</p>
                          
-                         <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
-                    <p><b>Engaging Learner Experience</b><br><br>
+                        <div id="WorldClassContent">
+                        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
+                       <b>Engaging Learner Experience</b></div>
                         We've built a highly engaging learning experience that exceeds the high expectations of modern learners. </p>
                 
-
+                        <div id="WorldClassContent">
                          <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
-                    <p><b>Strategic Insights</b><br><br>
+                        <b>Strategic Insights</b></div>
                         Our proprietary insights and data help you understand in-demand skills today and in the future. </p>
                 
-
+                        <div id="WorldClassContent">
                         <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/solutions-pages/fg/00_sec07_dsk_e02_v1.png.original.png"/>
-                         <p><b>Robust Learning Platform</b><br><br>
-                            Underpinning all of this is a robust learning platform that allows employee-driven and management-driven learning to build a culture of learning in your organization.</p>
+                        <b>Robust Learning Platform</b></div>
+                            Underpinning all of this is a robust learning platform that allows employee-driven and management-driven learning to build a culture of learning in your organization.
                 
                               
-                                   
+                           
+                            <div id="twoBoxes">
+                                <a href="#">
+                                <div id="contact">Contact sales</div></a>
+                                <a href="#">
+                                <div id="explore">Explore Products</div></a>
+                            </div>
 
-                        </div>
+                     </div>
 
-                        <!-- <div id="twoBoxes">
-                            <a href="#">
-                            <div id="contact">Contact sales</div></a>
-                            <a href="#">
-                            <div id="explore">Explore Products</div></a>
-                        </div> -->
+                        
             </div>
             <!-- 6th box -->
 

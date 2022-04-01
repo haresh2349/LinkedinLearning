@@ -48,8 +48,8 @@ function header() {
                 </svg>
             </button>
         </div>
-        <div id="sups"><a href="">Start free trial</a></div>
-        <div id="signbtn"><a href="">Sign In</a></div>
+        <div id="sups"><a href="./trial.html">Start free trial</a></div>
+        <div id="signbtn"><a href="./signin.html">Sign In</a></div>
     </div>
 </div>`
   }
