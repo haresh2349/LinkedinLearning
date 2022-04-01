@@ -873,6 +873,7 @@ let courses_data = [
 
 
 
+
     let weekly_top_courses = [
 
       
@@ -1209,5 +1210,6 @@ let courses_data = [
 
 
 localStorage.setItem("weekly_top_courses",JSON.stringify(weekly_top_courses));
+
 
 
