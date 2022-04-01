@@ -218,5 +218,7 @@ button>a{
     text-decoration:underline;
 }
 #footercon{
+    background-color: white;
     margin: auto;
+    /* max-width: 1128px; */
 }
