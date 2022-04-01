@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: nowrap;
    
-    height: 300px;
+    
 }
 
 .round_img img{
@@ -18,7 +18,7 @@
 #subscription_box{
     max-width: 59vw;
     min-width: 40vw;
-    margin: 100px 0px 0px 110px;
+    margin: 70px 0px 0px 110px;
    
 }
 #subscription_box > div{
