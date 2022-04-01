@@ -11,6 +11,7 @@ body{
 }
 #hcon{
       position: fixed;
+      background-color: white;
 }
 #header{
   
@@ -168,7 +169,7 @@ ul{
 }
 
 #footerdiv{
-   padding-top: 50px;
+   padding-top: 10px;
    /* border: 1px solid red; */
     border-top: 1px solid #D8D9DA;
     width : 100vw;
