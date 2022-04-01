@@ -122,8 +122,8 @@ function header() {
         <div id="nav21">
             <div>Solution for:</div>
             <div><a href="./business.html">Business</a></div>
-            <div><a href="">Higher Education</a></div>
-            <div><a href="">Government</a></div>
+            <div><a href="./highEducation.html">Higher Education</a></div>
+            <div><a href="./goverment.html">Government</a></div>
         </div>
         <div id="nav22">
             <div><a href="./contactUs.html">Buy for the team</a></div>
