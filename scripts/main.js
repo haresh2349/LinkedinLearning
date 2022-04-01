@@ -22,7 +22,7 @@ function header() {
         <div>
             <ul>
                 <li class="hoverli">
-                    <a class="hovera" href="">
+                    <a class="hovera" href="./browse.html">
                         <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" focusable="false">
                             <path
                                 d="M4 3.67c.73 0 1.33.6 1.33 1.33S4.73 6.33 4 6.33 2.67 5.73 2.67 5 3.27 3.67 4 3.67zM8 4h13v2H8V4zm-4 6.67c.73 0 1.33.6 1.33 1.33s-.6 1.33-1.33 1.33-1.33-.6-1.33-1.33.6-1.33 1.33-1.33zM8 11h13v2H8v-2zm-4 6.67c.73 0 1.33.6 1.33 1.33s-.6 1.33-1.33 1.33-1.33-.6-1.33-1.33.6-1.33 1.33-1.33zM8 18h13v2H8v-2z">
@@ -107,7 +107,7 @@ function header() {
 
                 </li>
                 <li class="hoverli">
-                    <a class="subps" href="">
+                    <a class="subps" href="./trial.html">
                         <div>Start my free month</div>
 
                     </a>
@@ -121,7 +121,7 @@ function header() {
     <div id="nav2">
         <div id="nav21">
             <div>Solution for:</div>
-            <div><a href="">Business</a></div>
+            <div><a href="./business.html">Business</a></div>
             <div><a href="">Higher Education</a></div>
             <div><a href="">Government</a></div>
         </div>

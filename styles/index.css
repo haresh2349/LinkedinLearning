@@ -12,13 +12,13 @@ body{
 }
 #hcon{
       position: fixed;
-
+      z-index: 1;
+      background-color: white;
 }
 #header{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: white;
     width : 100vw;
     /* border-bottom: 1px solid #D8D9DA; */
 
