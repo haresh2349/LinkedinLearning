@@ -211,6 +211,11 @@
 #skills_box >div > h5{
     color: #207BBF;
 } 
+#fixed{
+    position: relative;
+    top: 92px;
+    height: auto;
+}
 
 
 
