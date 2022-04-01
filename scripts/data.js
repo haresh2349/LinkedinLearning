@@ -364,7 +364,7 @@ let bussCarousel = [
     duration: " 25h 7m 11s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE6f0kX4soSCA/learning-public-crop_675_1200/0/1583859288006?e=1648792800&v=beta&t=1-y3b56CeHFoGsIniQ8U9cZM2tGUq4WKQMoLm-LxXnU",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE6f0kX4soSCA/learning-public-crop_675_1200/0/1583859288006?e=1648893600&v=beta&t=R6PUsztRztYtPfw26rIztWwOtHMNcKX0EF8UNMRRlEs",
     type: "LEARNING PATH",
     domain: "Remote Working: Setting Yourself and Your Teams Up for Success",
     date: "May 10, 2020",
@@ -407,6 +407,15 @@ let bussCarousel = [
     descreption:
       "As a manager, success is predicated on your ability to achieve goals working with your team. The good news is that management is a skill that can be learned. This path is designed to provide you with the key considerations, skills and competencies to help you become and succeed as a manager.",
     duration: "9h 13m 49s left",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQHUINJj0slRwA/learning-public-crop_675_1200/0/1590183709981?e=1648792800&v=beta&t=V_AZ5phqZzeYbNf6-EDUQeAb1XNcKHYVB1-ky8BWkNg",
+    type: "LEARNING PATH",
+    domain: "Become a Digital Marketing Specialist",
+    date: "May 1, 2019",
+    descreption:
+      "Use your analytical and tactical skills to help grow and develop new opportunities for businesses as a digital marketing specialist. From marketing plans and content strategy to SEO and analytics, this path guides you through the best practices and principles of digital marketing.",
+    duration: " 19h 59m left",
   },
 ];
 
@@ -636,27 +645,27 @@ localStorage.setItem("bussCarousel", JSON.stringify(bussCarousel));
 localStorage.setItem("techCarousel", JSON.stringify(techCarousel));
 localStorage.setItem("creativeCarousel", JSON.stringify(creativeCarousel));
 
-let coursesData = [
+let allCoursesData = [
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHTleAijeDMHg/learning-public-crop_675_1200/0/1579118916955?e=1648846800&v=beta&t=10tU88j7YGiDPz34VO7LnUBqqJppvlL-aZxIO_8Uw5k",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHTleAijeDMHg/learning-public-crop_144_256/0/1579118915835?e=1648879200&v=beta&t=NaQkxMdVWfMtHro4NSX4nq0SX0nvWjVssWyE-WV0wSg",
     type: "COURSE",
     title: "The Six Morning Habits of High Performers",
     viewers: "3,102,985 viewers",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C560DAQEUTuB4edN85g/learning-public-crop_675_1200/0/1599688438696?e=1648846800&v=beta&t=h2OSP-5vG5y4iP_9Kk8jEA41G2igkKdccAieKsjo8OE",
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQEUTuB4edN85g/learning-public-crop_144_256/0/1599688438696?e=1648879200&v=beta&t=tozzDRliXLCS38Gsg89diwXPF9VPjIcUMpkE812gcGM",
     type: "COURSE",
     title: "Excel: Lookup Functions in Depth",
     viewers: "1,102,985 viewers",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFrdsfDMqzeDg/learning-public-crop_675_1200/0/1572553558501?e=2147483647&v=beta&t=eUuH1QzlBpc0PSI8mN4ho90hsSVCi2NOA0rKxZpAOK8",
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFrdsfDMqzeDg/learning-public-crop_144_256/0/1572553557977?e=2147483647&v=beta&t=jpduF_BDsS2wXLFyWacCuP169IkEC8UwTp5SwmULp_w",
     type: "COURSE",
     title: "After Effects 2020 New Features",
     viewers: "4,102,985 viewers",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFCn7Wo7bm_ow/learning-public-crop_675_1200/0/1578683905557?e=1648846800&v=beta&t=Lsc-Ef9JNszz2-nLlD1IkiAnLEx_tLM2MFej1z-SXjw",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFCn7Wo7bm_ow/learning-public-crop_144_256/0/1578683904474?e=1648879200&v=beta&t=NR6Yfs6hNrx-pa3GLN09o4tvysxKBWbk4dDlHO4hmHg",
     type: "COURSE",
     title: "Delivering an Authentic Elevator Pitch",
     viewers: "3,102,985 viewers",
@@ -668,19 +677,19 @@ let coursesData = [
     viewers: "3,102,985 viewers",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHbCh-IbN-ngA/learning-public-crop_675_1200/0/1567116230922?e=1648846800&v=beta&t=Z3h0G4iIHSV2BfFv4OdXnE9NF4xxZkMwECQdZKSRpIo",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHbCh-IbN-ngA/learning-public-crop_144_256/0/1567116230457?e=1648879200&v=beta&t=V3l4emSfhAQFJyHheM_1qkaE6JAk7AZmYiGvZKzbDe8",
     type: "COURSE",
     title: "Electronics Foundations: Basic Circuits",
     viewers: "6,102,985 viewers",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGGAcW7mCmqAA/learning-public-crop_675_1200/0/1597172745910?e=1648846800&v=beta&t=_W7JKCv9WvW92pW2x0d__yoJgv-0RbkfE0ZMpRnAQ7A",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGGAcW7mCmqAA/learning-public-crop_144_256/0/1597172745910?e=1648879200&v=beta&t=jViWz60Gz90TLjnUeN-OoMIW7TWxGmLd3sKvxsSVLsE",
     type: "COURSE",
     title: "Understanding the Impact of Deepfake Videos",
     viewers: "4,102,985 viewers",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFU4LTXLPJaIA/learning-public-crop_675_1200/0/1592866069779?e=1648846800&v=beta&t=rp6xOmmMXlHwFWxbYTpX6m3K-F0VjPtSGA-uYk7ezpc",
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFU4LTXLPJaIA/learning-public-crop_144_256/0/1592866069779?e=1648879200&v=beta&t=TMeYv4erhXHygAPYhgt3pQWYukdXbvaIkTNXAQVCZeQ",
     type: "COURSE",
     title: "Python Essential Training",
     viewers: "5,102,985 viewers",
@@ -691,10 +700,298 @@ let coursesData = [
     title: "Construction Management: Managing Risk",
     viewers: "5,102,985 viewers",
   },
+];
+
+let bussCourseData = [
   {
-    url: "",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHTleAijeDMHg/learning-public-crop_675_1200/0/1579118916955?e=1648846800&v=beta&t=10tU88j7YGiDPz34VO7LnUBqqJppvlL-aZxIO_8Uw5k",
     type: "COURSE",
-    title: "",
-    viewers: "",
+    title: "The Six Morning Habits of High Performers",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFCn7Wo7bm_ow/learning-public-crop_675_1200/0/1578683905557?e=1648846800&v=beta&t=Lsc-Ef9JNszz2-nLlD1IkiAnLEx_tLM2MFej1z-SXjw",
+    type: "COURSE",
+    title: "Delivering an Authentic Elevator Pitch",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGGAcW7mCmqAA/learning-public-crop_675_1200/0/1597172745910?e=1648846800&v=beta&t=_W7JKCv9WvW92pW2x0d__yoJgv-0RbkfE0ZMpRnAQ7A",
+    type: "COURSE",
+    title: "Understanding the Impact of Deepfake Videos",
+    viewers: "4,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGDyKYkqI0T4w/learning-public-crop_144_256/0/1568668819111?e=1648872000&v=beta&t=ALafYgQK3_QxzyUMi8s4fbhNR9Gbq4VgAtNfeXHSd8c",
+    type: "COURSE",
+    title: "Learning Personal Branding",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHyknNpgPirMA/learning-public-crop_144_256/0/1580838680039?e=1648879200&v=beta&t=_4XOzfDgp7OtEBzbDY8g4ZOjbM1TMN0RQuk85AcvujQ",
+    type: "COURSE",
+    title: "Guy Kawasaki on Turning Life Wisdom into Business Success",
+    viewers: "4,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFemdVUP-TXdg/learning-public-crop_144_256/0/1567117865450?e=1648879200&v=beta&t=zhxw9o5A8z2DeOhQpyJbmU4nYeVThW4cP72BIutRdJc",
+    type: "COURSE",
+    title: "Career Advice from Some of the Biggest Names in Business",
+    viewers: "2,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHQIQJYDybHYA/learning-public-crop_144_256/0/1568067883418?e=1648846800&v=beta&t=TCsCjdRqBkjE145hgWqCxGQ4D3E5KPmvrsDQ_DvoISY",
+    type: "COURSE",
+    title: "Construction Management: Managing Risk",
+    viewers: "5,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGGAcW7mCmqAA/learning-public-crop_144_256/0/1597172745910?e=1648879200&v=beta&t=jViWz60Gz90TLjnUeN-OoMIW7TWxGmLd3sKvxsSVLsE",
+    type: "COURSE",
+    title: "Understanding the Impact of Deepfake Videos",
+    viewers: "4,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHbCh-IbN-ngA/learning-public-crop_144_256/0/1567116230457?e=1648879200&v=beta&t=V3l4emSfhAQFJyHheM_1qkaE6JAk7AZmYiGvZKzbDe8",
+    type: "COURSE",
+    title: "Electronics Foundations: Basic Circuits",
+    viewers: "6,102,985 viewers",
   },
 ];
+
+let techCourseData = [
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQEUTuB4edN85g/learning-public-crop_144_256/0/1599688438696?e=1648879200&v=beta&t=tozzDRliXLCS38Gsg89diwXPF9VPjIcUMpkE812gcGM",
+    type: "COURSE",
+    title: "Excel: Lookup Functions in Depth",
+    viewers: "1,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C510DAQG8FfAwdtdSSg/learning-public-crop_144_256/0/1573756534792?e=1648814400&v=beta&t=q2uRWI6h_zGHy98AarN-M1Uq0xxJIZBKJ4R5Ig4_KMA",
+    type: "COURSE",
+    title: "Apple Watch Tips and Tricks",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFU4LTXLPJaIA/learning-public-crop_144_256/0/1592866069779?e=1648879200&v=beta&t=TMeYv4erhXHygAPYhgt3pQWYukdXbvaIkTNXAQVCZeQ",
+    type: "COURSE",
+    title: "Python Essential Training",
+    viewers: "5,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHtKscjddJ3Xg/learning-public-crop_144_256/0/1568066281564?e=1648879200&v=beta&t=qXpcgFyxN7xNBcQhmnl_WDD1CAeMfRBGqRIbJUt--YM",
+    type: "COURSE",
+    title: "Excel Data Visualization: Mastering 20+ Charts and Graphs",
+    viewers: "57,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFfhs2EuPDcuA/learning-public-crop_144_256/0/1592866667823?e=1648882800&v=beta&t=uNkuoYC1hq34ej0tx7hpg1aens72z3xQcdiKaEYLjIY",
+    type: "COURSE",
+    title: "SQL Essential Training",
+    viewers: "547,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQF6hpUZw33tHA/learning-public-crop_144_256/0/1647638602513?e=2147483647&v=beta&t=Mpq0YCtwkU_Lv26Cd-Lpaq3NSfuU9W0MeoA8gmNvbjQ",
+    type: "COURSE",
+    title: "Power BI Essential Training",
+    viewers: "457,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFmv0LvXJFLMw/learning-public-crop_144_256/0/1568669324892?e=1648882800&v=beta&t=KFGjZPxoJNOWCR0WCkKRYjG2_EEJv8M7MQOtz-hA-n4",
+    type: "COURSE",
+    title: "Excel 2013: Pivot Tables",
+    viewers: "5,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE36TRRFU6eEw/learning-public-crop_144_256/0/1568665814956?e=1648882800&v=beta&t=8IsD5JBntBTsxgWKWcvk7uWLgxPTQa_dYAgYe19RXTQ",
+    type: "COURSE",
+    title: "Programming Foundations: Fundamentals",
+    viewers: "1,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQF2DX4_GzNtiw/learning-public-crop_144_256/0/1567115269108?e=1648882800&v=beta&t=GsVA-pVO6Q6uetMZi3xfxdW33_NJl_UgH-TUa8ohwjk",
+    type: "COURSE",
+    title: "Programming Foundations: Object-Oriented Design",
+    viewers: "547,985 viewers",
+  },
+];
+
+let creativeCourseData = [
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C510DAQG8FfAwdtdSSg/learning-public-crop_144_256/0/1573756534792?e=1648814400&v=beta&t=q2uRWI6h_zGHy98AarN-M1Uq0xxJIZBKJ4R5Ig4_KMA",
+    type: "COURSE",
+    title: "Apple Watch Tips and Tricks",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQEUTuB4edN85g/learning-public-crop_144_256/0/1599688438696?e=1648879200&v=beta&t=tozzDRliXLCS38Gsg89diwXPF9VPjIcUMpkE812gcGM",
+    type: "COURSE",
+    title: "Excel: Lookup Functions in Depth",
+    viewers: "1,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFCn7Wo7bm_ow/learning-public-crop_144_256/0/1578683904474?e=1648879200&v=beta&t=NR6Yfs6hNrx-pa3GLN09o4tvysxKBWbk4dDlHO4hmHg",
+    type: "COURSE",
+    title: "Delivering an Authentic Elevator Pitch",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHTleAijeDMHg/learning-public-crop_144_256/0/1579118915835?e=1648879200&v=beta&t=NaQkxMdVWfMtHro4NSX4nq0SX0nvWjVssWyE-WV0wSg",
+    type: "COURSE",
+    title: "The Six Morning Habits of High Performers",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFrdsfDMqzeDg/learning-public-crop_144_256/0/1572553557977?e=2147483647&v=beta&t=jpduF_BDsS2wXLFyWacCuP169IkEC8UwTp5SwmULp_w",
+    type: "COURSE",
+    title: "After Effects 2020 New Features",
+    viewers: "4,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHbCh-IbN-ngA/learning-public-crop_144_256/0/1567116230457?e=1648879200&v=beta&t=V3l4emSfhAQFJyHheM_1qkaE6JAk7AZmYiGvZKzbDe8",
+    type: "COURSE",
+    title: "Electronics Foundations: Basic Circuits",
+    viewers: "6,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFU4LTXLPJaIA/learning-public-crop_144_256/0/1592866069779?e=1648879200&v=beta&t=TMeYv4erhXHygAPYhgt3pQWYukdXbvaIkTNXAQVCZeQ",
+    type: "COURSE",
+    title: "Python Essential Training",
+    viewers: "5,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGGAcW7mCmqAA/learning-public-crop_144_256/0/1597172745910?e=1648879200&v=beta&t=jViWz60Gz90TLjnUeN-OoMIW7TWxGmLd3sKvxsSVLsE",
+    type: "COURSE",
+    title: "Understanding the Impact of Deepfake Videos",
+    viewers: "4,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHQIQJYDybHYA/learning-public-crop_144_256/0/1568067883418?e=1648846800&v=beta&t=TCsCjdRqBkjE145hgWqCxGQ4D3E5KPmvrsDQ_DvoISY",
+    type: "COURSE",
+    title: "Construction Management: Managing Risk",
+    viewers: "5,102,985 viewers",
+  },
+];
+
+let tmCoursesData = [
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHTleAijeDMHg/learning-public-crop_144_256/0/1579118915835?e=1648879200&v=beta&t=NaQkxMdVWfMtHro4NSX4nq0SX0nvWjVssWyE-WV0wSg",
+    type: "COURSE",
+    title: "The Six Morning Habits of High Performers",
+    viewers: "3,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQHxmOOZwI27OA/learning-public-crop_144_256/0/1574712363091?e=1648897200&v=beta&t=2FHiOllvwcxGQj5y2xI-jnR8aQbrYAowByuk3QK1Yxg",
+    type: "COURSE",
+    title: "Time Management: Working from Home",
+    viewers: "1,029,531 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEKXjcXz7-0PA/learning-public-crop_144_256/0/1593539204093?e=1648897200&v=beta&t=AGWKIVnDo_qFZJY1Et7-LW3Tnzno08CznBwQc2NPsbo",
+    type: "COURSE",
+    title: "Organizing Your Remote Office for Maximum Productivity",
+    viewers: "561,430 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGkF6GsOASfjg/learning-public-crop_144_256/0/1601593204358?e=1648897200&v=beta&t=_WM_yBSatYoRqARThKe7viDt2ANrhb2jWCSqEifNfHc",
+    type: "COURSE",
+    title:
+      "How to Work Smarter, Not Harder: Save Time and Money and Increase Productivity",
+    viewers: "526,311 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH5HCoJ9Bx2cw/learning-public-crop_144_256/0/1568669442593?e=2147483647&v=beta&t=WMtlfsJWKp9OddtC6d_9FlUr9xdrUvjwLrI6kV7YT6U",
+    type: "COURSE",
+    title: "Managing Your Time",
+    viewers: "455,668 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFakfFwvqJYHg/learning-public-crop_144_256/0/1567631443373?e=1648897200&v=beta&t=dkhNRAQC1mjIGWZ4XhMRq2uiueEiM4T1muS9EgyA_mE",
+    type: "COURSE",
+    title: "Time Management Tips",
+    viewers: "439,035 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHhhIIr03eUtw/learning-public-crop_144_256/0/1568666412211?e=1648897200&v=beta&t=ECzZlQlf4Znp4uE82C_C1pK6m5HN7EAhd8V_K-KQvSE",
+    type: "COURSE",
+    title: "Getting Things Done",
+    viewers: "385,923 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQEWXovobHiZfw/learning-public-crop_144_256/0/1574444240356?e=1648897200&v=beta&t=0lXR8WqZMkTebzoGf4w03g09IbFuY0RaBXP3OBlisVA",
+    type: "COURSE",
+    title:
+      "15 Secrets Successful People Know about Time Management (getAbstract Summary)",
+    viewers: "526,311 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFwLkS79tMcEA/learning-public-crop_144_256/0/1567526919099?e=2147483647&v=beta&t=qo_zbs9zA5fvYBGxTLUyCfkkSKc7g6eRMjTWwasLbdo",
+    type: "COURSE",
+    title: "Managing Career Burnout",
+    viewers: "309,879 viewers",
+  },
+];
+
+let ssCoursesData = [
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFlz_FMg8f0zw/learning-public-crop_144_256/0/1568668254385?e=2147483647&v=beta&t=Y6GzoSqeYQftg2uhoMZKemIJ0WK4GOLspQyqED6lVyw",
+    type: "COURSE",
+    title: "Excel Tips Weekly",
+    viewers: "1,771,035 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGde-PgGw0jSw/learning-public-crop_144_256/0/1567117663418?e=1648897200&v=beta&t=W7dr4VADs4HcHQN1IR6EdQ7CdQUFvLANPynzzfu_y2s",
+    type: "COURSE",
+    title: "Excel: Advanced Formulas and Functions",
+    viewers: "1,676,585 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFMO5vAS8F9mQ/learning-public-crop_144_256/0/1594667104594?e=1648897200&v=beta&t=GHTJlAH1Vm6gzj-jjmy_VQ_uYVLJ9dVYByHENE80xx8",
+    type: "COURSE",
+    title: "Excel Essential Training (Office 365/Microsoft 365)",
+    viewers: "1,390,870 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHp7WlReeM5Pg/learning-public-crop_144_256/0/1568667546749?e=1648897200&v=beta&t=RtJStLgI0U31ivyUHT1pmslCcGfZQ1zelb-k_Mp_7Cc",
+    type: "COURSE",
+    title: "Excel: You Can Do This",
+    viewers: "1,264,781 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQEUTuB4edN85g/learning-public-crop_144_256/0/1599688438696?e=1648879200&v=beta&t=tozzDRliXLCS38Gsg89diwXPF9VPjIcUMpkE812gcGM",
+    type: "COURSE",
+    title: "Excel: Lookup Functions in Depth",
+    viewers: "1,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE0WwgEYNrb8g/learning-public-crop_144_256/0/1568661624905?e=1648897200&v=beta&t=OLgfPeIqQquvLLe263h6GObZHyq2Eh_5GNmfTz8fJjE",
+    type: "COURSE",
+    title: "Excel 2016 Essential Training",
+    viewers: "814,872 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQH4lycjLIibMw/learning-public-crop_144_256/0/1627584100061?e=1648900800&v=beta&t=3hZSaJgD59nvH2ydxEmSQMggQoEoLHYLdrlnMDB_ssk",
+    type: "COURSE",
+    title: "Excel: VLOOKUP and XLOOKUP for Beginners",
+    viewers: "1,102,985 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFGdlinA0bzqQ/learning-public-crop_144_256/0/1594667152909?e=1648900800&v=beta&t=NXu2lZ6dL07G_uZy1cHU_7PXxJXyTJFc5gd4OjdPdHQ",
+    type: "COURSE",
+    title: "Excel: Introduction to VBA",
+    viewers: "672,872 viewers",
+  },
+  {
+    url: "https://media-exp1.licdn.com/dms/image/C4D0DAQFGFyqT_KlBWA/learning-public-crop_144_256/0/1567196089758?e=1648904400&v=beta&t=DbvYDrNEWhZMOsvTB7d0HVz6FJ1LCqcoG3fGmgFuurk",
+    type: "COURSE",
+    title: "Excel 2016: Pivot Tables in Depth",
+    viewers: "1,390,870 viewers",
+  },
+];
+
+localStorage.setItem("allCoursesData", JSON.stringify(allCoursesData));
+localStorage.setItem("bussCourseData", JSON.stringify(bussCourseData));
+localStorage.setItem("techCourseData", JSON.stringify(techCourseData));
+localStorage.setItem("creativeCourseData", JSON.stringify(creativeCourseData));
+localStorage.setItem("tmCoursesData", JSON.stringify(tmCoursesData));
+localStorage.setItem("ssCoursesData", JSON.stringify(ssCoursesData));

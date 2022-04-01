@@ -53,7 +53,10 @@
           </div>
         </div>
       </div>
-      <div class="sliderDiv"></div>
+      <div class="sliderDiv">
+        <div class="sliderHead"></div>
+        <div class="slidesCont"></div>
+      </div>
       <div class="topicContainer">
         <div class="leftSide">
           <h2>Find the right course for you</h2>
@@ -116,8 +119,14 @@
           </div>
         </div>
       </div>
-      <div class="sliderDiv"></div>
-      <div class="sliderDiv"></div>
+      <div class="sliderDiv">
+        <div class="sliderHead tm_head"></div>
+        <div class="slidesCont tm_courses"></div>
+      </div>
+      <div class="sliderDiv">
+        <div class="sliderHead ss_head"></div>
+        <div class="slidesCont ss_courses"></div>
+      </div>
       <div id="moduleCont">
         <div class="leftModule">
           <div class="upper">
@@ -199,4 +208,78 @@
   import { header, footer } from "./scripts/index.js";
   header();
   footer();
+
+  let sliderH = document.querySelector(".sliderHead");
+  import {
+    appendBrowseData,
+    sliderHead,
+    appendBRSlidData,
+    appendHPSlidData,
+    scrolling,
+  } from "./scripts/export.js";
+  sliderH.innerHTML = sliderHead("leftArrow", "rightArrow", "TRENDING COURSES");
+
+  let allCoursesArr = JSON.parse(localStorage.getItem("allCoursesData"));
+  let bussCourseArr = JSON.parse(localStorage.getItem("bussCourseData"));
+  let techCourseArr = JSON.parse(localStorage.getItem("techCourseData"));
+  let tmCoursesArr = JSON.parse(localStorage.getItem("tmCoursesData"));
+  let ssCoursesArr = JSON.parse(localStorage.getItem("ssCoursesData"));
+  let creativeCourseArr = JSON.parse(
+    localStorage.getItem("creativeCourseData")
+  );
+
+  // appending sliderData in explore course container
+  let slidesCont = document.querySelector(".slidesCont");
+  let tabs = document.querySelectorAll(".tab");
+  appendHPSlidData(allCoursesArr, slidesCont);
+  tabs[0].addEventListener("click", () => {
+    appendHPSlidData(allCoursesArr, slidesCont);
+  });
+  tabs[1].addEventListener("click", () => {
+    appendHPSlidData(bussCourseArr, slidesCont);
+  });
+  tabs[2].addEventListener("click", () => {
+    appendHPSlidData(techCourseArr, slidesCont);
+  });
+  tabs[3].addEventListener("click", () => {
+    appendHPSlidData(creativeCourseArr, slidesCont);
+  });
+
+  let tmDiv = document.querySelector(".tm_courses");
+  let ssDiv = document.querySelector(".ss_courses");
+  let tmHead = document.querySelector(".tm_head");
+  let ssHead = document.querySelector(".ss_head");
+  appendHPSlidData(tmCoursesArr, tmDiv);
+  appendHPSlidData(ssCoursesArr, ssDiv);
+  tmHead.innerHTML = sliderHead(
+    "tmLeftArrow",
+    "tmRightArrow",
+    "TRENDING TIME MANAGEMENT COURSES"
+  );
+  ssHead.innerHTML = sliderHead(
+    "ssLeftArrow",
+    "ssRightArrow",
+    "TRENDING SPREADSHEETS COURSES"
+  );
+
+  // let leftArrows = document.querySelectorAll("#leftArrow");
+  // let rightArrows = document.querySelectorAll("#rightArrow");
+  // leftArrows.forEach((el) => {
+  //   el.addEventListener("click", () => {
+  //     console.log("clickedd");
+  //     prevItem();
+  //   });
+  // });
+  // rightArrows.forEach((el) => {
+  //   el.addEventListener("click", nextItem);
+  // });
+  let lArrow = document.getElementById("leftArrow");
+  let rArrow = document.getElementById("rightArrow");
+  scrolling(lArrow, rArrow);
+  let ssLArrow = document.getElementById("ssLeftArrow");
+  let ssRArrow = document.getElementById("ssRightArrow");
+  scrolling(ssLArrow, ssRArrow);
+  let tmLArrow = document.getElementById("tmLeftArrow");
+  let tmRArrow = document.getElementById("tmRightArrow");
+  scrolling(tmLArrow, tmRArrow);
 </script>

@@ -27,26 +27,27 @@ const appendBrowseData = (data, container) => {
   });
 };
 
-const lrArrows = () => {
-  return `<div id="scrolling_btns">
-        
-    <div id="leftArrow">
+const sliderHead = (cl, cr, text) => {
+  return `
+  <h2><a href="">${text}</a></h2>
+  <div id="scrolling_btns">
+    <div id=${cl}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"  >
           <path d="M7 8l4 5.9L9.5 15 5.3 8.8a1.22 1.22 0 010-1.6L9.5 1 11 2.1z"></path>
         </svg>
     </div>
-    <div id="rightArrow">
+    <div id=${cr}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="right">
           <path d="M9 8L5 2.07 6.54 1l4.2 6.15a1.5 1.5 0 010 1.69L6.54 15 5 13.93z"></path>
         </svg>
     </div>
 </div>`;
 };
-const appendSlidData = (data, container) => {
+
+const appendBRSlidData = (data, container) => {
   container.innerHTML = null;
   data.forEach((el) => {
     let div = document.createElement("div");
-    // div.id = i + 1 + "d";
     let imgDiv = document.createElement("div");
     imgDiv.className = "slidImg";
     let img = document.createElement("img");
@@ -72,28 +73,62 @@ const appendSlidData = (data, container) => {
   });
 };
 
-const scrolling = (x, l, r) => {
-  let left = document.getElementById(l);
-  let right = document.getElementById(r);
-  console.log(left);
-  let id = `#${x}>div`;
-  console.log(id);
-  console.log(document.querySelectorAll("#slidCont > div"));
-  let product_boxes = [...document.querySelectorAll(id)];
-  console.log(product_boxes);
-
-  product_boxes.forEach((item, i) => {
-    let box_dimension = item.getBoundingClientRect();
-    let box_width = box_dimension.width;
-
-    left.addEventListener("click", () => {
-      item.scrollLeft += box_width;
-      console.log(left);
-    });
-    right.addEventListener("click", () => {
-      item.scrollLeft -= box_width;
-    });
+const appendHPSlidData = (data, container) => {
+  container.innerHTML = null;
+  data.forEach((el) => {
+    let div = document.createElement("div");
+    let imgDiv = document.createElement("div");
+    imgDiv.className = "slidImg";
+    let img = document.createElement("img");
+    img.src = el.url;
+    imgDiv.append(img);
+    let p = document.createElement("p");
+    p.className = "type";
+    p.innerText = el.type;
+    let h3 = document.createElement("h3");
+    h3.innerText = el.title;
+    h3.className = "title";
+    let views = document.createElement("p");
+    views.innerText = el.viewers;
+    views.className = "viewers";
+    div.append(imgDiv, p, h3, views);
+    container.append(div);
   });
 };
 
-export { appendBrowseData, lrArrows, appendSlidData, scrolling };
+const scrolling = (l, r) => {
+  var slides = document.querySelectorAll(".slidesCont>div");
+  var i = 0;
+  var mleft = 0;
+  l.addEventListener("click", () => {
+    prevItem();
+  });
+  r.addEventListener("click", () => {
+    nextItem();
+  });
+};
+const prevItem = () => {
+  if (i > 0 && i <= 2) {
+    mleft = 0;
+    slides[i - 1].style.marginLeft = mleft + "px";
+    i--;
+  }
+};
+const nextItem = () => {
+  if (i <= 1) {
+    mleft = -942;
+    i += 1;
+    slides[i - 1].style.marginLeft = mleft + "px";
+  }
+  if (i == 2) {
+    mleft = -60;
+    slides[i - 1].style.marginLeft = mleft + "px";
+  }
+};
+export {
+  sliderHead,
+  appendBRSlidData,
+  appendBrowseData,
+  appendHPSlidData,
+  scrolling,
+};

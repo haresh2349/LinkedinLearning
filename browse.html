@@ -130,8 +130,10 @@
             <div><a href="">Show All</a></div>
           </div>
         </div>
-        <div class="arrowDiv"></div>
-        <div id="slidCont"></div>
+        <div class="sliderDiv">
+          <div class="sliderHead"></div>
+          <div class="slidesCont"></div>
+        </div>
       </div>
     </div>
     <div id="footerdiv"></div>
@@ -141,8 +143,9 @@
 <script type="module">
   import {
     appendBrowseData,
-    lrArrows,
-    appendSlidData,
+    sliderHead,
+    appendBRSlidData,
+    appendHPSlidData,
     scrolling,
   } from "./scripts/export.js";
   import { header, footer } from "./scripts/main.js";
@@ -167,14 +170,14 @@
   let text2 = document.querySelector(".creative > h3");
   let icon3 = document.querySelector(".technology > div > svg");
   let text3 = document.querySelector(".technology > h3");
-  // let slidCont = document.getElementById("slidCont");
+  let slidesCont = document.querySelector(".slidesCont");
 
-  let arrowDiv = document.querySelector(".arrowDiv");
-  arrowDiv.innerHTML = lrArrows();
+  let sliderH = document.querySelector(".sliderHead");
+  sliderH.innerHTML = sliderHead();
 
   appendBrowseData(bussinessArr, gridContainer);
-  appendSlidData(bussCarouselArr, slidCont);
-  scrolling("slidCont", "leftArrow", "rightArrow");
+  appendBRSlidData(bussCarouselArr, slidesCont);
+  // scrolling("slidesCont", "leftArrow", "rightArrow");
 
   bussinessTab.addEventListener("click", () => {
     topicH2.innerText = "Bussiness Topics";
@@ -185,7 +188,7 @@
     icon3.classList.remove("active");
     text3.classList.remove("active");
     appendBrowseData(bussinessArr, gridContainer);
-    appendSlidData(bussCarouselArr, slidCont);
+    appendBRSlidData(bussCarouselArr, slidesCont);
   });
 
   creativeTab.addEventListener("click", () => {
@@ -198,7 +201,7 @@
     topicH2.innerText = "Creative Topics";
 
     appendBrowseData(creativeArr, gridContainer);
-    appendSlidData(creativeCarouselArr, slidCont);
+    appendBRSlidData(creativeCarouselArr, slidesCont);
   });
   techTab.addEventListener("click", () => {
     topicH2.innerText = "Technology Topics";
@@ -209,7 +212,29 @@
     icon3.classList.add("active");
     text3.classList.add("active");
     appendBrowseData(techArr, gridContainer);
-    appendSlidData(techCarouselArr, slidCont);
+    appendBRSlidData(techCarouselArr, slidesCont);
   });
+
+  let slides = document.querySelectorAll(".slidesCont>div");
+  let i = 0;
+
+  let mleft = 0;
+  const prevItem = () => {
+    if (i > 0 && i <= 2) {
+      mleft = 0;
+      slides[i - 1].style.marginLeft = mleft + "px";
+      i--;
+    }
+  };
+
+  const nextItem = () => {
+    if (i < 2) {
+      mleft = -760;
+      i += 1;
+      slides[i - 1].style.marginLeft = mleft + "px";
+    }
+  };
+  document.getElementById("leftArrow").addEventListener("click", prevItem);
+  document.getElementById("rightArrow").addEventListener("click", nextItem);
 </script>
 <script src="./scripts/browse.js"></script>

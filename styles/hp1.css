@@ -8,12 +8,14 @@
 #mainContainer {
   overflow: hidden;
 }
+#hcon {
+  z-index: 1;
+}
 #flexBox {
   position: relative;
   display: flex;
   width: 1128px;
   margin: auto;
-  z-index: -1;
   top: 100px;
 }
 #leftBox {
@@ -68,11 +70,12 @@
   width: 50%;
 }
 
-/* course container style  */
+/* explore course container style  */
 
 #courseContainer {
   width: 100%;
   background: #f3f2f0;
+  margin-bottom: 50px;
 }
 #courseContainer > div {
   max-width: 1128px;
@@ -108,6 +111,92 @@
 .active:hover {
   border-bottom: 3px solid #057642;
   color: #057642;
+}
+
+
+.sliderDiv {
+  max-width: 1128px;
+  margin: auto;
+}
+.sliderDiv > .sliderHead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sliderDiv > .sliderHead > h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.sliderDiv > .sliderHead > h2 > a{
+  text-decoration: none;
+  color: black;
+}
+.sliderDiv > .sliderHead > h2 > a:hover{
+  text-decoration: underline;
+}
+#scrolling_btns>div{
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+#scrolling_btns{
+  display: flex;
+  justify-content:end;
+}
+#scrolling_btns>div>svg{
+   
+    
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  text-align: center;
+  color: black;
+  text-align: center;
+}
+#scrolling_btns>div:hover{
+  border:2px solid green;
+  background-color: grey;
+}
+
+.slidesCont {
+  overflow: hidden;
+  display: flex;
+  grid-gap: 10px;
+  max-width: 1128px;
+  margin-top: 20px;
+}
+.slidesCont > div{
+  transition: margin-left 0.5s;
+}
+.type {
+  color: grey;
+  padding: 5px 5px;
+}
+.slidesCont > div > h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+
+}
+.slidesCont > div > h3:hover {
+  text-decoration: underline;
+}
+.slidImg {
+  width: 228px;
+  height: 134px;
+  border-radius: 2px;
+}
+.slidImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .topicContainer {
   display: flex;
@@ -246,8 +335,8 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  z-index: -1;
-  margin-bottom: 215px;
+  /* z-index: -1;  */
+  margin-bottom: 222px;
 }
 .lastContainer  > .imgCont {
   position: absolute;
@@ -257,7 +346,7 @@
   bottom: 0;
   width: 100%;
   height: 100%;
-  margin-top: 60px;
+  margin-top: 110px;
   transform: scale(1.5);
 }
 .lastContainer  > .imgCont img{
@@ -291,4 +380,6 @@
   color: rgba(0, 0, 0, 0.9);
 }
 
-
+#fullfooter {
+  overflow: hidden;
+}
