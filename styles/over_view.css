@@ -85,9 +85,16 @@ margin: 100px auto;
     display: flex;
    
    
+   
 }
 #related_courses>div img{
   width: 150px;
+}
+#related_courses>div>div{
+    margin: 0px 5px;
+}
+#related_courses>div>div:nth-of-type(2)>p:nth-of-type(2){
+  color: grey;
 }
 #related_courses::-webkit-scrollbar{
     width: 1px;
@@ -99,6 +106,7 @@ margin: 100px auto;
     height: 400px;
     overflow: scroll;
     overflow-x: hidden;
+    margin-top: 10px;
 
 }
 #other_courses_box>div>div{
