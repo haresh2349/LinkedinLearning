@@ -1,0 +1,630 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: myriad-pro, sans-serif;
+    
+}
+
+.pagecon{
+    
+    max-width: 1558px;
+    margin: auto;
+
+    
+}
+
+
+/* Navbar */
+
+.fillcolor {
+    
+        overflow: hidden;
+        position: fixed;
+        border-bottom: 2px solid #0877b3;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        height: 50px;
+     
+        background-color:white;
+      }
+
+    
+      .fillcolor>div{
+          max-width: 1220px;
+          
+          margin: auto;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          
+      }
+      .fillcolor>div>.logo{
+          display: flex;
+          width: 13%;
+          height: 60%;
+          align-items: center;
+          justify-content: center;
+          padding-top: 10px;
+          gap:10px;
+      }
+      .fillcolor>div>.logo:hover{
+          border-bottom: 3px solid #007dba;
+      }
+     
+      .fillcolor>div>div:last-child{
+          width: 55%;
+          height: 100%;
+          
+          align-items: left;
+          justify-content: left;
+          display: flex;
+          
+          align-items: center;
+          justify-content: center;
+          gap:10px;
+          
+
+      }
+
+      .fillcolor>div>div:last-child>div{
+        padding-left: 23px;
+        color: #007dba;
+        font-family: /* Roman */ Source Sans Pro, Helvetica, Arial, sans-serif, /* CJK */ Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, /* Arabic */ Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, /* Thai */ Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, /* Sans Fallbacks */
+         Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', /* CJK Fallbacks */ Heiti SC, Microsoft Yahei, Segoe UI;
+         font-weight: 600;
+         
+        
+      }
+
+      .fillcolor>div>div:last-child>div>a{
+          text-decoration:none;
+          color: #007dba;
+        font-family: /* Roman */ Source Sans Pro, Helvetica, Arial, sans-serif, /* CJK */ Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, /* Arabic */ Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, /* Thai */ Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, /* Sans Fallbacks */
+         Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', /* CJK Fallbacks */ Heiti SC, Microsoft Yahei, Segoe UI;
+         font-weight: 600;
+      }
+      .fillcolor>div>div:last-child>div>a:hover{
+          transition: all 0.6s;
+          text-decoration: underline;
+          
+      }
+
+      .fillcolor>div>div:last-child>div>p{
+          color: rgb(202, 192, 192);
+      }
+    
+      .fillcolor>div>div:last-child>div>button{
+        border-radius: 3px;
+        background-color: white;
+        border: 2px solid #0073b1;
+        color: #0073b1;
+        width: 140px;
+        height: 27px;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .fillcolor>div>div:last-child>div>button:hover{
+        background-color: rgb(212, 232, 252);
+        border: 3px solid #0073b1;
+      }
+
+
+
+
+
+
+
+
+      #secnav{
+        display: flex;  
+        height: 70px;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: auto;
+        background-color: #e7eef5;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        
+    
+    }
+
+    .maxwith{
+        max-width: 1208px;
+        margin: auto;
+    }
+
+#secnav>p{
+ 
+
+position: absolute;
+font-size: 17px;
+    
+}
+#secnav>p>a{
+    text-decoration: none;
+    color:  #0073b1;
+}
+#secnav>p>a:hover{
+    text-decoration: underline;
+}
+
+
+
+.frontimage{
+
+   background-image: url('https://content.linkedin.com/content/dam/me/author-training/amp-test-images/jan/lls-solutions-pages-edu/bg/01-dsk-b-v02.jpg.original.jpg');
+   
+   height: 370px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
+}
+
+.tagline{
+    font-family: sans-serif;
+    
+    width: 380px;
+    height: 340px;
+    padding: 2% 12%;
+}
+
+.tagline>h1{
+    font-size: 45px;
+    color: #2b2a29;
+    font-weight: 30;
+}
+.tagline>p{
+   
+    font-family: sans-serif;
+}
+.tagline>.contect{
+    background-color: #0073b1;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+.tagline>button{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+    width: 200px;
+    height: 35px;
+
+}
+
+.contect+button:hover{
+  background-color: rgb(212, 232, 252);
+ 
+}
+
+
+
+.afterTag{
+    height: 140px;
+    width: 100%;
+
+    background-color:  #004183;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.afterTag>div>div>p>a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+}
+.afterTag>div{
+   display: flex;
+   
+  height: 80px;
+
+    width: 70%;
+    font-family: sans-serif;
+  
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+.afterTag>div>div>p{
+    
+    font-size: 20px;
+    
+    
+   
+}
+.afterTag>div>div{
+  
+    width: 27%;
+}
+.afterTag>div>p>a:hover{
+    text-decoration: underline;
+}
+.afterTag>div>div{
+    border-right: 3px solid white;
+   
+}
+.afterTag>div>div:nth-child(3){
+    border-right: none;
+}
+
+.meet{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 42px;
+    margin-left: 120px;
+    font-weight: 100;
+}
+
+.meet+img{
+    margin-left: 120px;
+    width:80%;
+    padding-top: -40px;
+}
+.meet+img+div{
+    margin-left: 120px;
+    width:80%;
+}
+.socialmedia{
+    display: flex;
+    background-image: url("https://content.linkedin.com/content/dam/me/author-training/amp-test-images/jan/lls-solutions-pages-edu/bg/08-dsk-b-v6.jpg.original.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: content;
+    position: relative;
+    width:80%;
+    margin: auto;
+    gap: 10px;
+    justify-content: flex-end;   
+}
+
+.socialmedia>div{
+   
+    width: 500px;
+    
+}
+
+.sidepara{
+    font-size: 21px;
+}
+.socialmedia>div>.expbutton{
+    background-color: #0073b1;
+    color: white;
+    width: 120px;
+    height: 35px;
+    
+}
+.socialmedia>div>button{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+ 
+    height: 35px;
+    width: 145px;
+}
+.socialmedia>div{
+
+    width: 300px;
+}
+
+.socialmedia>div>.expbutton+button:hover{
+ background-color: rgb(212, 232, 252);
+}
+
+/* partner */
+
+.partner{
+    height:720px;
+    background-color: #fcf9f2;
+    display: flex;
+    margin: auto;
+}
+
+.partner>div{
+   
+    width: 70%;
+    height: 90%;
+    margin: auto;
+}
+
+.partnerDiv{
+    display: flex;
+    margin: auto;
+    gap: 3%;
+}
+.partnerDiv>div{
+    width: 52%;
+    height: 95%;
+ 
+   
+}
+
+.partnerDiv>div+div{
+    width: 43%;
+    height: 86%;
+}
+.partnerDiv>div+div{
+    border-radius: 4px;
+}
+
+
+.partnerDiv>div+div>img,.partner>div>div>img{
+    width: 100%;
+}
+.partnerDiv>div+div>img{
+    height: 100%;
+}
+
+.partnerDiv>div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+}
+.partner>div>div>p+img{
+    margin-top: -20px;
+}
+.partnerDiv>div>p+img+p,.partnerDiv>div>p+img+p+p{
+    font-size:20px;
+}
+
+.expbutton{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+ 
+    height: 35px;
+    width: 145px;
+}
+.expbutton:hover{
+    background-color: rgb(212, 232, 252);
+   }
+
+   .partnerDiv>div>div{
+       display:flex;
+       border-radius: 4px;
+       background-color: white;
+       align-items: center;
+       margin-top: 4%;
+       height: 110px;
+       font-size: 14px;
+       gap: 15px;
+      
+   }
+  
+   /* buddha page */
+   
+   .buddha{
+       display: flex;
+       width: 90%;
+       height: 500px;
+       
+       margin: auto;
+       gap: 15px;
+   }
+   .buddha>div{
+      width: 38%;    
+       height: 100%;
+
+   }
+   .buddha>div+div{
+    width: 60%;
+       height: 100%;
+     
+   }
+   .buddha>div>img{
+       height: 90%;
+       width: 100%;
+   }
+   .buddha>div>img+p{
+       font-size: 13px;
+   }
+   .buddha>div>img+p:first-word{
+     font-size: 18px;
+   }
+   .buddha>div+div>img{
+      height:2px;
+   }
+
+   .buddha>div+div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+   }
+
+   .buddha>div+div>p+img+p,.buddha>div+div>p+img+p+p{
+    font-size:17px;
+   }
+
+   .buddha>div+div>div{
+    
+       display:flex;
+       background-color: #f6fbfe;
+       margin: auto;
+       gap: 10px;
+       align-items: center;
+       margin-top: 4%;
+   }
+
+
+   /* Resource page */
+
+   .fullcolor{
+      
+    width: 100%;
+    background-color: #fcf9f2;
+    margin-left: auto;
+   }
+   .resources{
+       font-size: 30px;
+       color: #2b2a29;
+       text-align: center;
+   }
+
+   .resources+div{
+       display: flex;
+       width: 82%;
+       height: 290px;
+      
+       margin: auto;
+       gap: 22px;
+      
+       
+   }
+
+   .resources+div>div{
+       width: 23%;
+       height:100%;
+       
+       box-sizing: border-box;
+   }
+   .resources+div>div>img{
+       width: 100%;
+       height: 45%;
+   }
+   .resources+div>div>h3{
+       font-size: 15px;
+       font-family: sans-serif;
+       color: #2b2a29;
+   }
+   .resources+div>div>p{
+       font-size: 12px;
+       color: #2b2a29;
+   }
+   .resources+div>div>h4>a{
+    color:#64aacf;
+   }
+
+   /* Last input */
+
+    .lastinput{
+      display: flex;
+       width: 100%;
+      
+       height: 750px;
+       background-color: #e7eef5;
+       margin: auto;
+   }
+   .lastinner{
+       display: flex;
+       width: 80%;
+       height: 92%;
+  
+        gap: 20px;
+        margin: auto;
+        
+   }
+   .lastinner>div{
+    align-items: center;
+       width: 49%;
+       height:100%;
+   }
+   .lastinner>div>div{
+       width: 70%;
+       height: 110px;
+       color: #2b2a29;
+       
+   }
+   .lastinner>div>div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+   }
+   .lastinner>div>p{
+    color: #2b2a29;
+    font-size: 17px;
+    line-height: 25px;   
+   } 
+  
+  
+.inputbox>h1{
+    font-family: "Helvetica Neue",Helvetica;
+       text-align: center;
+       font-size: 42px;
+       color: #2b2a29;
+       font-weight: 80;
+}
+  
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputbox>input{
+    width: 370px;
+    height:24px;
+
+}
+.inputbox>button{
+    margin-left: -37%;
+    background-color: #0073b1;
+    border: 2px solid #0073b1;
+    border-radius: 3px;
+    color: white;
+    width: 160px;
+    height: 35px;
+}
+
+.inputbox>input{
+    margin-top: 12px;
+}
+
+.inputbox>button:hover{
+    background-color: #0c5881;
+}
+
+.inputbox>#lastpara{
+    font-size: 13px;
+    margin-left: 110px;
+    line-height: 15px;
+
+}
+
+.inputbox>#lastp{
+    font-size: 34px;
+    font-weight: 100;
+    margin-left: -30px;
+}
+
+ /* footer */
+
+ .foot{
+    display: flex;
+    width: 60%;
+    height: 60px;
+ 
+
+    gap: 50px;
+    align-items: center;
+    margin: auto;
+}
+
+.foot>p>a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.foot>p>a:hover{
+    text-decoration: underline;
+}

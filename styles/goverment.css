@@ -1,0 +1,891 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: myriad-pro, sans-serif;
+    
+}
+
+.pagecon{
+    
+    max-width: 1558px;
+    margin: auto;
+
+    
+}
+
+
+/* Navbar */
+
+.fillcolor {
+    
+        overflow: hidden;
+        position: fixed;
+        border-bottom: 2px solid #0877b3;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        height: 50px;
+        background-color:white;
+      }
+
+    
+      .fillcolor>div{
+          max-width: 1220px;
+          
+          margin: auto;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+      }
+      .fillcolor>div>.logo{
+          display: flex;
+          width: 13%;
+          height: 60%;
+          align-items: center;
+          justify-content: center;
+          padding-top: 10px;
+          gap:10px;
+      }
+      .fillcolor>div>.logo:hover{
+          border-bottom: 3px solid #007dba;
+      }
+     
+      .fillcolor>div>div:last-child{
+          width: 55%;
+          height: 100%;
+          
+          align-items: left;
+          justify-content: left;
+          display: flex;
+          
+          align-items: center;
+          justify-content: center;
+          gap:10px;
+          
+
+      }
+
+      .fillcolor>div>div:last-child>div{
+        padding-left: 23px;
+        color: #007dba;
+        font-family: /* Roman */ Source Sans Pro, Helvetica, Arial, sans-serif, /* CJK */ Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, /* Arabic */ Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, /* Thai */ Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, /* Sans Fallbacks */
+         Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', /* CJK Fallbacks */ Heiti SC, Microsoft Yahei, Segoe UI;
+         font-weight: 600;
+         
+        
+      }
+
+      .fillcolor>div>div:last-child>div>a{
+          text-decoration:none;
+          color: #007dba;
+        font-family: /* Roman */ Source Sans Pro, Helvetica, Arial, sans-serif, /* CJK */ Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, /* Arabic */ Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, /* Thai */ Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, /* Sans Fallbacks */
+         Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', /* CJK Fallbacks */ Heiti SC, Microsoft Yahei, Segoe UI;
+         font-weight: 600;
+      }
+      .fillcolor>div>div:last-child>div>a:hover{
+          transition: all 0.6s;
+          text-decoration: underline;
+          
+      }
+
+      .fillcolor>div>div:last-child>div>p{
+          color: rgb(202, 192, 192);
+      }
+    
+      .fillcolor>div>div:last-child>div>button{
+        border-radius: 3px;
+        background-color: white;
+        border: 2px solid #0073b1;
+        color: #0073b1;
+        width: 140px;
+        height: 27px;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .fillcolor>div>div:last-child>div>button:hover{
+        background-color: rgb(212, 232, 252);
+        border: 3px solid #0073b1;
+      }
+
+
+
+
+
+
+
+
+
+
+#secnav{
+    display: flex;  
+    height: 70px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    background-color: #e7eef5;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+
+}
+
+#secnav>p{
+ 
+
+position: absolute;
+font-size: 17px;
+    
+}
+#secnav>p>a{
+    text-decoration: none;
+    color:  #0073b1;
+}
+#secnav>p>a:hover{
+    text-decoration: underline;
+}
+
+.frontimage{
+
+   background-image: url('https://content.linkedin.com/content/dam/me/author-training/amp-test-images/jan/lls-solutions-pages-gov/bg/01-dsk-b-v02.jpg.original.jpg');
+   
+   height: 370px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
+}
+
+.tagline{
+  
+    font-family: "myriad-pro", sans-serif;
+    width: 380px;
+    height: 340px;
+    padding: 2% 12%;
+}
+
+.tagline>h2{
+
+    color: #2b2a29;
+    font-weight: 30;
+    font-size:28px;
+}
+
+.tagline>.contect{
+    background-color: #0073b1;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+.tagline>button{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+    width: 200px;
+    height: 35px;
+
+}
+
+.contect+button:hover{
+  background-color: rgb(212, 232, 252);
+ 
+}
+.fullcolor{
+      
+    width: 100%;
+    background-color: #fcf9f2;
+    margin-left: auto;
+}
+.tagline>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-weight: 10;
+    font-size:22px;
+    font-weight: inherit;
+}
+
+/* second page */
+
+
+.afterTag{
+    height: 140px;
+    width: 100%;
+
+    background-color:  #004183;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.afterTag>div>div>p>a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+}
+.afterTag>div{
+   display: flex;
+   
+  height: 80px;
+
+    width: 70%;
+    font-family: sans-serif;
+  
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+.afterTag>div>div>p{
+    
+    font-size: 20px;
+    
+    
+   
+}
+.afterTag>div>div{
+  
+    width: 24%;
+}
+.afterTag>div>p>a:hover{
+    text-decoration: underline;
+}
+.afterTag>div>div{
+    border-right: 3px solid white;
+}
+.afterTag>div>div:nth-child(4){
+    border-right: none;
+}
+
+
+.meet{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 38px;
+    margin-left: 120px;
+    font-weight: 100;
+}
+
+.meet+img{
+    margin-left: 120px;
+    width:80%;
+}
+.meet+img+div{
+    margin-left: 120px;
+    width:70%;
+}
+
+/* social media */
+
+.socialmedia{
+    display: flex;
+    background-image: url("https://content.linkedin.com/content/dam/me/author-training/amp-test-images/jan/lls-solutions-pages-gov/bg/08-dsk-b-v04.jpg.original.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: content;
+    position: relative;
+    width:80%;
+    margin: auto;
+    gap: 10px;
+    justify-content: flex-end;   
+}
+
+.socialmedia>div{
+    width: 500px;
+}
+
+.sidepara{
+    
+    font-size: 19px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+.sidepara+p{
+    margin-top: 30px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+.sidepara>img{
+    width: 20px;
+    height: 20px;
+}
+.socialmedia>div>.expbutton{
+    background-color: #0073b1;
+    color: white;
+    width: 120px;
+    height: 35px;
+    
+}
+.socialmedia>div>button{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+ 
+    height: 35px;
+    width: 145px;
+}
+.socialmedia>div{
+
+    width: 300px;
+}
+
+.socialmedia>div>.expbutton+button:hover{
+ background-color: rgb(212, 232, 252);
+}
+
+/* partner page */
+
+.partner{
+    height:720px;
+    display: flex;
+    margin: auto;
+}
+
+.partner>div{
+   
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+
+.partnerDiv{
+    display: flex;
+    margin: auto;
+    gap: 4%;
+}
+.partnerDiv>div{
+    width: 55%;
+    height: 100%;
+ 
+   
+}
+
+.partnerDiv>div+div{
+    width: 43%;
+    height: 100%;
+}
+.partnerDiv>div+div{
+    border-radius: 4px;
+}
+
+
+.partnerDiv>div+div>img,.partner>div>div>img{
+    width: 100%;
+}
+
+.partnerDiv>div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+}
+.partner>div>div>p+img{
+    margin-top: -20px;
+}
+.partnerDiv>div>p+img+p,.partnerDiv>div>p+img+p+p{
+    font-size:19px;
+}
+
+
+   .partnerDiv>div>div{
+       border-radius: 4px;
+       background-color: 
+       #f5faf3;
+       height: 300px;
+   }
+ #sideDiv>p{
+   font-size: 14px;
+ }
+ .partnerDiv>div>div>div{
+     width: 90%;
+     margin: auto;
+     height: 280px;
+ }
+ .partnerDiv>div>div>div>.oneclass{
+     font-size: 13px;
+ }
+ .partnerDiv>div>div>div>.oneclass+img{
+     width: 100%;
+ }
+
+ /* vudaa*/
+
+ .buddha{
+    display: flex;
+    width: 65%;
+    height: 550px;
+    padding-top: 30px;
+    margin: auto;
+    margin-top: 4%;
+    gap: 4%;
+}
+.buddha>div{
+   width: 38%;    
+    height: 90%;
+
+}
+.buddha>div+div{
+ width: 60%;
+    height: 100%;
+    margin-top: -30px;
+  
+}
+.buddha>div>img{
+    height: 99%;
+    width: 100%;
+}
+.buddha>div>img+p{
+    font-size: 13px;
+}
+.buddha>div>img+p:first-word{
+  font-size: 18px;
+}
+.buddha>div+div>img{
+   height:2px;
+}
+
+.buddha>div+div>p{
+ font-family: "Helvetica Neue",Helvetica;
+ color: #2b2a29;
+ font-size: 34px;
+ font-weight: 80;
+}
+
+.buddha>div+div>p+img+p,.buddha>div+div>p+img+p+p{
+ font-size:17px;
+}
+
+.buddha>div+div>div{
+ 
+    display:flex;
+    background-color: #f6fbfe;
+    margin: auto;
+    gap: 10px;
+    align-items: center;
+    margin-top: 4%;
+    height: 130px;
+}
+.lightblue{
+      
+    width: 100%;
+    background-color: #fcf9f2;
+    margin: auto;
+    height: 580px;
+   
+}
+.maxwith{
+    max-width: 1208px;
+    margin: auto;
+}
+
+
+
+
+.buddha>div>.expbutton{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+    margin-top: 0px;
+    height: 35px;
+    width: 145px;
+}
+.buddha>div>.expbutton:hover{
+    background-color: rgb(212, 232, 252);
+}
+
+/* workplace */
+
+#workplace{
+    display: flex;
+    width: 100%;
+    background-color: #f5fafe;
+    margin: auto;
+    height: 250px;
+}
+
+#workplace>div {
+    display: flex;
+    width: 65%;
+    height: 190px;
+    margin: auto;
+}
+
+#workplace>div>div{
+    width: 30%;
+    height : 90%;
+    margin: auto;
+}
+#workplace>div>div+div{
+    width: 65%;
+    height: 100%;
+  
+    margin: auto;
+}
+
+#workplace>div>div>img{
+    width: 100%;
+    height: 100%;
+}
+#workplace>div>div+div>h2{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    color: rgb(71, 60, 60);
+}
+#workplace>div>div+div>button{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+ 
+    height: 35px;
+    width: 145px;
+}
+#workplace>div>div+div>button:hover{
+    background-color: rgb(212, 232, 252);
+}
+
+.fullcolor1{
+      
+    width: 100%;
+    background-color: white;
+    margin: auto;
+}
+.partner{
+    height:590px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+}
+
+.partner>div{
+   
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+
+.partnerDiv{
+    display: flex;
+    margin: auto;
+    gap: 2%;
+}
+.partnerDiv>div{
+    width: 55%;
+    height: 95%;
+ 
+   
+}
+
+.partnerDiv>div+div{
+    width: 43%;
+    height: 90%;
+}
+.partnerDiv>div+div{
+    border-radius: 4px;
+}
+
+
+.partnerDiv>div+div>img,.partner>div>div>img{
+    width: 100%;
+    
+}
+
+.partnerDiv>div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+}
+.partner>div>div>p+img{
+    margin-top: -20px;
+    
+}
+.partnerDiv>div>p+img+p,.partnerDiv>div>p+img+p+p{
+    font-size:20px;
+}
+
+.expbutton{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+ 
+    height: 35px;
+    width: 145px;
+    margin-top: 20px;
+}
+.expbutton:hover{
+    background-color: rgb(212, 232, 252);
+   }
+
+   .partnerDiv>div>div{
+       display:flex;
+       border-radius: 4px;
+       background-color: rgb(226, 232, 237);
+       align-items: center;
+       margin-top: 4%;
+       height: 110px;
+       font-size: 14px;
+       gap: 15px;
+      
+   }
+   .partnerDiv>div+div>img{
+    height: 100%;
+   }
+   .partnerDiv>div+div>img+p{
+       font-size: 16px;
+   }
+
+
+   #greenColor{
+       display: flex;
+       width: 82%;
+       height: 130px;
+       background-color: #44712e;
+       margin: auto;
+   }
+   #greenColor>div{
+       display: flex;
+       width: 90%;
+       height: 90px;
+       margin: auto;
+       gap: 22px;
+   }
+   #greenColor>div>h2{
+       color: white;
+       font-family: "Helvetica Neue",;
+   }
+   #twoDiv{
+       display:grid;
+       width: 82%;
+       height:500px;
+       margin: auto;
+       grid-template-columns: 60% 40%;
+   }
+   #twoDiv>div{
+    background-color:#faf9f7;
+   }
+   #twoDiv>div+div{
+       background-color:#e2f1da;
+   }
+   #twoDiv>div>div{
+      
+       width: 80%;
+       height: 400px;
+       margin: auto;
+       margin-top: 30px;
+   }
+   #twoDiv>div>div>p{
+       font-size: 20px;
+       color: #2b2a29;
+   }
+   #twoDiv>div>div>p:last-child{
+       font-size: 16px;
+       color: #4f4e4c;
+   }
+
+   #twoDiv>.firsttwoDiv>div{
+       width: 90%;
+       height: 80%;
+       
+   }
+   #twoDiv>.firsttwoDiv>div>h4{
+      color: rgb(73, 69, 69);
+      font-family: "Helvetica Neue",Helvetica,Arial;
+      font-size: 20px;
+   }
+
+   #twoDiv>.firsttwoDiv>div>div{
+       display: flex;
+       width: 100%;
+       height: 180px;
+       gap: 12px;
+   }
+   #twoDiv>.firsttwoDiv>div>div>div{
+       width: 31%;
+       height: 180px;
+   }
+
+
+
+   .partner1{
+    height:720px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+}
+
+.partner1>div{
+   
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+
+.partnerDiv1{
+    display: flex;
+    margin: auto;
+    gap: 2%;
+}
+.partnerDiv1>div{
+    width: 55%;
+    height: 95%;
+ 
+   
+}
+
+.partnerDiv1>div+div{
+    width: 43%;
+    height: 90%;
+}
+.partnerDiv1>div+div{
+    border-radius: 4px;
+}
+
+
+.partnerDiv1>div+div>img,.partner>div>div>img{
+    width: 100%;
+    
+}
+
+.partnerDiv1>div>p{
+    font-family: "Helvetica Neue",Helvetica;
+    color: #2b2a29;
+    font-size: 34px;
+    font-weight: 80;
+}
+.partner>div>div>p+img{
+    margin-top: -20px;
+    
+}
+.partnerDiv1>div>p+img+p,.partnerDiv1>div>p+img+p+p{
+    font-size:20px;
+}
+
+.expbutton{
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #0073b1;
+    color: #0073b1;
+ 
+    height: 35px;
+    width: 145px;
+    margin-top: 20px;
+}
+.expbutton:hover{
+    background-color: rgb(212, 232, 252);
+   }
+
+   .partnerDiv1>div>div{
+       display: flex;
+       border-radius: 4px;
+       background-color: rgb(226, 232, 237);
+       align-items: center;
+       margin-top: 4%;
+       height: 200px;
+       font-size: 14px;
+       gap: 15px;
+      
+   }
+   .partnerDiv1>div>div>div{
+       width: 90%;
+       margin: auto;
+   }
+   .partnerDiv1>div+div>img{
+    height: 100%;
+
+   }
+   .partnerDiv1>div+div>img+p{
+       font-size: 16px;
+   }
+   .partnerDiv1>div>div>div>img{
+       width: 90%;
+   }
+   .partnerDiv1>div>div>div>p+p{
+       font-size: 12px;
+       color: #4f4e4c;
+   }
+
+   .col-md{
+     display: grid;
+    width: 100%;
+    background-color: 
+    #e7eef6;
+     margin: auto;
+    height: 360px;
+    grid-template-columns: 47% 51%;
+    gap: 2%;
+    border-bottom:  2px solid rgb(181, 177, 177);
+   }
+
+   .col-md>div{
+     display: flex;
+     width: 100%;
+   }
+   .col-md>div>img{
+       width: 100%;
+       height: 100%;
+   }
+   .col-md>div>div{
+       width: 75%;
+       height: 180px;
+       margin: auto;
+   }
+   .col-md>div>div>h2{
+       font-family: "Source Sans Pro", Helvetica, Arial, sans-serif, "Hiragino Kaku Gothic Pro", Meiryo, "Hiragino Sans GB W3", "Noto Naskh Arabic", "Droid Arabic Naskh", "Geeza Pro", "Simplified Arabic", "Noto Sans Thai", Thonburi, Dokchampa, "Droid Sans Thai", "Droid Sans Fallback", -apple-system, ".SFNSDisplay-Regular", "Heiti SC", "Microsoft Yahei", "Segoe UI";
+       line-height:
+48px;
+vertical-align:
+baseline;
+letter-spacing:
+normal;
+word-spacing:
+0px;
+
+font-weight:
+200;
+font-style:
+normal;
+font-variant:
+normal;
+text-transform:
+none;
+text-decoration:
+none solid rgba(0, 0, 0, 0.85);
+text-align:
+left;
+text-indent:
+0px;
+font-size: 38px;
+color: rgb(60, 55, 55);
+    }
+
+    /* footer */
+
+    .foot{
+        display: flex;
+        width: 60%;
+        height: 60px;
+     
+    
+        gap: 50px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .foot>p>a{
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+        
+
+    }
+
+    .foot>p>a:hover{
+        text-decoration: underline;
+    }

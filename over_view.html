@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overview</title>
+    <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://use.typekit.net/xsg5fgy.css">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <link rel="stylesheet" href="./styles/slidebar.css">
+
+    <link rel="icon" href="https://sweet-teal-alpaca.faviconkit.com/lynda.com/256" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./styles/fixed_bar.css">
+    <link rel="stylesheet" href="./styles/over_view.css">
+</head>
+<body>
+    <div id="hcon"></div>
+    <div id="pagecon">
+        <div id="empty_div"></div>
+      <div id="course_overview_box"></div>
+      <div id="big_box">
+       <div id="course_description_div">
+           <h4>Description</h4>
+           <p></p>
+       </div>
+       <div id="related_courses">
+       <h4>Related Courses</h4>
+      </div>
+      <div id="other_courses_box">
+          <h4>Other courses you might be interested in.</h4>
+          <div></div>
+      </div>
+    </div>
+     <div id="footerdiv"> </div>  
+    
+</body>
+</html>
+<script type="module">
+
+import {header,footer} from "./scripts/main.js";
+    header();
+    footer();    
+ import {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div,overview_box} from "./scripts/slider.js";
+//
+//
+//
+//
+
+let  courses_data = JSON.parse(localStorage.getItem("course_overview"));
+console.log(courses_data);
+let course_overview_box = document.getElementById("course_overview_box");
+course_overview_box.innerHTML = overview_box();
+let overview = document.getElementById("overview_box");
+overview.style.backgroundImage = `url(${courses_data.image_url})`
+let heading = document.querySelector("#overview_box>div>h1");
+heading.innerText = `${courses_data.name}`;
+console.log(heading)
+//
+//
+//
+//
+
+let course_description_div = document.querySelector("#course_description_div>p")
+console.log(course_description_div)
+course_description_div.innerText = `${courses_data.course_description}`
+
+///
+
+let related_courses_data = JSON.parse(localStorage.getItem("weekly_top_courses"));
+console.log(related_courses_data)
+let append_related_courses =(data)=>{
+    let main_div = document.getElementById("related_courses");
+    data.map(el=>{
+     let div = get("div");   
+     let img_div = get("div");
+     let img = get("img");
+     let content_div = get("div");
+    img.src = el.image_url;
+    img_div.append(img);
+    let title = get("p");
+    let tag = get("p");
+    let created_by = get("p");
+    title.innerText = el.name;
+    tag.innerText = el.tag
+    created_by.innerText = el.created
+    content_div.append(title,tag,created_by)
+    div.append(img_div,content_div);
+    main_div.appendChild(div)
+
+    })
+}
+append_related_courses(related_courses_data);
+
+let other_courses_data =  JSON.parse(localStorage.getItem("new_releases"));
+console.log(other_courses_data)
+ let append_other_courses_data=(data)=>{
+     let main_div = document.querySelector("#other_courses_box>div");
+
+     data.map(el=>{
+         let data_div = document.createElement("div");
+         let tag_div = document.createElement("div");
+         tag_div.setAttribute("class","tag_div")
+         tag_div.innerHTML = "<h5>POPULAR</h5>"
+         let thumb_img = document.createElement("img");
+         thumb_img.src = el.image_url;
+         let title = document.createElement("p");
+         title.innerText = el.name;
+        let course = document.createElement("h4");
+        course.innerText = "course";
+        let created_by = document.createElement("h4");
+        created_by.innerText = el.created;
+        let des = document.createElement("p");
+        des.innerText = el.description;
+       
+
+         data_div.append(tag_div,thumb_img,course,title,created_by,des);
+         data_div.addEventListener("click",function(){
+             localStorage.setItem("course_overview",JSON.stringify(el));
+             window.location.href="over_view.html"
+         })
+         main_div.append(data_div);
+      });
+ }
+ append_other_courses_data(other_courses_data)
+
+</script>
+<script src="./scripts/data.js"></script>
+<script src="./scripts/slider.js"></script>
