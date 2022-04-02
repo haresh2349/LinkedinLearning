@@ -226,9 +226,10 @@
     transition: margin-left 0.5s;
     overflow-y: hidden;
 }
-.slidesCont > div:hover{
-  /* height: 300px; */
-}
+/* .slidesCont > div:hover{
+  transform: scaleY(2);
+  font-size: 15px;
+} */
 .slidesCont > div > div > img {
   width: 100%;
   object-fit: cover;
