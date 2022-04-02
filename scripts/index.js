@@ -1,18 +1,18 @@
 //  //     onscroll function  //////////////////////////////////////////////////////
-    window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
-    function scrollFunction() {
+function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         let header = document.querySelector("#header");
         console.log();
         header.style.boxShadow = "0px 3px 5px -1px rgba(50, 50, 93, 0.25)";
         // box-shadow: rgba(50, 50, 93, 0.25) , rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
         // box-shadow:  , rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-       
+
     } else {
         document.querySelector("#header").style.boxShadow = "none";
     }
-    }
+}
 //  //      onscroll function  end //////////////////////////////////////////////////
 
 
@@ -48,13 +48,13 @@ function header() {
                 </svg>
             </button>
         </div>
-        <div id="sups"><a href="">Start free trial</a></div>
+        <div id="sups"><a href="./trial.html">Start free trial</a></div>
         <div id="signbtn"><a href="">Sign In</a></div>
     </div>
 </div>`
-  }
+}
 
-  function footer() {
+function footer() {
     let footer = document.getElementById("fullfooter");
     footer.innerHTML = `<div id="footerdiv">
     <div id="foot1">
@@ -208,5 +208,5 @@ function header() {
         <div><a href="">Language⯆</a></div>
     </div>
 </div>`
-  }
-  export {header,footer} ;
+}
+export { header, footer };
