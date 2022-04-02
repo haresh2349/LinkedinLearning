@@ -3,7 +3,7 @@ function header() {
     header.innerHTML = ` <div id="header">
     <div id="nav">
         <div>
-            <a id="logo" href="./index.html">
+            <a id="logo" href="./main.html">
                 <svg viewBox="0 0 28 28" data-supported-dps="28x28" width="28" height="28" focusable="false">
                     <g transform="scale(.5833)" fill="none" fill-rule="evenodd">
                         <path
