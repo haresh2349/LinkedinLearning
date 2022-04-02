@@ -1,2 +1,2 @@
-let div = document.querySelectorAll(".slidBox");
-console.log(div);
+// let div = document.querySelectorAll(".bussCont > div");
+// console.log(div);

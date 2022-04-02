@@ -333,7 +333,6 @@
     );
     i = 0;
     let bussCrsSlides = document.querySelectorAll(".bussCourseCont>div");
-    // slides = bussCrsSlides;
     document.querySelector("#bussCrsLA").addEventListener("click", () => {
       prevItem(bussCrsSlides);
     });
@@ -412,25 +411,50 @@
   );
 
   let tmSlides = document.querySelectorAll(".tm_courses>div");
+  console.log(tmSlides);
+  let j = 0;
+  let tmScroll = 0;
   document.querySelector("#tmLeftArrow").addEventListener("click", () => {
-    prevItem(tmSlides);
+    if (j > 0 && j <= 2) {
+      tmScroll = 0;
+      tmSlides[j - 1].style.marginLeft = tmScroll + "px";
+      j--;
+    }
   });
   document.querySelector("#tmRightArrow").addEventListener("click", () => {
-    if (i == 2) {
-      i = 0;
+    if (j < 1) {
+      console.log(j);
+      tmScroll = -948;
+      j += 1;
+      console.log(j);
+      tmSlides[j - 1].style.marginLeft = tmScroll + "px";
+    } else if (j == 1) {
+      tmScroll = -60;
+      j += 1;
+      tmSlides[j - 1].style.marginLeft = tmScroll + "px";
     }
-    nextItem(tmSlides);
-    console.log(i, "i");
   });
   let ssSlides = document.querySelectorAll(".ss_courses>div");
+  let k = 0;
+  let ssScroll = 0;
   document.querySelector("#ssLeftArrow").addEventListener("click", () => {
-    prevItem(ssSlides);
+    if (k > 0 && k <= 2) {
+      ssScroll = 0;
+      ssSlides[k - 1].style.marginLeft = ssScroll + "px";
+      k--;
+    }
   });
   document.querySelector("#ssRightArrow").addEventListener("click", () => {
-    if (i >= 2) {
-      i = 0;
+    if (k < 1) {
+      //   console.log(j);
+      ssScroll = -948;
+      k += 1;
+      //   console.log(j/);
+      ssSlides[k - 1].style.marginLeft = ssScroll + "px";
+    } else if (k == 1) {
+      ssScroll = -60;
+      k += 1;
+      ssSlides[k - 1].style.marginLeft = ssScroll + "px";
     }
-    nextItem(i, mleft, ssSlides);
-    console.log(i, "i");
   });
 </script>
