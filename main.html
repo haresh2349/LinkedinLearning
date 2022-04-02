@@ -209,74 +209,74 @@
     footer();
 
 
-    let top = document.getElementById("top");
+//     let top = document.getElementById("top");
 
-//imported slider html 
-   import {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div} from "./scripts/slider.js";
+// //imported slider html 
+//    import {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div} from "./scripts/slider.js";
  
-    let subscribe_box = document.getElementById("subscribe_box");
-    subscribe_box.innerHTML = fixed_bar();
+//     let subscribe_box = document.getElementById("subscribe_box");
+//     subscribe_box.innerHTML = fixed_bar();
 
 
 
 
 
-    let data = JSON.parse(localStorage.getItem("courses_data"));
+//     let data = JSON.parse(localStorage.getItem("courses_data"));
 
-     top.innerHTML = slider("box","l1","r1","h1");
-     let h1 = document.getElementById("h1");
-//console.log("h4",h4)
-    h1.innerHTML = "Top picks for you"
-    scrolling("top","l1","r1");
-     append_data_top(data,"box");
+//      top.innerHTML = slider("box","l1","r1","h1");
+//      let h1 = document.getElementById("h1");
+// //console.log("h4",h4)
+//     h1.innerHTML = "Top picks for you"
+//     scrolling("top","l1","r1");
+//      append_data_top(data,"box");
 
-    console.log(data);
+//     console.log(data);
 
 
 
-/////
-///
-///
-//
+// /////
+// ///
+// ///
+// //
 
-let  community_data = JSON.parse(localStorage.getItem("community_data"));
+// let  community_data = JSON.parse(localStorage.getItem("community_data"));
 
-let community = document.getElementById("community");
+// let community = document.getElementById("community");
 
  
-community.innerHTML = slider("community_box","l2","r2","h2");
-let h2 = document.getElementById("h2");
-//console.log("h4",h4)
-    h2.innerHTML = "Learn with the LinkedIn community"
-scrolling("community","l2","r2")
-append_community_data(community_data);
+// community.innerHTML = slider("community_box","l2","r2","h2");
+// let h2 = document.getElementById("h2");
+// //console.log("h4",h4)
+//     h2.innerHTML = "Learn with the LinkedIn community"
+// scrolling("community","l2","r2")
+// append_community_data(community_data);
 
-////new_releases
-
-
-let new_releases_data  = JSON.parse(localStorage.getItem("new_releases"));
-console.log(new_releases_data)
-let new_releases = document.getElementById("new_releases");
-new_releases.innerHTML = slider("new_releases_box","l3","r3"); 
-scrolling("new_releases","l3","r3");
-append_data_top(new_releases_data,"new_releases_box")
+// ////new_releases
 
 
-////this code is for the top div blow thw header;
-let skill_box = document.getElementById("skill_div");
-skill_box.innerHTML = skills_div()
+// let new_releases_data  = JSON.parse(localStorage.getItem("new_releases"));
+// console.log(new_releases_data)
+// let new_releases = document.getElementById("new_releases");
+// new_releases.innerHTML = slider("new_releases_box","l3","r3"); 
+// scrolling("new_releases","l3","r3");
+// append_data_top(new_releases_data,"new_releases_box")
 
-let weekly_data = JSON.parse(localStorage.getItem("weekly_top_courses"))
-console.log("weekly data",weekly_data)
-let weekly_top = document.getElementById("weekly_top");
-;
-weekly_top.innerHTML = slider("week_top","l4","r4","h4");
-let h4 = document.getElementById("h4");
-//console.log("h4",h4)
-h4.innerHTML = "This weeks top courses"
 
-scrolling("weekly_top","l4","r4")
-append_data_top(weekly_data,"week_top")
+// ////this code is for the top div blow thw header;
+// let skill_box = document.getElementById("skill_div");
+// skill_box.innerHTML = skills_div()
+
+// let weekly_data = JSON.parse(localStorage.getItem("weekly_top_courses"))
+// console.log("weekly data",weekly_data)
+// let weekly_top = document.getElementById("weekly_top");
+// ;
+// weekly_top.innerHTML = slider("week_top","l4","r4","h4");
+// let h4 = document.getElementById("h4");
+// //console.log("h4",h4)
+// h4.innerHTML = "This weeks top courses"
+
+// scrolling("weekly_top","l4","r4")
+// append_data_top(weekly_data,"week_top")
 
 </script>
 <script src="./scripts/data.js"></script>
