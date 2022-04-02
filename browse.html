@@ -170,14 +170,13 @@
   let icon3 = document.querySelector(".technology > div > svg");
   let text3 = document.querySelector(".technology > h3");
   let slidesCont = document.querySelector(".slidesCont");
-
   let sliderH = document.querySelector(".sliderHead");
-  sliderH.innerHTML = sliderHead();
+  sliderH.innerHTML = sliderHead("leftArrow", "rightArrow", "");
 
   appendBrowseData(bussinessArr, gridContainer);
   appendBRSlidData(bussCarouselArr, slidesCont);
-  // scrolling("slidesCont", "leftArrow", "rightArrow");
-
+  let slides = document.querySelectorAll(".slidBox");
+  console.log(slides.length, "slidde");
   bussinessTab.addEventListener("click", () => {
     topicH2.innerText = "Bussiness Topics";
     icon1.classList.add("active");
@@ -191,6 +190,7 @@
   });
 
   creativeTab.addEventListener("click", () => {
+    sliderH.innerHTML = null;
     icon1.classList.remove("active");
     text1.classList.remove("active");
     icon2.classList.add("active");
@@ -200,6 +200,7 @@
     topicH2.innerText = "Creative Topics";
 
     appendBrowseData(creativeArr, gridContainer);
+    sliderH.innerHTML = sliderHead("c_left_arrow", "c_right_arrow", "");
     appendBRSlidData(creativeCarouselArr, slidesCont);
   });
   techTab.addEventListener("click", () => {
@@ -214,10 +215,6 @@
     appendBRSlidData(techCarouselArr, slidesCont);
   });
 
-  let slides = document.querySelectorAll(".slidesCont>div");
-  let i = 0;
-
-  let mleft = 0;
   const prevItem = () => {
     if (i > 0 && i <= 2) {
       mleft = 0;
@@ -225,15 +222,21 @@
       i--;
     }
   };
-
   const nextItem = () => {
     if (i < 2) {
       mleft = -760;
       i += 1;
+      console.log(slides[0], "slide");
       slides[i - 1].style.marginLeft = mleft + "px";
     }
   };
-  document.getElementById("leftArrow").addEventListener("click", prevItem);
-  document.getElementById("rightArrow").addEventListener("click", nextItem);
+  let i = 0;
+  let mleft = 0;
+  // let items = document.querySelectorAll("")
+  function slider(i, mleft, slides, l, r) {
+    document.getElementById(l).addEventListener("click", prevItem);
+    document.getElementById(r).addEventListener("click", nextItem);
+  }
+  slider(0, 0, slides, "leftArrow", "rightArrow");
 </script>
 <script src="./scripts/browse.js"></script>

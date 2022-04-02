@@ -8,8 +8,8 @@
 #mainContainer {
   overflow: hidden;
 }
-#hcon {
-  z-index: 1;
+#header {
+  background-color: #fff;
 }
 #flexBox {
   position: relative;
@@ -170,7 +170,7 @@
   display: flex;
   grid-gap: 10px;
   max-width: 1128px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .slidesCont > div{
   transition: margin-left 0.5s;

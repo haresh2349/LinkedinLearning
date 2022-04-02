@@ -48,6 +48,7 @@ const appendBRSlidData = (data, container) => {
   container.innerHTML = null;
   data.forEach((el) => {
     let div = document.createElement("div");
+    div.className = "slidBox";
     let imgDiv = document.createElement("div");
     imgDiv.className = "slidImg";
     let img = document.createElement("img");
