@@ -40,12 +40,12 @@ const scrolling =(x,l,r)=>{
      let box_width = box_dimension.width;
 
      left.addEventListener("click",()=>{
-         item.scrollLeft += box_width;
+         item.scrollLeft -= box_width;
         
 
      })
      right.addEventListener("click",()=>{
-         item.scrollLeft -= box_width;
+         item.scrollLeft += box_width;
         
         
      })
