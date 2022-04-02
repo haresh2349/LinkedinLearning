@@ -1,35 +1,149 @@
+
+
 body{
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif,  Thai,  Fallback, -apple-system, '.SFNSDisplay-Regular' ;
+    font-family: myriad-pro, sans-serif;
     
 }
 
-#pagecon{
+.pagecon{
+    
+    max-width: 1558px;
     margin: auto;
-    max-width: 1128px;
+
     
 }
 
-#secnav{
-    display: flex;
-    
-    
-    height: 70px;
-    padding-left: 0;
-    padding-right: 0;
-    margin: auto;
-    background-color: #e7eef5;
-    justify-content: center;
-    align-items: center;
 
-}
+/* Navbar */
+
+.fillcolor {
+    
+        overflow: hidden;
+        position: fixed;
+        border-bottom: 2px solid #0877b3;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        height: 50px;
+     
+        background-color:white;
+      }
+
+    
+      .fillcolor>div{
+          max-width: 1220px;
+          
+          margin: auto;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          
+      }
+      .fillcolor>div>.logo{
+          display: flex;
+          width: 13%;
+          height: 60%;
+          align-items: center;
+          justify-content: center;
+          padding-top: 10px;
+          gap:10px;
+      }
+      .fillcolor>div>.logo:hover{
+          border-bottom: 3px solid #007dba;
+      }
+     
+      .fillcolor>div>div:last-child{
+          width: 55%;
+          height: 100%;
+          
+          align-items: left;
+          justify-content: left;
+          display: flex;
+          
+          align-items: center;
+          justify-content: center;
+          gap:10px;
+          
+
+      }
+
+      .fillcolor>div>div:last-child>div{
+        padding-left: 23px;
+        color: #007dba;
+        font-family: /* Roman */ Source Sans Pro, Helvetica, Arial, sans-serif, /* CJK */ Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, /* Arabic */ Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, /* Thai */ Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, /* Sans Fallbacks */
+         Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', /* CJK Fallbacks */ Heiti SC, Microsoft Yahei, Segoe UI;
+         font-weight: 600;
+         
+        
+      }
+
+      .fillcolor>div>div:last-child>div>a{
+          text-decoration:none;
+          color: #007dba;
+        font-family: /* Roman */ Source Sans Pro, Helvetica, Arial, sans-serif, /* CJK */ Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, /* Arabic */ Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, /* Thai */ Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, /* Sans Fallbacks */
+         Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', /* CJK Fallbacks */ Heiti SC, Microsoft Yahei, Segoe UI;
+         font-weight: 600;
+      }
+      .fillcolor>div>div:last-child>div>a:hover{
+          transition: all 0.6s;
+          text-decoration: underline;
+          
+      }
+
+      .fillcolor>div>div:last-child>div>p{
+          color: rgb(202, 192, 192);
+      }
+    
+      .fillcolor>div>div:last-child>div>button{
+        border-radius: 3px;
+        background-color: white;
+        border: 2px solid #0073b1;
+        color: #0073b1;
+        width: 140px;
+        height: 27px;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .fillcolor>div>div:last-child>div>button:hover{
+        background-color: rgb(212, 232, 252);
+        border: 3px solid #0073b1;
+      }
+
+
+
+
+
+
+
+
+      #secnav{
+        display: flex;  
+        height: 70px;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: auto;
+        background-color: #e7eef5;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        
+    
+    }
+
+    .maxwith{
+        max-width: 1208px;
+        margin: auto;
+    }
 
 #secnav>p{
  
 
 position: absolute;
-font-size: 14px;
+font-size: 17px;
     
 }
 #secnav>p>a{
@@ -39,6 +153,8 @@ font-size: 14px;
 #secnav>p>a:hover{
     text-decoration: underline;
 }
+
+
 
 .frontimage{
 
@@ -90,21 +206,20 @@ font-size: 14px;
  
 }
 
+
+
 .afterTag{
-    height: 120px;
-    width : 1220px;
+    height: 140px;
+    width: 100%;
 
     background-color:  #004183;
     display: flex;
     margin: auto;
     justify-content: space-around;
     align-items: center;
-    margin-left:-50px;
-   
-   
 
 }
-.afterTag>div>p>a{
+.afterTag>div>div>p>a{
     text-align: center;
     color: white;
     text-decoration: none;
@@ -115,27 +230,34 @@ font-size: 14px;
    
   height: 80px;
 
-    width: 200px;
+    width: 70%;
     font-family: sans-serif;
   
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 25px;
     
 }
-.afterTag>div>p{
+.afterTag>div>div>p{
     
-    font-size: 16px;
+    font-size: 20px;
     
-    text-align: center;
+    
    
+}
+.afterTag>div>div{
+  
+    width: 27%;
 }
 .afterTag>div>p>a:hover{
     text-decoration: underline;
 }
-
-.empower,.empower+div{
-    border-left: 1px solid rgb(235, 238, 235);
-    margin: 18px;
+.afterTag>div>div{
+    border-right: 3px solid white;
+   
+}
+.afterTag>div>div:nth-child(3){
+    border-right: none;
 }
 
 .meet{
@@ -170,8 +292,9 @@ font-size: 14px;
 }
 
 .socialmedia>div{
-    margin-left: -70px;
+   
     width: 500px;
+    
 }
 
 .sidepara{
@@ -213,7 +336,7 @@ font-size: 14px;
 
 .partner>div{
    
-    width: 80%;
+    width: 70%;
     height: 90%;
     margin: auto;
 }
@@ -221,10 +344,10 @@ font-size: 14px;
 .partnerDiv{
     display: flex;
     margin: auto;
-    gap: 2%;
+    gap: 3%;
 }
 .partnerDiv>div{
-    width: 55%;
+    width: 52%;
     height: 95%;
  
    
@@ -241,6 +364,9 @@ font-size: 14px;
 
 .partnerDiv>div+div>img,.partner>div>div>img{
     width: 100%;
+}
+.partnerDiv>div+div>img{
+    height: 100%;
 }
 
 .partnerDiv>div>p{
@@ -285,7 +411,7 @@ font-size: 14px;
    
    .buddha{
        display: flex;
-       width: 80%;
+       width: 90%;
        height: 500px;
        
        margin: auto;
@@ -341,9 +467,9 @@ font-size: 14px;
 
    .fullcolor{
       
-       width: 1220px;
-       background-color: #fcf9f2;
-       margin-left: -50px;
+    width: 100%;
+    background-color: #fcf9f2;
+    margin-left: auto;
    }
    .resources{
        font-size: 30px;
@@ -391,7 +517,7 @@ font-size: 14px;
       display: flex;
        width: 100%;
       
-       height: 890px;
+       height: 750px;
        background-color: #e7eef5;
        margin: auto;
    }
@@ -425,7 +551,7 @@ font-size: 14px;
     color: #2b2a29;
     font-size: 17px;
     line-height: 25px;   
-   } */
+   } 
   
   
 .inputbox>h1{
@@ -448,7 +574,7 @@ font-size: 14px;
 
 }
 .inputbox>button{
-    margin-left: -49%;
+    margin-left: -37%;
     background-color: #0073b1;
     border: 2px solid #0073b1;
     border-radius: 3px;
@@ -467,7 +593,7 @@ font-size: 14px;
 
 .inputbox>#lastpara{
     font-size: 13px;
-    margin-left: 30px;
+    margin-left: 110px;
     line-height: 15px;
 
 }
@@ -486,7 +612,7 @@ font-size: 14px;
     height: 60px;
  
 
-    gap: 20px;
+    gap: 50px;
     align-items: center;
     margin: auto;
 }
