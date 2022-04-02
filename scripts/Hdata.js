@@ -337,7 +337,7 @@ localStorage.setItem("techData", JSON.stringify(techData));
 
 let bussCarousel = [
   {
-    url: "https://media-exp1.licdn.com/dms/image/C560DAQHUINJj0slRwA/learning-public-crop_675_1200/0/1590183709981?e=1648792800&v=beta&t=V_AZ5phqZzeYbNf6-EDUQeAb1XNcKHYVB1-ky8BWkNg",
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQHUINJj0slRwA/learning-public-crop_675_1200/0/1590183709981?e=1648969200&v=beta&t=F1A8UJOcUYGycgs56QTbEu0XoauyBk82T0u2OPexsbs",
     type: "LEARNING PATH",
     domain: "Become a Digital Marketing Specialist",
     date: "May 1, 2019",
@@ -346,7 +346,7 @@ let bussCarousel = [
     duration: " 19h 59m left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGjOIhc_dSnTQ/learning-public-crop_675_1200/0/1591384433527?e=1648792800&v=beta&t=k8yXE9kzdHfzetUVQkiLKm-mPZTObeoJ3JaFRbc-4Fo",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGjOIhc_dSnTQ/learning-public-crop_675_1200/0/1591384433527?e=2147483647&v=beta&t=G7Nm0izQc0D_zn31RamOJ6zW7EqfN4FLE8-adKKrhg8",
     type: "LEARNING PATH",
     domain: "Become a Project Manager",
     date: "July 15, 2019",
@@ -355,7 +355,7 @@ let bussCarousel = [
     duration: " 11h 55m 33s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEMDv9pIwiN9Q/learning-public-crop_288_512/0/1582672207421?e=1648792800&v=beta&t=_Aca3j6NACgkwywo41o01RaZKTtv3uU_XbQgRD4jE8Q",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEMDv9pIwiN9Q/learning-public-crop_288_512/0/1582672207421?e=1648969200&v=beta&t=VmbLyixVFFJ_l4f35XAMAm_NoJ0CVkZnuQz1plIxoUo",
     type: "LEARNING PATH",
     domain: "Master Microsoft Excel",
     date: "Apr 4, 2019",
@@ -373,7 +373,7 @@ let bussCarousel = [
     duration: " 14h 34m 17s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C560DAQHtKNYfD5dUUQ/learning-public-crop_675_1200/0/1588781054645?e=1648792800&v=beta&t=rlly7379WnXWOmLeUEQp2rqqBZgkXpZJDFxCttaDDFw",
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQHtKNYfD5dUUQ/learning-public-crop_675_1200/0/1588781054645?e=1648969200&v=beta&t=MtlnU-V2k1ddVKXcxduh5fHl1Ue6SlHFQTmccmuSgtk",
     type: "LEARNING PATH",
     domain: "Become a Financial Analyst",
     date: "May 10, 2020",
@@ -382,7 +382,7 @@ let bussCarousel = [
     duration: " 17h 10m 25s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFRTOWwmB183g/learning-public-crop_675_1200/0/1582685402706?e=1648792800&v=beta&t=rTvNkkwioNtwHL2zEZLOFoXC0TFPW2mfPalUBQF4n2o",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFRTOWwmB183g/learning-public-crop_675_1200/0/1582685402706?e=1648969200&v=beta&t=QDXUFDJk7Rqt1yeY4UVfYaWiyo9ND15catvRNsgm96g",
     type: "LEARNING PATH",
     domain: "Master In-Demand Professional Soft Skills",
     date: "July 8, 2019",
@@ -391,7 +391,7 @@ let bussCarousel = [
     duration: " 9h 13m 49s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C510DAQE1OBUMka5FaA/learning-public-crop_675_1200/0/1585255734294?e=1648792800&v=beta&t=06Nexjas7rbYKbzqOy1ugwyO6jYkXaQmHntsRqY0cos",
+    url: "https://media-exp1.licdn.com/dms/image/C510DAQE1OBUMka5FaA/learning-public-crop_675_1200/0/1585255734294?e=1648969200&v=beta&t=qoar6RjTj9fxMV3m0A8APOUhikUJoU76Ww0JuI00qUw",
     type: "LEARNING PATH",
     domain: "Finding a Job during Challenging Economic Times",
     date: "March 30, 2018",
@@ -400,7 +400,7 @@ let bussCarousel = [
     duration: " 11h 23m 44s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGI36lLhOqDCQ/learning-public-crop_675_1200/0/1582672201655?e=1648792800&v=beta&t=A21Xh2d93aGnAoyNzr9kVOmgkIGOzglwKnH9eViuQSI",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGI36lLhOqDCQ/learning-public-crop_675_1200/0/1582672201655?e=1648969200&v=beta&t=Nd9Yf3pOY6zQCnWkB-cMquXg1nEekkb0bteZPyXfK_w",
     type: "LEARNING PATH",
     domain: "Become a Manager",
     date: "July 8, 2019",
@@ -409,7 +409,7 @@ let bussCarousel = [
     duration: "9h 13m 49s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C560DAQHUINJj0slRwA/learning-public-crop_675_1200/0/1590183709981?e=1648792800&v=beta&t=V_AZ5phqZzeYbNf6-EDUQeAb1XNcKHYVB1-ky8BWkNg",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH6eDV0YjxuFA/learning-public-crop_675_1200/0/1582672212650?e=1648969200&v=beta&t=Lrbxs0ZhsybyLvjknEjkDn3A3fqnmVBwOX3UxO5oJ5k",
     type: "LEARNING PATH",
     domain: "Become a Digital Marketing Specialist",
     date: "May 1, 2019",
@@ -421,7 +421,7 @@ let bussCarousel = [
 
 let techCarousel = [
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH9lfnAkEjynw/learning-public-crop_675_1200/0/1591384349423?e=1648803600&v=beta&t=hyV4Kfid2dlIUxG6JtANnLJNqSuVd5iTsWI_Qc30VFg",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH9lfnAkEjynw/learning-public-crop_675_1200/0/1591384349423?e=2147483647&v=beta&t=LXSCK1Dq24y-hkVvzMXpYh7GQsjcOInJqzPIxAMgTgI",
     type: "LEARNING PATH",
     domain: "Become a Data Analyst",
     date: "May 20, 2020",
@@ -430,7 +430,7 @@ let techCarousel = [
     duration: " 38h 24m 28s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEIMip0GxCS_A/learning-public-crop_675_1200/0/1602706004811?e=1648803600&v=beta&t=6EYUWVTg7b2SOMRT9F9gAhCZ3JLC7fqGqU3pemLmOEs",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEIMip0GxCS_A/learning-public-crop_675_1200/0/1602706004811?e=1648972800&v=beta&t=Jaslgm7iLxjQk_b5cPeSX7Rfh2N8kFTATd9GWc5Pqug",
     type: "LEARNING PATH",
     domain: "Advance Your Skills in Python",
     date: "Apr 4, 2019",
@@ -439,7 +439,7 @@ let techCarousel = [
     duration: " 14h 34m 42s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEmpu7qTqI_TA/learning-public-crop_675_1200/0/1591384497665?e=1648803600&v=beta&t=YVKa-uk4c-Iy0q_PJzIho9hXuxxMRv0kJAXxoPRHD5g",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEmpu7qTqI_TA/learning-public-crop_675_1200/0/1591384497665?e=1648972800&v=beta&t=LJ5KYapGUeMMkK4SNY3C5805gUYVvy4XhCBIQigiRNY",
     type: "LEARNING PATH",
     domain: "Become a Software Developer",
     date: "May 12, 2022",
@@ -448,7 +448,7 @@ let techCarousel = [
     duration: " 30h 26m 11s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFaMtqNK7v5tg/learning-public-crop_675_1200/0/1582672205551?e=1648803600&v=beta&t=1h_ZI4mN4K3LIRzrSLvqT_4wVlBWH3L0I4jsWwO2AJE",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFaMtqNK7v5tg/learning-public-crop_675_1200/0/1582672205551?e=1648972800&v=beta&t=L8gOmS7IUbPc4eTefU-ybG_2lPjiypaUJr8zLIEBk5A",
     type: "LEARNING PATH",
     domain: "Become a Data Scientist",
     date: "Apr 4, 2019",
@@ -457,7 +457,7 @@ let techCarousel = [
     duration: " 20h 6m 9s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEXTlzXiLSoQg/learning-public-crop_675_1200/0/1582672203087?e=1648803600&v=beta&t=jm61NsXJjmTAhS-mbOEdlxlgtZl1lswUjqb8sO-08Zk",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEXTlzXiLSoQg/learning-public-crop_675_1200/0/1582672203087?e=1648972800&v=beta&t=Kobj9HrF5AqXPGc6uPi-99mPFyMWd8r8xgab6AvqF9U",
     type: "LEARNING PATH",
     domain: "Become a Java Programmer",
     date: "June 24, 2019",
@@ -466,7 +466,7 @@ let techCarousel = [
     duration: " 21h 23m 39s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE-d1y1iFScrw/learning-public-crop_288_512/0/1582672211940?e=1648803600&v=beta&t=LPTW3bSzrNHW3jDPEqf45CrCwMHoSq4pOuExaoRWHtk",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE-d1y1iFScrw/learning-public-crop_288_512/0/1582672211940?e=1648972800&v=beta&t=duKLMbdLwyihtLJMu918jEZuMblFfWx0O-_p3V4RpHM",
     type: "LEARNING PATH",
     domain: "Advance Your Python Skills for Data Science",
     date: "June 14, 2019",
@@ -475,7 +475,7 @@ let techCarousel = [
     duration: " 16h 39m 24s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFLAheIrgZu5g/learning-public-crop_675_1200/0/1582672203259?e=1648803600&v=beta&t=d4GryUBpS1k76jJGKRTdPkgpdTSsn0xRRRNB1vxVBuM",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFLAheIrgZu5g/learning-public-crop_675_1200/0/1582672203259?e=2147483647&v=beta&t=R6LjTdHoVQRGM3KG8C7wnxMANfaWvkk1w9R0skbXdq4",
     type: "LEARNING PATH",
     domain: "Become a Front-End Web Developer",
     date: "June 28, 2019",
@@ -493,7 +493,7 @@ let techCarousel = [
     duration: " 29h 13m 48s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFmCnWl2OvovA/learning-public-crop_675_1200/0/1582672203928?e=1648803600&v=beta&t=A_tPB5tHupggPOhwQllGPXnqpmDLm6QV8Kg7YV8ZZpM",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFmCnWl2OvovA/learning-public-crop_675_1200/0/1582672203928?e=1648972800&v=beta&t=WddIvYWxZ_D4cU6rIMYUjh0TL2-KOW3bI3q2Rx7DakY",
     type: "LEARNING PATH",
     domain: "Become a User Experience Designer",
     date: "June 14, 2019",
@@ -501,38 +501,11 @@ let techCarousel = [
       "A modern user experience designer understands modern design concepts. They also have the research and analysis skills to design effective, compelling digital experiences across different mobile platforms, the web, and the Internet of things. This path will help you build the foundation for a solid career in UX design.",
     duration: " 8h 30m 44s left",
   },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQG8ZuM1yBxsYg/learning-public-crop_675_1200/0/1582672211209?e=1648803600&v=beta&t=zB9L04fbuf0YufpCanF6Brw7adP7__zF1_5TS_OVzWo",
-    type: "LEARNING PATH",
-    domain: "Become a Programmer: Foundations",
-    date: "May 1, 2019",
-    descreption:
-      "Programmers are in higher demand today than ever before. Get the essential skills and tools to become a successful software engineer, and learn the fundamental concepts and practices that are critical to the task of coding—no matter what language you choose.",
-    duration: " 25h 47m 48s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGIXpDPOSAuXA/learning-public-crop_288_512/0/1582672212060?e=1648803600&v=beta&t=FZMv9h7Bv4xJFLzMJV3x8evBrbG1STjmt4rNecfdWNI",
-    type: "LEARNING PATH",
-    domain: "Prepare for the Microsoft Azure Fundamentals (AZ-900) Exam",
-    date: "sept 25, 2019",
-    descreption:
-      "Intended for those without a technical background, the Azure Fundamentals exam serves as an ideal launchpad for furthering your understanding of cloud computing as well as foundational Azure services. With these courses, you can build your expertise as you prepare for the AZ-900 certification exam.",
-    duration: " 5h 59m 40s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHINJHXLa-Gnw/learning-public-crop_675_1200/0/1582672209994?e=1648803600&v=beta&t=5GzQhXNUeIqjRiSgCbKFOtV2f3dIVXV8-x5evIUx8I8",
-    type: "LEARNING PATH",
-    domain: "Become an Ethical Hacker",
-    date: "Apr 19, 2019",
-    descreption:
-      "Ethical hacking is the ability to identify vulnerabilities in an organization's network or infrastructure, and then address the issues to prevent incidents or attacks. Learn how to perform penetration testing and gain the knowledge and skills you need for a career in information security.",
-    duration: " 30h 9m 23s left",
-  },
 ];
 
 let creativeCarousel = [
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGsh7O8h13hxw/learning-public-crop_675_1200/0/1582672213498?e=1648810800&v=beta&t=JSy6ETkd29q7SDIv6ePNO1JG-3LUIW2z_Qw2k48iST8",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGsh7O8h13hxw/learning-public-crop_675_1200/0/1582672213498?e=1648980000&v=beta&t=7cSWLywVWBAQyJ1ptpOmFdqrqlRfbbatVMEJMWeaeqM",
     type: "LEARNING PATH",
     domain: "Become a Graphic Designer",
     date: "Apr 4, 2019",
@@ -541,7 +514,7 @@ let creativeCarousel = [
     duration: " 26h 53m 25s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGeE6jEv8b15w/learning-public-crop_675_1200/0/1582672199097?e=1648810800&v=beta&t=tKtL8zjJAryzDLZQTYOv1m-vBJz3sHy-glvCsj2qvRk",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGeE6jEv8b15w/learning-public-crop_675_1200/0/1582672199097?e=1648980000&v=beta&t=shjnPU8WWJ_7lNXcGP9BmLHSAW0oJRhJyfqzBiygLTM",
     type: "LEARNING PATH",
     domain: "Become a Photographer",
     date: "Apr 4, 2019",
@@ -550,7 +523,7 @@ let creativeCarousel = [
     duration: " 18h 30m 1s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFZ0pkx0OijlQ/learning-public-crop_675_1200/0/1582672198250?e=1648810800&v=beta&t=qg8l3Ub0KPJBZd9siwaYRazTw9YOg3XMVRslGQDmERo",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFZ0pkx0OijlQ/learning-public-crop_675_1200/0/1582672198250?e=1648980000&v=beta&t=rVj_npAYQY5TbIzHwFtvBASXlxAWa5j84vaSEVo170U",
     type: "LEARNING PATH",
     domain: "Become a Web Designer",
     date: "July 13, 2019",
@@ -559,7 +532,7 @@ let creativeCarousel = [
     duration: " 28h 47m 10s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGOLqud1AXI7A/learning-public-crop_675_1200/0/1582671698804?e=1648810800&v=beta&t=iL3Njj6-z91BWPZJgmt2Uv3cweVoZGZBoHOarO9WUsc",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGOLqud1AXI7A/learning-public-crop_675_1200/0/1582671698804?e=1648983600&v=beta&t=b-UswndI6G_7KPb8tUz_CmlnTezYpGwm5JezI69xfpk",
     type: "LEARNING PATH",
     domain: "Become a Bookkeeper",
     date: "July 8, 2019",
@@ -568,7 +541,7 @@ let creativeCarousel = [
     duration: " 14h 26m left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEbC5o4lNfwng/learning-public-crop_675_1200/0/1582672211735?e=1648810800&v=beta&t=gxDE_tf3RY8CgthlWseqR-b1Q0GppjKVdoz50rw8uDc",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEbC5o4lNfwng/learning-public-crop_675_1200/0/1582672211735?e=2147483647&v=beta&t=w78-nDCLmp_SS7pfrtQg78k81-FwjDgwAbjhaqXQa_o",
     type: "LEARNING PATH",
     domain: "Become a Video Editor",
     date: "July 9, 2019",
@@ -577,7 +550,7 @@ let creativeCarousel = [
     duration: " 22h 34m 26s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQF3KmP-J_mE2w/learning-public-crop_675_1200/0/1582672209688?e=1648810800&v=beta&t=7tcX1mFz9MfL9aqpt5k1HkHoJtoBcgq9VzPRiT5m_p4",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQF3KmP-J_mE2w/learning-public-crop_675_1200/0/1582672209688?e=2147483647&v=beta&t=oltAIdKz2Zg1zIo9A1riic4KN2vWJBIdhpTmyO-qATY",
     type: "LEARNING PATH",
     domain: "Become a Digital Illustrator",
     date: "Apr 4, 2019",
@@ -586,7 +559,7 @@ let creativeCarousel = [
     duration: " 35h 22m 4s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFLPkesLSTkGw/learning-public-crop_675_1200/0/1582672203636?e=1648810800&v=beta&t=s_by3q_ByrcmpPJb0K0OrPzqybeiUyl1AcMb_IXXjmw",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFLPkesLSTkGw/learning-public-crop_675_1200/0/1582672203636?e=1648983600&v=beta&t=gcV3cV4fEBDUyyJkcNI6R7nJ_AGgKHxddsQLiyp-2UA",
     type: "LEARNING PATH",
     domain: "Stay Competitive Using Design Thinking",
     date: "Apr 4, 2019",
@@ -595,7 +568,7 @@ let creativeCarousel = [
     duration: " 11h 38m 5s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE-Rq-C6WMcnA/learning-public-crop_675_1200/0/1582672198505?e=1648810800&v=beta&t=jsct_CwAnSkdiaO8RinpOPza5nuRqdbaD_gVJR_5QHU",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQE-Rq-C6WMcnA/learning-public-crop_675_1200/0/1582672198505?e=2147483647&v=beta&t=PilwemgmqOlgLdMNmhgTIgElMaa6ZuJm83GI1QGz00g",
     type: "LEARNING PATH",
     domain: "Improve Your Drawing Skills",
     date: "Apr 4, 2019",
@@ -604,40 +577,13 @@ let creativeCarousel = [
     duration: " 28h 53m 52s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFttkvHQHBDwQ/learning-public-crop_675_1200/0/1582672212575?e=1648810800&v=beta&t=HvdH574FeY__NDuHCJZpREEu6mSjG1g8cCko1R4tyfU",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFttkvHQHBDwQ/learning-public-crop_675_1200/0/1582672212575?e=1648983600&v=beta&t=ofxaZARvvz2mNIQnqvSiQVLI4f4Ks0scVSAStuONXZY",
     type: "LEARNING PATH",
     domain: "Become a Certified CAD Designer with SOLIDWORKS",
     date: "July 9, 2019",
     descreption:
       "Master the basics of SOLIDWORKS, the industry-leading CAD software. This path includes essential training, project-based courses, and certification prep that will help advance your manufacturing career.",
     duration: " 15h 38m 51s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQELrhVzn2lhFQ/learning-public-crop_675_1200/0/1582672205390?e=1648810800&v=beta&t=8DYlX-oBB6LlQGdcUbVxr8WXWet9vAvzhrDOJyJXZZE",
-    type: "LEARNING PATH",
-    domain: "Become a Motion Graphics Artist",
-    date: "Apr 4, 2019",
-    descreption:
-      "Take graphic design to the next level using motion. Learn how to use visual effects, animation, and cinematic techniques to bring designs to life. Discover how to develop innovative ideas for moving content and make products engaging and exciting as a motion graphics artist.",
-    duration: " 20h 15m 58s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHQLIBu004KBg/learning-public-crop_675_1200/0/1582672202281?e=1648810800&v=beta&t=LUPTHmyBYMLsltnQqumcq6B5PNBfiB_HO7t2Q7tSZPo",
-    type: "LEARNING PATH",
-    domain: "Play Piano and Keyboards",
-    date: "July 9, 2019",
-    descreption:
-      "If you've ever wanted to pick up the piano or keyboard as an instrument, this is the path for you! You begin with the basics of keyboard-based instruments and then expand your knowledge with courses in jazz improvisation and songwriting techniques.",
-    duration: " 15h 47m 52s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQG_c8YxuZFsbQ/learning-public-crop_675_1200/0/1582672206259?e=1648810800&v=beta&t=O7jBzZjcPw_w62a9eWlQWDpwP5C361_OJizBTjd5RSU",
-    type: "LEARNING PATH",
-    domain: "Play the Guitar",
-    date: "July 9, 2019",
-    descreption:
-      "If you've ever thought of picking up the guitar, this learning path can help get you started on the path to guitar mastery. Learn the basics of acoustic and electric guitar, then expand your musical knowledge by concentrating on specific musical styles and intermediate lessons to build skill and confidence.",
-    duration: " 23h 59m 5s left",
   },
 ];
 
