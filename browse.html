@@ -131,8 +131,12 @@
           </div>
         </div>
         <div class="sliderDiv">
-          <div class="sliderHead"></div>
-          <div class="slidesCont"></div>
+          <div class="sliderHead bussHead"></div>
+          <div class="sliderHead creHead"></div>
+          <div class="sliderHead techHead"></div>
+          <div class="slidesCont bussCont"></div>
+          <div class="slidesCont creCont"></div>
+          <div class="slidesCont techCont"></div>
         </div>
       </div>
     </div>
@@ -169,14 +173,52 @@
   let text2 = document.querySelector(".creative > h3");
   let icon3 = document.querySelector(".technology > div > svg");
   let text3 = document.querySelector(".technology > h3");
-  let slidesCont = document.querySelector(".slidesCont");
-  let sliderH = document.querySelector(".sliderHead");
-  sliderH.innerHTML = sliderHead("leftArrow", "rightArrow", "");
+  // let slidesCont = document.querySelector(".slidesCont");
+  let bussCont = document.querySelector(".bussCont");
+  let creativeCont = document.querySelector(".creCont");
+  let techCont = document.querySelector(".techCont");
+  let bussBtns = document.querySelector(".bussHead");
+  let cretiveBtns = document.querySelector(".creHead");
+  let techBtns = document.querySelector(".techHead");
+
+  // slider function *******
+
+  let i = 0;
+  let mleft = 0;
+  const prevItem = (slides) => {
+    console.log(slides);
+    if (i > 0 && i <= 2) {
+      mleft = 0;
+      slides[i - 1].style.marginLeft = mleft + "px";
+      i--;
+    }
+  };
+  const nextItem = (slides) => {
+    console.log(slides);
+    if (i < 2) {
+      mleft = -760;
+      i += 1;
+      console.log(slides[0], "slide");
+      slides[i - 1].style.marginLeft = mleft + "px";
+    }
+  };
+
+  // *************
 
   appendBrowseData(bussinessArr, gridContainer);
-  appendBRSlidData(bussCarouselArr, slidesCont);
-  let slides = document.querySelectorAll(".slidBox");
-  console.log(slides.length, "slidde");
+  bussBtns.innerHTML = sliderHead("bussLBtn", "bussRBtn", "");
+  appendBRSlidData(bussCarouselArr, bussCont);
+
+  i = 0;
+  let bussSlides = document.querySelectorAll(".bussCont>div");
+  document.querySelector("#bussLBtn").addEventListener("click", () => {
+    console.log("thappo1");
+    prevItem(bussSlides);
+  });
+  document.querySelector("#bussRBtn").addEventListener("click", () => {
+    nextItem(bussSlides);
+    console.log("thappo2");
+  });
   bussinessTab.addEventListener("click", () => {
     topicH2.innerText = "Bussiness Topics";
     icon1.classList.add("active");
@@ -186,11 +228,31 @@
     icon3.classList.remove("active");
     text3.classList.remove("active");
     appendBrowseData(bussinessArr, gridContainer);
-    appendBRSlidData(bussCarouselArr, slidesCont);
+
+    if (creativeCont.innerHTML != null && cretiveBtns.innerHTML != null) {
+      creativeCont.innerHTML = null;
+      cretiveBtns.innerHTML = null;
+    }
+    if (techCont.innerHTML != null && techBtns.innerHTML != null) {
+      techCont.innerHTML = null;
+      techBtns.innerHTML = null;
+    }
+    bussBtns.innerHTML = sliderHead("bussLBtn", "bussRBtn", "");
+    appendBRSlidData(bussCarouselArr, bussCont);
+    i = 0;
+    let bussSlides = document.querySelectorAll(".bussCont>div");
+    document.querySelector("#bussLBtn").addEventListener("click", () => {
+      console.log("thappo1");
+      prevItem(bussSlides);
+    });
+    document.querySelector("#bussRBtn").addEventListener("click", () => {
+      nextItem(bussSlides);
+      console.log("thappo2");
+    });
   });
 
   creativeTab.addEventListener("click", () => {
-    sliderH.innerHTML = null;
+    // sliderH.innerHTML = null;
     icon1.classList.remove("active");
     text1.classList.remove("active");
     icon2.classList.add("active");
@@ -198,10 +260,28 @@
     icon3.classList.remove("active");
     text3.classList.remove("active");
     topicH2.innerText = "Creative Topics";
-
     appendBrowseData(creativeArr, gridContainer);
-    sliderH.innerHTML = sliderHead("c_left_arrow", "c_right_arrow", "");
-    appendBRSlidData(creativeCarouselArr, slidesCont);
+    if (bussCont.innerHTML != null && bussBtns.innerHTML != null) {
+      bussCont.innerHTML = null;
+      bussBtns.innerHTML = null;
+    }
+    if (techCont.innerHTML != null && techBtns.innerHTML != null) {
+      techCont.innerHTML = null;
+      techBtns.innerHTML = null;
+    }
+
+    cretiveBtns.innerHTML = sliderHead("creLBtn", "creRBtn", "");
+    appendBRSlidData(creativeCarouselArr, creativeCont);
+    i = 0;
+    let creSlides = document.querySelectorAll(".creCont>div");
+    document.querySelector("#creLBtn").addEventListener("click", () => {
+      console.log("thappo1");
+      prevItem(creSlides);
+    });
+    document.querySelector("#creRBtn").addEventListener("click", () => {
+      nextItem(creSlides);
+      console.log("thappo2");
+    });
   });
   techTab.addEventListener("click", () => {
     topicH2.innerText = "Technology Topics";
@@ -212,31 +292,33 @@
     icon3.classList.add("active");
     text3.classList.add("active");
     appendBrowseData(techArr, gridContainer);
-    appendBRSlidData(techCarouselArr, slidesCont);
+    if (bussCont.innerHTML != null && bussBtns.innerHTML != null) {
+      bussCont.innerHTML = null;
+      bussBtns.innerHTML = null;
+    }
+    if (creativeCont.innerHTML != null && cretiveBtns.innerHTML != null) {
+      creativeCont.innerHTML = null;
+      cretiveBtns.innerHTML = null;
+    }
+    techBtns.innerHTML = sliderHead("techLBtn", "techRBtn", "");
+    appendBRSlidData(techCarouselArr, techCont);
+    i = 0;
+    let techSlides = document.querySelectorAll(".techCont>div");
+    document.querySelector("#techLBtn").addEventListener("click", () => {
+      console.log("thappo1");
+      prevItem(techSlides);
+    });
+    document.querySelector("#techRBtn").addEventListener("click", () => {
+      nextItem(techSlides);
+      console.log("thappo2");
+    });
   });
 
-  const prevItem = () => {
-    if (i > 0 && i <= 2) {
-      mleft = 0;
-      slides[i - 1].style.marginLeft = mleft + "px";
-      i--;
-    }
-  };
-  const nextItem = () => {
-    if (i < 2) {
-      mleft = -760;
-      i += 1;
-      console.log(slides[0], "slide");
-      slides[i - 1].style.marginLeft = mleft + "px";
-    }
-  };
-  let i = 0;
-  let mleft = 0;
   // let items = document.querySelectorAll("")
-  function slider(i, mleft, slides, l, r) {
-    document.getElementById(l).addEventListener("click", prevItem);
-    document.getElementById(r).addEventListener("click", nextItem);
-  }
-  slider(0, 0, slides, "leftArrow", "rightArrow");
+  // function slider(i, mleft, slides, l, r) {
+  //   document.getElementById(l).addEventListener("click", prevItem);
+  //   document.getElementById(r).addEventListener("click", nextItem);
+  // }
+  // slider(0, 0, slides, "leftArrow", "rightArrow");
 </script>
 <script src="./scripts/browse.js"></script>

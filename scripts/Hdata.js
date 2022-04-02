@@ -337,7 +337,7 @@ localStorage.setItem("techData", JSON.stringify(techData));
 
 let bussCarousel = [
   {
-    url: "https://media-exp1.licdn.com/dms/image/C560DAQHUINJj0slRwA/learning-public-crop_675_1200/0/1590183709981?e=1648792800&v=beta&t=V_AZ5phqZzeYbNf6-EDUQeAb1XNcKHYVB1-ky8BWkNg",
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQHUINJj0slRwA/learning-public-crop_675_1200/0/1590183709981?e=1648969200&v=beta&t=F1A8UJOcUYGycgs56QTbEu0XoauyBk82T0u2OPexsbs",
     type: "LEARNING PATH",
     domain: "Become a Digital Marketing Specialist",
     date: "May 1, 2019",
@@ -382,7 +382,7 @@ let bussCarousel = [
     duration: " 17h 10m 25s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFRTOWwmB183g/learning-public-crop_675_1200/0/1582685402706?e=1648792800&v=beta&t=rTvNkkwioNtwHL2zEZLOFoXC0TFPW2mfPalUBQF4n2o",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQFRTOWwmB183g/learning-public-crop_675_1200/0/1582685402706?e=1648969200&v=beta&t=QDXUFDJk7Rqt1yeY4UVfYaWiyo9ND15catvRNsgm96g",
     type: "LEARNING PATH",
     domain: "Master In-Demand Professional Soft Skills",
     date: "July 8, 2019",
@@ -439,7 +439,7 @@ let techCarousel = [
     duration: " 14h 34m 42s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEmpu7qTqI_TA/learning-public-crop_675_1200/0/1591384497665?e=1648803600&v=beta&t=YVKa-uk4c-Iy0q_PJzIho9hXuxxMRv0kJAXxoPRHD5g",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEmpu7qTqI_TA/learning-public-crop_675_1200/0/1591384497665?e=1648972800&v=beta&t=LJ5KYapGUeMMkK4SNY3C5805gUYVvy4XhCBIQigiRNY",
     type: "LEARNING PATH",
     domain: "Become a Software Developer",
     date: "May 12, 2022",
@@ -500,33 +500,6 @@ let techCarousel = [
     descreption:
       "A modern user experience designer understands modern design concepts. They also have the research and analysis skills to design effective, compelling digital experiences across different mobile platforms, the web, and the Internet of things. This path will help you build the foundation for a solid career in UX design.",
     duration: " 8h 30m 44s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQG8ZuM1yBxsYg/learning-public-crop_675_1200/0/1582672211209?e=1648803600&v=beta&t=zB9L04fbuf0YufpCanF6Brw7adP7__zF1_5TS_OVzWo",
-    type: "LEARNING PATH",
-    domain: "Become a Programmer: Foundations",
-    date: "May 1, 2019",
-    descreption:
-      "Programmers are in higher demand today than ever before. Get the essential skills and tools to become a successful software engineer, and learn the fundamental concepts and practices that are critical to the task of coding—no matter what language you choose.",
-    duration: " 25h 47m 48s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGIXpDPOSAuXA/learning-public-crop_288_512/0/1582672212060?e=1648803600&v=beta&t=FZMv9h7Bv4xJFLzMJV3x8evBrbG1STjmt4rNecfdWNI",
-    type: "LEARNING PATH",
-    domain: "Prepare for the Microsoft Azure Fundamentals (AZ-900) Exam",
-    date: "sept 25, 2019",
-    descreption:
-      "Intended for those without a technical background, the Azure Fundamentals exam serves as an ideal launchpad for furthering your understanding of cloud computing as well as foundational Azure services. With these courses, you can build your expertise as you prepare for the AZ-900 certification exam.",
-    duration: " 5h 59m 40s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHINJHXLa-Gnw/learning-public-crop_675_1200/0/1582672209994?e=1648803600&v=beta&t=5GzQhXNUeIqjRiSgCbKFOtV2f3dIVXV8-x5evIUx8I8",
-    type: "LEARNING PATH",
-    domain: "Become an Ethical Hacker",
-    date: "Apr 19, 2019",
-    descreption:
-      "Ethical hacking is the ability to identify vulnerabilities in an organization's network or infrastructure, and then address the issues to prevent incidents or attacks. Learn how to perform penetration testing and gain the knowledge and skills you need for a career in information security.",
-    duration: " 30h 9m 23s left",
   },
 ];
 
@@ -611,33 +584,6 @@ let creativeCarousel = [
     descreption:
       "Master the basics of SOLIDWORKS, the industry-leading CAD software. This path includes essential training, project-based courses, and certification prep that will help advance your manufacturing career.",
     duration: " 15h 38m 51s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQELrhVzn2lhFQ/learning-public-crop_675_1200/0/1582672205390?e=1648810800&v=beta&t=8DYlX-oBB6LlQGdcUbVxr8WXWet9vAvzhrDOJyJXZZE",
-    type: "LEARNING PATH",
-    domain: "Become a Motion Graphics Artist",
-    date: "Apr 4, 2019",
-    descreption:
-      "Take graphic design to the next level using motion. Learn how to use visual effects, animation, and cinematic techniques to bring designs to life. Discover how to develop innovative ideas for moving content and make products engaging and exciting as a motion graphics artist.",
-    duration: " 20h 15m 58s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQHQLIBu004KBg/learning-public-crop_675_1200/0/1582672202281?e=1648810800&v=beta&t=LUPTHmyBYMLsltnQqumcq6B5PNBfiB_HO7t2Q7tSZPo",
-    type: "LEARNING PATH",
-    domain: "Play Piano and Keyboards",
-    date: "July 9, 2019",
-    descreption:
-      "If you've ever wanted to pick up the piano or keyboard as an instrument, this is the path for you! You begin with the basics of keyboard-based instruments and then expand your knowledge with courses in jazz improvisation and songwriting techniques.",
-    duration: " 15h 47m 52s left",
-  },
-  {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQG_c8YxuZFsbQ/learning-public-crop_675_1200/0/1582672206259?e=1648810800&v=beta&t=O7jBzZjcPw_w62a9eWlQWDpwP5C361_OJizBTjd5RSU",
-    type: "LEARNING PATH",
-    domain: "Play the Guitar",
-    date: "July 9, 2019",
-    descreption:
-      "If you've ever thought of picking up the guitar, this learning path can help get you started on the path to guitar mastery. Learn the basics of acoustic and electric guitar, then expand your musical knowledge by concentrating on specific musical styles and intermediate lessons to build skill and confidence.",
-    duration: " 23h 59m 5s left",
   },
 ];
 
