@@ -346,7 +346,7 @@ let bussCarousel = [
     duration: " 19h 59m left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGjOIhc_dSnTQ/learning-public-crop_675_1200/0/1591384433527?e=1648792800&v=beta&t=k8yXE9kzdHfzetUVQkiLKm-mPZTObeoJ3JaFRbc-4Fo",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGjOIhc_dSnTQ/learning-public-crop_675_1200/0/1591384433527?e=2147483647&v=beta&t=G7Nm0izQc0D_zn31RamOJ6zW7EqfN4FLE8-adKKrhg8",
     type: "LEARNING PATH",
     domain: "Become a Project Manager",
     date: "July 15, 2019",
@@ -355,7 +355,7 @@ let bussCarousel = [
     duration: " 11h 55m 33s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEMDv9pIwiN9Q/learning-public-crop_288_512/0/1582672207421?e=1648792800&v=beta&t=_Aca3j6NACgkwywo41o01RaZKTtv3uU_XbQgRD4jE8Q",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQEMDv9pIwiN9Q/learning-public-crop_288_512/0/1582672207421?e=1648969200&v=beta&t=VmbLyixVFFJ_l4f35XAMAm_NoJ0CVkZnuQz1plIxoUo",
     type: "LEARNING PATH",
     domain: "Master Microsoft Excel",
     date: "Apr 4, 2019",
@@ -373,7 +373,7 @@ let bussCarousel = [
     duration: " 14h 34m 17s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C560DAQHtKNYfD5dUUQ/learning-public-crop_675_1200/0/1588781054645?e=1648792800&v=beta&t=rlly7379WnXWOmLeUEQp2rqqBZgkXpZJDFxCttaDDFw",
+    url: "https://media-exp1.licdn.com/dms/image/C560DAQHtKNYfD5dUUQ/learning-public-crop_675_1200/0/1588781054645?e=1648969200&v=beta&t=MtlnU-V2k1ddVKXcxduh5fHl1Ue6SlHFQTmccmuSgtk",
     type: "LEARNING PATH",
     domain: "Become a Financial Analyst",
     date: "May 10, 2020",
@@ -391,7 +391,7 @@ let bussCarousel = [
     duration: " 9h 13m 49s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C510DAQE1OBUMka5FaA/learning-public-crop_675_1200/0/1585255734294?e=1648792800&v=beta&t=06Nexjas7rbYKbzqOy1ugwyO6jYkXaQmHntsRqY0cos",
+    url: "https://media-exp1.licdn.com/dms/image/C510DAQE1OBUMka5FaA/learning-public-crop_675_1200/0/1585255734294?e=1648969200&v=beta&t=qoar6RjTj9fxMV3m0A8APOUhikUJoU76Ww0JuI00qUw",
     type: "LEARNING PATH",
     domain: "Finding a Job during Challenging Economic Times",
     date: "March 30, 2018",
@@ -400,7 +400,7 @@ let bussCarousel = [
     duration: " 11h 23m 44s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGI36lLhOqDCQ/learning-public-crop_675_1200/0/1582672201655?e=1648792800&v=beta&t=A21Xh2d93aGnAoyNzr9kVOmgkIGOzglwKnH9eViuQSI",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQGI36lLhOqDCQ/learning-public-crop_675_1200/0/1582672201655?e=1648969200&v=beta&t=Nd9Yf3pOY6zQCnWkB-cMquXg1nEekkb0bteZPyXfK_w",
     type: "LEARNING PATH",
     domain: "Become a Manager",
     date: "July 8, 2019",
@@ -409,7 +409,7 @@ let bussCarousel = [
     duration: "9h 13m 49s left",
   },
   {
-    url: "https://media-exp1.licdn.com/dms/image/C560DAQHUINJj0slRwA/learning-public-crop_675_1200/0/1590183709981?e=1648792800&v=beta&t=V_AZ5phqZzeYbNf6-EDUQeAb1XNcKHYVB1-ky8BWkNg",
+    url: "https://media-exp1.licdn.com/dms/image/C4E0DAQH6eDV0YjxuFA/learning-public-crop_675_1200/0/1582672212650?e=1648969200&v=beta&t=Lrbxs0ZhsybyLvjknEjkDn3A3fqnmVBwOX3UxO5oJ5k",
     type: "LEARNING PATH",
     domain: "Become a Digital Marketing Specialist",
     date: "May 1, 2019",
