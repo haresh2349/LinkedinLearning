@@ -20,10 +20,13 @@ body {
   width: 100vw;
   /* border: 1px solid red; */
   border-bottom: 1px solid #d8d9da;
-
+}
 #hcon{
       position: fixed;
+
+
       z-index: 1;
+
       background-color: white;
 }
 #header{
@@ -66,7 +69,7 @@ ul{
 
   /* display: flex; */
   /* align-items: center; */
-}
+
 #nav {
   margin: auto;
   max-width: 1128px;
@@ -209,7 +212,7 @@ ul {
 }
 
 #footerdiv{
-   padding-top: 50px;
+   padding-top: 10px;
    /* border: 1px solid red; */
     border-top: 1px solid #D8D9DA;
     width : 100vw;

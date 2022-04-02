@@ -3,7 +3,7 @@ function header() {
     header.innerHTML = ` <div id="header">
     <div id="nav">
         <div>
-            <a id="logo" href="./index.html">
+            <a id="logo" href="./main.html">
                 <svg viewBox="0 0 28 28" data-supported-dps="28x28" width="28" height="28" focusable="false">
                     <g transform="scale(.5833)" fill="none" fill-rule="evenodd">
                         <path
@@ -122,11 +122,11 @@ function header() {
         <div id="nav21">
             <div>Solution for:</div>
             <div><a href="./business.html">Business</a></div>
-            <div><a href="">Higher Education</a></div>
-            <div><a href="">Government</a></div>
+            <div><a href="./highEducation.html">Higher Education</a></div>
+            <div><a href="./goverment.html">Government</a></div>
         </div>
         <div id="nav22">
-            <div><a href="">Buy for the team</a></div>
+            <div><a href="./contactUs.html">Buy for the team</a></div>
         </div>
     </div>
 </div>`

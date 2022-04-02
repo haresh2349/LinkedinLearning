@@ -97,6 +97,7 @@
 .item_div>div>p{
     color:black;
 }
+
 #scrolling_btns>div>svg{
    
     
@@ -148,6 +149,10 @@
     padding-top: 25px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+#community_box>div>div:nth-of-type(1) p{
+    color: black;
 }
 #community_box img{
   border-radius: 50%;
@@ -171,6 +176,7 @@
     width: 1128px;
     margin: auto;
     border: 1px solid grey;
+    border-radius: 10px;
 }
 #skills_box{
     width: 970px;
@@ -180,18 +186,24 @@
     flex-wrap: wrap;
 }
 #skills_box>div{
-    border: 1px solid grey;
-    width: 300px;
+    border: 1px solid #9d9b9b;
+    width: 270px;
    display: flex;
    justify-content: space-between;
-   height: 50px;
+   padding: 15px;
+   height: 35px;
    margin: 10px;
    padding-top: 10px;
+   border-radius: 5px;
 
 }
 #skills> div:nth-of-type(1){
     height: 100px;
     background-color: #D7EBCE;
+    border-top-left-radius: 10px;
+    padding-top: 10px;
+    border-top-right-radius: 10px;
+  
 }
 #search_skills_box{
     display: flex;
@@ -204,9 +216,10 @@
 #search_skills_box>div{
     width: 200px;
     background-color: white;
-    height: 30px;
-    padding-top: 5px;
+    height: 25px;
+    padding: 5px;
     border: 1px solid black;
+    margin-left: 10px;
 }
 #skills_box>div:hover{
     background-color: #a7cfed;
