@@ -80,7 +80,7 @@ let append_data_top = (data,z)=>{
        data_div.append(tag_div,thumb_img,course,title,created_by,des);
        data_div.addEventListener("click",function(){
            localStorage.setItem("course_overview",JSON.stringify(el));
-           window.location.href="over_view.html"
+           window.location.href="./over_view.html"
        })
        boxes.append(data_div);
     });
