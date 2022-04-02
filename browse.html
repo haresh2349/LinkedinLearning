@@ -250,7 +250,13 @@
       console.log("thappo2");
     });
   });
-
+  let divs = document.querySelectorAll(".slidesCont > div");
+  console.log(divs);
+  divs.forEach((el) => {
+    el.addEventListener("mouseover", () => {
+      el.classList.toggle("zoom");
+    });
+  });
   creativeTab.addEventListener("click", () => {
     // sliderH.innerHTML = null;
     icon1.classList.remove("active");

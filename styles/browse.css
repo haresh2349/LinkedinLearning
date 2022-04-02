@@ -168,15 +168,15 @@
   font-size: 16px;
   font-weight: 600;
 }
-.sliderDiv > .sliderHead > h2 > a{
+.sliderDiv > .sliderHead > h2 > a {
   text-decoration: none;
   color: black;
 }
-.sliderDiv > .sliderHead > h2 > a:hover{
+.sliderDiv > .sliderHead > h2 > a:hover {
   text-decoration: underline;
 }
 
-#scrolling_btns>div{
+#scrolling_btns > div {
   border-radius: 50%;
   background-color: white;
   border: 2px solid black;
@@ -187,11 +187,11 @@
   color: white;
   text-align: center;
 }
-#scrolling_btns{
+#scrolling_btns {
   display: flex;
-  justify-content:end;
+  justify-content: end;
 }
-#scrolling_btns>div>svg{
+#scrolling_btns > div > svg {
   width: 20px;
   height: 20px;
   margin-top: 5px;
@@ -199,44 +199,54 @@
   color: black;
   text-align: center;
 }
-#scrolling_btns>div:hover{
-  border:2px solid green;
-  background-color: grey;
+.slidBox:hover {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  /* padding: 20px 0; */
 }
 
+.slidBox:hover .desc,
+.slidBox:hover .durr {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .slidesCont {
   /* width: 1128px; */
-    display: flex;
-    flex-direction: row;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    align-items: center;
-    margin: auto;
-    gap: 5px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: auto;
+  gap: 10px;
 }
-
+.sliderDiv {
+  padding-bottom: 90px;
+}
 .slidesCont > div {
   border-radius: 10px;
-    min-width: 250px;
-    color: #B7B8B8;
-    margin-top: 0px;
-    height: 275px;
-    position: relative;
-    transition: margin-left 0.5s;
-    overflow-y: hidden;
+  min-width: 250px;
+  color: #b7b8b8;
+  position: relative;
+  transition: margin-left 0.5s;
+  transition: 0.6s;
 }
-/* .slidesCont > div:hover{
-  transform: scaleY(2);
-  font-size: 15px;
-} */
+.slidesCont > div:hover {
+  min-width: 255px;
+  overflow-y: visible;
+  margin-top: -30px;
+}
+
 .slidesCont > div > div > img {
   width: 100%;
   object-fit: cover;
-  border-radius: 5px
+  border-radius: 5px;
 }
 
-.slidesCont > div > p{
+.slidesCont > div > p {
   font-size: 15px;
   color: black;
   margin: 5px;
@@ -247,18 +257,21 @@
   color: black;
 }
 
-.desc,.durr {
+.desc,
+.durr {
   display: none;
 }
 /* .hover {
   display: block;
 } */
 /* responsiveness  */
-@media ( max-width:980px) {
+@media (max-width: 980px) {
   #searchd {
     display: none;
   }
-  #nav > :last-child > ul > :nth-child(1),:nth-child(4),:nth-child(5) {
+  #nav > :last-child > ul > :nth-child(1),
+  :nth-child(4),
+  :nth-child(5) {
     display: none;
   }
   #gridContainer {
