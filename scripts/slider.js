@@ -159,24 +159,28 @@ let append_data_top = (data,z)=>{
     let boxes = document.querySelector(`#${z}`);
     console.log(boxes);
     boxes.innerHTML = "";
-      data.map(({image_url,created,name,description})=>{
+      data.map(el=>{
          let data_div = document.createElement("div");
          let tag_div = document.createElement("div");
          tag_div.setAttribute("class","tag_div")
          tag_div.innerHTML = "<h5>POPULAR</h5>"
          let thumb_img = document.createElement("img");
-         thumb_img.src = image_url;
+         thumb_img.src = el.image_url;
          let title = document.createElement("p");
-         title.innerText = name;
+         title.innerText = el.name;
         let course = document.createElement("h4");
         course.innerText = "course";
         let created_by = document.createElement("h4");
-        created_by.innerText = created;
+        created_by.innerText = el.created;
         let des = document.createElement("p");
-        des.innerText = description;
+        des.innerText = el.description;
        
 
          data_div.append(tag_div,thumb_img,course,title,created_by,des);
+         data_div.addEventListener("click",function(){
+             localStorage.setItem("course_overview",JSON.stringify(el));
+             window.location.href="over_view.html"
+         })
          boxes.append(data_div);
       });
 
@@ -259,6 +263,7 @@ export {
     `
 }
 
+
 let skills_div = ()=>{
 
     return `
@@ -299,5 +304,27 @@ let skills_div = ()=>{
 </div>
     `
 }
-export {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div};
+
+let overview_box =()=>{
+    return `
+    <div id="overview_box">
+    <div>
+        <h1>learrn this courese to increase your skills </h1>
+        <h6>Biginner .1h22min . Released: June 12</h6>
+        <h6>27,897 Learners</h6>
+        <div>
+            <div><h4>Start my month</h4></div>
+            <div><h4>Buy this course</h4></div>
+        </div>
+    </div>
+
+</div>
+    `
+}
+let related_courses_html = ()=>{
+    return `
+    
+    `
+}
+export {slider,scrolling,get,append_data_top,append_community_data,fixed_bar,skills_div,overview_box};
 

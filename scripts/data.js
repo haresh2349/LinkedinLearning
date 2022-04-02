@@ -12,6 +12,7 @@ let courses_data = [
       "tag":"course",
       "created":"by joseph",
       description:"Get simple communication tools,stratigies and,tips to help to communicate with others",
+      course_description:"Managing a companys financial records entails a lot more than keeping track of money coming in and going out. Put one revenue stream in the wrong column, and you could grossly misrepresent your company’s financial health. In this course, accounting professors Jim Stice and Kay Stice dive deep into the accounting strategies behind more complex, higher-level bookkeeping practices. They cover topics such as adjusting entries, strategies for dealing with bookkeeping mistakes, closing entries, and making auditing of books easier."
 
     },
     {
@@ -21,7 +22,9 @@ let courses_data = [
       "tag":"course",
       "created":"by joseph",
       description:"Get simple communication tools,stratigies and,tips to help to communicate with others",
-      qty:1
+      course_description:"Managing a companys financial records entails a lot more than keeping track of money coming in and going out. Put one revenue stream in the wrong column, and you could grossly misrepresent your company’s financial health. In this course, accounting professors Jim Stice and Kay Stice dive deep into the accounting strategies behind more complex, higher-level bookkeeping practices. They cover topics such as adjusting entries, strategies for dealing with bookkeeping mistakes, closing entries, and making auditing of books easier."
+
+      
 
     },
     {
@@ -31,7 +34,9 @@ let courses_data = [
       "tag":"course",
       "created":"by joseph",
       description:"get simple communication tools,stratigies and,tips to help to communicate with others",
-      qty:1
+      qty:1,
+      course_description:"Managing a company's financial records entails a lot more than keeping track of money coming in and going out. Put one revenue stream in the wrong column, and you could grossly misrepresent your company’s financial health. In this course, accounting professors Jim Stice and Kay Stice dive deep into the accounting strategies behind more complex, higher-level bookkeeping practices. They cover topics such as adjusting entries, strategies for dealing with bookkeeping mistakes, closing entries, and making auditing of books easier."
+
 
     },
     {
