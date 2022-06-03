@@ -1,11 +1,3 @@
-About this project: 🙌
-This is a team project, built by us in the Construct Week - Unit 3 at Masai School.
-Learn business, creative, and technology skills to achieve your personal and professional goals. Join LinkedIn Learning today to get access to thousands of courses. Lynda is now LinkedIn Learning.
-
-Blog:- 
-<br>
-Here is the link of our website live on netlify: 
-<br>
 <h1>LinkedIn Learning</h1>
 LinkedIn Learning is an American online learning provider. It provides video courses taught by industry experts in software, creative, and business skills. It is a subsidiary of LinkedIn.
 
@@ -23,35 +15,35 @@ LinkedIn Learning is an American online learning provider. It provides video cou
        <h2>Courses Listing</h2>
     <img src="https://github.com/ribhar/LinkedinLearning/blob/main/assets/course.PNG" />
         <h2>Prospectus Page</h2>
-    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/cart.PNG" />
-      <h2>Payment page</h2>
-    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/pay.PNG" />
-       <h2>Payment Successful</h2>
-    <img src="https://github.com/ribhar/Bath-BodyWorks/blob/main/assests/success.PNG" />
+    <img src="https://github.com/ribhar/LinkedinLearning/blob/main/assets/pros.PNG" />
+      <h2>Supscription Plans Page</h2>
+    <img src="https://github.com/ribhar/LinkedinLearning/blob/main/assets/sups.PNG" />
     <h1>[Getting Started]</h1>
     <h3>Execution</h3>
     <p>If you want to run our project in your local machine</p>
     <p>Follow the given steps:</p>
     <ul>
-        <li>Clone our respository <a href="git@github.com:ribhar/Bath-BodyWorks.git">git@github.com:ribhar/Bath-BodyWorks.git</a></li>
+        <li>Clone our respository <a href="git@github.com:ribhar/LinkedinLearning.git">git@github.com:ribhar/LinkedinLearning.git</a></li>
         <li>Open our code in VS code</li>
         <li>Open 'index.html' with Live server</li>
         <li>Initialize the server by writing 'npm run start' on Terminal</li>
     </ul>
         <h1>Tech Stack</h1>
     <ul>
-        <li>React</li>
-        <li>Tailwind</li>
-        <li>Rest API</li>
+        <li>HTML</li>
+        <li>CSS</li>
         <li>JavasScript</li>
+        <li>Module Components</li>
     </ul>
         <h1>Contributors</h1>
     <ul>
         <li><a href="https://github.com/ribhar">@Ritik Bhardwaj</a></li>
-        <li><a href="https://github.com/suranaarpit">@Arpit Surana</a></li>
-        <li> <a href="https://github.com/009shivani">@Shivani Banduni</a> </li>
-        <li><a href="https://github.com/MeAnkur">@Ankur Sharma</a></li>
-        <li><a href="https://github.com/atanugit5">@Atanu Mondal</a></li>
+        <li><a href="https://github.com/haresh2349">@Haresh Solanki</a></li>
+        <li> <a href="https://github.com/Yamansingh">@Yaman Singh</a> </li>
+        <li><a href="https://github.com/prayaschhetri1">@Prayash Chhetri</a></li>
+        <li><a href="https://github.com/rajeshdeoghar">@Rajesh Kumar</a></li>
+        <li><a href="https://github.com/kavish729">@Kavish Chittora</a></li>
+        <li><a href="https://github.com/ganeshbehera012">@Ganesh Behera</a></li>
     </ul>
        <h1>Contributing</h1>
     <ul>
