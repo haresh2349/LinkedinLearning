@@ -3,7 +3,7 @@ LinkedIn Learning is an American online learning provider. It provides video cou
 
 ### Live deployed URL: https://projectlynda.netlify.app
 
-### Blog Post: https://medium.com/@ribhar/project-lynda-com-47db2b77e9e7
+### Blog URL: https://medium.com/@ribhar/project-lynda-com-47db2b77e9e7
 
 
  <h2>Landing Page</h2>
